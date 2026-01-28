@@ -56,7 +56,8 @@ class ExtractedFinding:
     certainty: Certainty = Certainty.DEFINITE   # How certain is this finding?
     temporality: Temporality = Temporality.UNKNOWN  # Temporal status
     measurements: List[ExtractedMeasurement] = field(default_factory=list)
-    anatomical_location: str = ""               # Detected anatomy
+    anatomical_location: str = ""               # Detected anatomy (deprecated, use body_regions)
+    body_regions: List[str] = field(default_factory=list)  # Detected body regions
     laterality: str = ""                        # left/right/bilateral
 
 
@@ -322,6 +323,88 @@ LATERALITY_PATTERNS = {
     'bilateral': [r'\bbilateral\b', r'\bbilaterally\b', r'\bboth\b'],
 }
 
+# =============================================================================
+# BODY REGION PATTERNS
+# =============================================================================
+
+BODY_REGION_PATTERNS = {
+    # Brain/Head
+    'brain': [r'\bbrain\b', r'\bcerebr\w+\b', r'\bintracranial\b', r'\bcranial\b'],
+    'head': [r'\bhead\b', r'\bskull\b', r'\bcalvari\w+\b'],
+    'orbit': [r'\borbit\w*\b', r'\borbital\b', r'\beye\b', r'\bocular\b'],
+    'sinus': [r'\bsinus\b', r'\bparanasal\b', r'\bethmoid\b', r'\bmaxillary\b', r'\bsphenoid\b', r'\bfrontal sinus\b'],
+
+    # Neck
+    'neck': [r'\bneck\b', r'\bcervical\b(?!\s*spine)'],
+    'thyroid': [r'\bthyroid\b'],
+    'parotid': [r'\bparotid\b', r'\bsubmandibular\b'],
+    'larynx': [r'\blaryn\w+\b', r'\bvocal\b', r'\bglott\w+\b'],
+
+    # Chest
+    'chest': [r'\bchest\b', r'\bthorac\w+\b', r'\bthorax\b'],
+    'lung': [r'\blung\b', r'\blungs\b', r'\bpulmonary\b', r'\bpulmonic\b'],
+    'right_upper_lobe': [r'\bright upper lobe\b', r'\brul\b', r'\brll\b'],
+    'right_middle_lobe': [r'\bright middle lobe\b', r'\brml\b'],
+    'right_lower_lobe': [r'\bright lower lobe\b', r'\brll\b'],
+    'left_upper_lobe': [r'\bleft upper lobe\b', r'\blul\b'],
+    'left_lower_lobe': [r'\bleft lower lobe\b', r'\blll\b'],
+    'lingula': [r'\blingula\b'],
+    'mediastinum': [r'\bmediastin\w+\b'],
+    'pleura': [r'\bpleura\w*\b', r'\bpleural\b'],
+    'heart': [r'\bheart\b', r'\bcardiac\b', r'\bmyocardi\w+\b', r'\bpericardi\w+\b'],
+    'aorta': [r'\baorta\b', r'\baortic\b'],
+
+    # Abdomen
+    'abdomen': [r'\babdomen\b', r'\babdominal\b'],
+    'liver': [r'\bliver\b', r'\bhepatic\b', r'\bhepato\w+\b'],
+    'gallbladder': [r'\bgallbladder\b', r'\bgb\b', r'\bcholecyst\w+\b'],
+    'bile_duct': [r'\bbile duct\b', r'\bbiliary\b', r'\bcbd\b', r'\bcommon bile duct\b', r'\bcholedoch\w+\b'],
+    'pancreas': [r'\bpancrea\w+\b'],
+    'spleen': [r'\bspleen\b', r'\bsplenic\b'],
+    'stomach': [r'\bstomach\b', r'\bgastric\b'],
+    'small_bowel': [r'\bsmall bowel\b', r'\bsmall intestine\b', r'\bjejun\w+\b', r'\bile\w+\b', r'\bduoden\w+\b'],
+    'colon': [r'\bcolon\b', r'\bcolonic\b', r'\blarge bowel\b', r'\bcecum\b', r'\bsigmoid\b', r'\brectum\b', r'\brectal\b'],
+    'appendix': [r'\bappendix\b', r'\bappendiceal\b', r'\bperiappendiceal\b'],
+    'kidney': [r'\bkidney\b', r'\brenal\b', r'\bnephr\w+\b'],
+    'ureter': [r'\bureter\w*\b', r'\bureteral\b'],
+    'bladder': [r'\bbladder\b', r'\bvesic\w+\b'],
+    'adrenal': [r'\badrenal\b', r'\bsuprarenal\b'],
+    'retroperitoneum': [r'\bretroperiton\w+\b'],
+    'mesentery': [r'\bmesentery\b', r'\bmesenteric\b'],
+    'peritoneum': [r'\bperiton\w+\b'],
+
+    # Pelvis
+    'pelvis': [r'\bpelvi\w*\b'],
+    'prostate': [r'\bprostat\w+\b'],
+    'uterus': [r'\buter\w+\b', r'\bendometri\w+\b', r'\bmyometri\w+\b'],
+    'ovary': [r'\bovar\w+\b', r'\badnexa\w*\b'],
+    'rectum': [r'\brectum\b', r'\brectal\b', r'\bperirectal\b'],
+
+    # Spine
+    'cervical_spine': [r'\bcervical spine\b', r'\bc-spine\b', r'\bc\d\b'],
+    'thoracic_spine': [r'\bthoracic spine\b', r'\bt-spine\b', r'\bt\d+\b'],
+    'lumbar_spine': [r'\blumbar spine\b', r'\bl-spine\b', r'\bl\d\b'],
+    'sacrum': [r'\bsacr\w+\b', r'\bsacroiliac\b'],
+    'spine': [r'\bspine\b', r'\bspinal\b', r'\bvertebr\w+\b'],
+
+    # Extremities
+    'shoulder': [r'\bshoulder\b', r'\bglenohumeral\b', r'\brotator cuff\b'],
+    'elbow': [r'\belbow\b'],
+    'wrist': [r'\bwrist\b', r'\bcarpal\b'],
+    'hand': [r'\bhand\b', r'\bmetacarpal\b', r'\bphalanx\b', r'\bphalanges\b'],
+    'hip': [r'\bhip\b', r'\bfemoral head\b', r'\bacetabul\w+\b'],
+    'knee': [r'\bknee\b', r'\bpatella\b', r'\bmeniscus\b', r'\bmeniscal\b'],
+    'ankle': [r'\bankle\b', r'\bmalleol\w+\b', r'\btalus\b'],
+    'foot': [r'\bfoot\b', r'\bmetatarsal\b', r'\bcalcane\w+\b'],
+
+    # Vessels
+    'carotid': [r'\bcarotid\b'],
+    'pulmonary_artery': [r'\bpulmonary arter\w+\b', r'\bpa\b'],
+    'iliac': [r'\biliac\b'],
+    'femoral': [r'\bfemoral\b'],
+    'popliteal': [r'\bpopliteal\b'],
+}
+
 
 # =============================================================================
 # NLP PROCESSOR CLASS
@@ -502,6 +585,24 @@ class RadiologyNLP:
 
         return ""
 
+    def detect_body_regions(self, text: str) -> List[str]:
+        """
+        Detect all body regions mentioned in the text.
+
+        Returns:
+            List of body region keys (e.g., ['lung', 'pleura'])
+        """
+        text_lower = text.lower()
+        regions = []
+
+        for region, patterns in BODY_REGION_PATTERNS.items():
+            for pattern in patterns:
+                if re.search(pattern, text_lower):
+                    regions.append(region)
+                    break  # Found this region, move to next
+
+        return regions
+
     def process(self, text: str) -> ExtractedFinding:
         """
         Process a finding text and extract all structured information.
@@ -521,6 +622,7 @@ class RadiologyNLP:
             certainty=self.detect_certainty(text),
             temporality=self.detect_temporality(text),
             measurements=self.extract_measurements(text),
+            body_regions=self.detect_body_regions(text),
             laterality=self.detect_laterality(text),
         )
 

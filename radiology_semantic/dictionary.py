@@ -341,6 +341,211 @@ FINDING_COOCCURRENCE = {
     ('renal', 'lesion'): {'renal cell carcinoma': 4.0, 'rcc': 4.0, 'renal cyst': 3.0},
     ('renal', 'lesion', 'enhancing'): {'renal cell carcinoma': 6.0, 'rcc': 6.0},
     ('renal', 'tumor'): {'renal cell carcinoma': 5.0, 'rcc': 5.0},
+
+    # =========================================================================
+    # COMMON INCIDENTAL FINDINGS - Critical for real-world coverage
+    # =========================================================================
+    # Hepatobiliary incidentals
+    ('hepatic steatosis',): {'fatty liver disease': 5.0, 'nafld': 5.0, 'steatosis': 5.0},
+    ('fatty liver',): {'fatty liver disease': 5.0, 'nafld': 5.0, 'hepatic steatosis': 5.0},
+    ('steatosis',): {'fatty liver disease': 4.0, 'nafld': 4.0, 'hepatic steatosis': 4.0},
+    ('fatty infiltration', 'liver'): {'fatty liver disease': 5.0, 'hepatic steatosis': 5.0},
+    ('cholelithiasis',): {'gallstones': 5.0, 'cholelithiasis': 5.0},
+    ('gallstones',): {'cholelithiasis': 5.0, 'gallstones': 5.0},
+    ('gallstone',): {'cholelithiasis': 5.0, 'gallstones': 5.0},
+    ('gallbladder', 'stone'): {'cholelithiasis': 5.0, 'gallstones': 5.0},
+    ('biliary', 'stone'): {'choledocholithiasis': 5.0, 'biliary stone': 5.0},
+    ('cbd', 'stone'): {'choledocholithiasis': 6.0},
+    ('common bile duct', 'stone'): {'choledocholithiasis': 6.0},
+    ('hepatic cyst',): {'hepatic cyst': 5.0, 'simple liver cyst': 5.0},
+    ('liver cyst',): {'hepatic cyst': 5.0, 'simple liver cyst': 5.0},
+    ('hepatic hemangioma',): {'hemangioma': 5.0, 'hepatic hemangioma': 5.0},
+    ('liver hemangioma',): {'hemangioma': 5.0, 'hepatic hemangioma': 5.0},
+
+    # Renal incidentals
+    ('renal cyst',): {'simple renal cyst': 5.0, 'renal cyst': 5.0},
+    ('kidney cyst',): {'simple renal cyst': 5.0, 'renal cyst': 5.0},
+    ('simple cyst', 'kidney'): {'simple renal cyst': 5.0},
+    ('simple cyst', 'renal'): {'simple renal cyst': 5.0},
+    ('bosniak',): {'renal cyst': 4.0, 'complex renal cyst': 4.0},
+    ('bosniak 1',): {'simple renal cyst': 5.0},
+    ('bosniak 2',): {'minimally complex renal cyst': 5.0},
+    ('bosniak 3',): {'complex renal cyst': 5.0, 'renal cell carcinoma': 3.0},
+    ('bosniak 4',): {'renal cell carcinoma': 6.0, 'cystic rcc': 5.0},
+    ('nephrolithiasis',): {'kidney stone': 5.0, 'nephrolithiasis': 5.0, 'renal calculus': 5.0},
+    ('kidney stone',): {'nephrolithiasis': 5.0, 'kidney stone': 5.0},
+    ('renal stone',): {'nephrolithiasis': 5.0, 'renal calculus': 5.0},
+
+    # GI incidentals
+    ('diverticulosis',): {'diverticulosis': 5.0, 'colonic diverticula': 5.0},
+    ('diverticula',): {'diverticulosis': 4.0, 'colonic diverticula': 4.0},
+    ('colonic diverticula',): {'diverticulosis': 5.0},
+    ('hiatal hernia',): {'hiatal hernia': 5.0, 'hiatus hernia': 5.0},
+    ('hiatus hernia',): {'hiatal hernia': 5.0},
+    ('sliding hiatal hernia',): {'hiatal hernia': 5.0},
+    ('paraesophageal hernia',): {'paraesophageal hernia': 5.0, 'hiatal hernia': 4.0},
+    ('inguinal hernia',): {'inguinal hernia': 5.0},
+    ('umbilical hernia',): {'umbilical hernia': 5.0},
+    ('ventral hernia',): {'ventral hernia': 5.0, 'incisional hernia': 4.0},
+
+    # Adrenal incidentals
+    ('adrenal nodule',): {'adrenal adenoma': 4.0, 'adrenal incidentaloma': 4.0},
+    ('adrenal incidentaloma',): {'adrenal adenoma': 4.0, 'adrenal incidentaloma': 5.0},
+    ('incidental adrenal',): {'adrenal adenoma': 4.0, 'adrenal incidentaloma': 4.0},
+    ('adrenal lesion',): {'adrenal adenoma': 3.0, 'adrenal incidentaloma': 3.0, 'adrenal metastasis': 2.0},
+
+    # Pancreas
+    ('pancreatic atrophy',): {'chronic pancreatitis': 4.0, 'pancreatic atrophy': 5.0},
+    ('atrophic pancreas',): {'chronic pancreatitis': 4.0, 'pancreatic atrophy': 5.0},
+    ('pancreatic cyst',): {'pancreatic cyst': 5.0, 'ipmn': 3.0, 'mcn': 2.0},
+    ('ipmn',): {'intraductal papillary mucinous neoplasm': 5.0, 'ipmn': 5.0},
+    ('pancreatic duct', 'dilated'): {'ipmn': 4.0, 'chronic pancreatitis': 3.0, 'pancreatic cancer': 3.0},
+
+    # Prostate
+    ('prostatomegaly',): {'benign prostatic hyperplasia': 5.0, 'bph': 5.0, 'prostatomegaly': 5.0},
+    ('enlarged prostate',): {'benign prostatic hyperplasia': 5.0, 'bph': 5.0},
+    ('bph',): {'benign prostatic hyperplasia': 5.0, 'prostatomegaly': 4.0},
+    ('benign prostatic hyperplasia',): {'bph': 5.0, 'prostatomegaly': 4.0},
+
+    # Uterine
+    ('uterine fibroid',): {'uterine leiomyoma': 5.0, 'fibroid': 5.0},
+    ('fibroid',): {'uterine leiomyoma': 5.0, 'uterine fibroid': 5.0},
+    ('leiomyoma',): {'uterine leiomyoma': 5.0, 'fibroid': 4.0},
+    ('ovarian cyst',): {'ovarian cyst': 5.0, 'functional ovarian cyst': 4.0},
+    ('adnexal cyst',): {'ovarian cyst': 4.0, 'paraovarian cyst': 3.0},
+
+    # =========================================================================
+    # PULMONARY FINDINGS - Common thoracic incidentals
+    # =========================================================================
+    ('pulmonary nodule',): {'pulmonary nodule': 5.0, 'lung nodule': 5.0},
+    ('lung nodule',): {'pulmonary nodule': 5.0, 'lung nodule': 5.0},
+    ('pulmonary nodule', 'solid'): {'pulmonary nodule': 5.0, 'lung cancer': 2.0},
+    ('pulmonary nodule', 'ground glass'): {'pulmonary nodule': 5.0, 'adenocarcinoma in situ': 3.0},
+    ('subsolid nodule',): {'adenocarcinoma in situ': 4.0, 'minimally invasive adenocarcinoma': 3.0},
+    ('part solid nodule',): {'adenocarcinoma': 4.0, 'lung cancer': 3.0},
+    ('spiculated nodule',): {'lung cancer': 5.0, 'primary lung malignancy': 5.0},
+    ('spiculated', 'nodule'): {'lung cancer': 5.0, 'primary lung malignancy': 5.0},
+    ('spiculated', 'mass'): {'lung cancer': 6.0, 'primary lung malignancy': 6.0},
+
+    ('pleural effusion',): {'pleural effusion': 5.0},
+    ('pleural fluid',): {'pleural effusion': 5.0},
+    ('effusion', 'pleural'): {'pleural effusion': 5.0},
+    ('bilateral pleural effusions',): {'pleural effusion': 5.0, 'heart failure': 3.0},
+    ('bilateral effusions',): {'pleural effusion': 5.0, 'heart failure': 3.0},
+
+    ('atelectasis',): {'atelectasis': 5.0},
+    ('subsegmental atelectasis',): {'atelectasis': 5.0, 'subsegmental atelectasis': 5.0},
+    ('bibasilar atelectasis',): {'atelectasis': 5.0, 'bibasilar atelectasis': 5.0},
+    ('dependent atelectasis',): {'atelectasis': 5.0},
+    ('compressive atelectasis',): {'atelectasis': 5.0, 'pleural effusion': 3.0},
+
+    ('consolidation',): {'pneumonia': 4.0, 'consolidation': 4.0},
+    ('lobar consolidation',): {'pneumonia': 5.0, 'lobar pneumonia': 5.0},
+    ('focal consolidation',): {'pneumonia': 4.0, 'focal infection': 4.0},
+    ('patchy consolidation',): {'pneumonia': 4.0, 'multifocal pneumonia': 4.0},
+
+    ('bronchiectasis',): {'bronchiectasis': 5.0},
+    ('traction bronchiectasis',): {'pulmonary fibrosis': 5.0, 'uip': 4.0},
+    ('cystic bronchiectasis',): {'bronchiectasis': 5.0, 'cystic fibrosis': 3.0},
+
+    ('emphysema',): {'emphysema': 5.0, 'copd': 4.0},
+    ('centrilobular emphysema',): {'emphysema': 5.0, 'copd': 4.0},
+    ('paraseptal emphysema',): {'emphysema': 5.0},
+    ('bullous emphysema',): {'emphysema': 5.0, 'bullae': 4.0},
+
+    # =========================================================================
+    # VASCULAR FINDINGS
+    # =========================================================================
+    ('atherosclerosis',): {'atherosclerotic disease': 5.0, 'atherosclerosis': 5.0},
+    ('atherosclerotic disease',): {'atherosclerosis': 5.0, 'atherosclerotic disease': 5.0},
+    ('atherosclerotic calcification',): {'atherosclerosis': 5.0},
+    ('coronary calcification',): {'coronary artery disease': 5.0, 'cad': 5.0},
+    ('coronary artery calcification',): {'coronary artery disease': 5.0, 'cad': 5.0},
+    ('aortic calcification',): {'atherosclerosis': 4.0, 'aortic atherosclerosis': 5.0},
+    ('vascular calcification',): {'atherosclerosis': 4.0},
+
+    ('aortic aneurysm',): {'aortic aneurysm': 5.0, 'aaa': 4.0},
+    ('aaa',): {'abdominal aortic aneurysm': 5.0, 'aortic aneurysm': 5.0},
+    ('abdominal aortic aneurysm',): {'aaa': 5.0, 'aortic aneurysm': 5.0},
+    ('thoracic aortic aneurysm',): {'thoracic aortic aneurysm': 5.0, 'taa': 5.0},
+    ('aortic ectasia',): {'aortic ectasia': 5.0, 'aortic dilation': 4.0},
+    ('aortic dilation',): {'aortic ectasia': 4.0, 'aortic aneurysm': 3.0},
+
+    # =========================================================================
+    # DEGENERATIVE / MSK INCIDENTALS
+    # =========================================================================
+    ('degenerative changes',): {'degenerative disease': 5.0, 'osteoarthritis': 4.0},
+    ('degenerative disease',): {'degenerative disease': 5.0, 'osteoarthritis': 4.0},
+    ('degenerative disc disease',): {'degenerative disc disease': 5.0, 'ddd': 5.0},
+    ('ddd',): {'degenerative disc disease': 5.0},
+    ('disc degeneration',): {'degenerative disc disease': 5.0},
+    ('disc bulge',): {'disc bulge': 5.0, 'disc protrusion': 4.0},
+    ('disc herniation',): {'disc herniation': 5.0, 'hnp': 5.0},
+    ('disc protrusion',): {'disc herniation': 4.0, 'disc protrusion': 5.0},
+    ('disc extrusion',): {'disc herniation': 5.0, 'disc extrusion': 5.0},
+    ('spinal stenosis',): {'spinal stenosis': 5.0},
+    ('central stenosis',): {'spinal stenosis': 5.0, 'central canal stenosis': 5.0},
+    ('foraminal stenosis',): {'neural foraminal stenosis': 5.0, 'foraminal narrowing': 5.0},
+    ('spondylosis',): {'spondylosis': 5.0, 'degenerative spine disease': 4.0},
+    ('spondylolisthesis',): {'spondylolisthesis': 5.0},
+    ('facet arthropathy',): {'facet arthropathy': 5.0, 'facet joint degeneration': 5.0},
+    ('facet hypertrophy',): {'facet arthropathy': 5.0},
+    ('osteophyte',): {'degenerative disease': 4.0, 'osteophytes': 5.0},
+    ('osteophytes',): {'degenerative disease': 4.0, 'spondylosis': 4.0},
+    ('bone island',): {'bone island': 5.0, 'enostosis': 5.0},
+    ('enostosis',): {'bone island': 5.0, 'enostosis': 5.0},
+    ('hemangioma', 'vertebral'): {'vertebral hemangioma': 5.0},
+    ('vertebral hemangioma',): {'vertebral hemangioma': 5.0},
+
+    # =========================================================================
+    # LYMPH NODES
+    # =========================================================================
+    ('lymphadenopathy',): {'lymphadenopathy': 5.0},
+    ('enlarged lymph nodes',): {'lymphadenopathy': 5.0},
+    ('lymph nodes', 'enlarged'): {'lymphadenopathy': 5.0},
+    ('hilar lymphadenopathy',): {'lymphadenopathy': 5.0, 'sarcoidosis': 3.0, 'lymphoma': 3.0},
+    ('mediastinal lymphadenopathy',): {'lymphadenopathy': 5.0, 'lymphoma': 3.0, 'metastatic disease': 3.0},
+    ('retroperitoneal lymphadenopathy',): {'lymphadenopathy': 5.0, 'lymphoma': 3.0, 'metastatic disease': 3.0},
+    ('reactive lymph nodes',): {'reactive lymphadenopathy': 5.0},
+    ('reactive lymphadenopathy',): {'reactive lymphadenopathy': 5.0},
+    ('borderline lymph nodes',): {'reactive lymphadenopathy': 4.0, 'lymphadenopathy': 3.0},
+    ('subcentimeter lymph nodes',): {'reactive lymphadenopathy': 4.0, 'normal lymph nodes': 4.0},
+
+    # =========================================================================
+    # THYROID
+    # =========================================================================
+    ('thyroid nodule',): {'thyroid nodule': 5.0},
+    ('thyroid nodules',): {'thyroid nodule': 5.0, 'multinodular goiter': 4.0},
+    ('multinodular goiter',): {'multinodular goiter': 5.0, 'thyroid nodules': 4.0},
+    ('thyroid cyst',): {'thyroid cyst': 5.0, 'benign thyroid nodule': 4.0},
+    ('goiter',): {'goiter': 5.0, 'thyroid enlargement': 4.0},
+    ('thyromegaly',): {'goiter': 5.0, 'thyroid enlargement': 5.0},
+
+    # =========================================================================
+    # BRAIN INCIDENTALS
+    # =========================================================================
+    ('white matter changes',): {'small vessel ischemic disease': 4.0, 'white matter disease': 5.0},
+    ('white matter disease',): {'small vessel ischemic disease': 5.0, 'white matter disease': 5.0},
+    ('periventricular white matter changes',): {'small vessel ischemic disease': 5.0, 'multiple sclerosis': 3.0},
+    ('chronic small vessel ischemic changes',): {'small vessel ischemic disease': 5.0},
+    ('microvascular ischemic changes',): {'small vessel ischemic disease': 5.0},
+    ('lacunar infarct',): {'lacunar infarct': 5.0, 'small vessel disease': 4.0},
+    ('old infarct',): {'chronic infarct': 5.0, 'old stroke': 5.0},
+    ('encephalomalacia',): {'encephalomalacia': 5.0, 'chronic infarct': 4.0},
+    ('gliosis',): {'gliosis': 5.0, 'chronic changes': 4.0},
+    ('brain atrophy',): {'cerebral atrophy': 5.0, 'brain volume loss': 5.0},
+    ('cerebral atrophy',): {'cerebral atrophy': 5.0},
+    ('volume loss',): {'atrophy': 4.0, 'volume loss': 5.0},
+    ('pineal cyst',): {'pineal cyst': 5.0},
+    ('arachnoid cyst',): {'arachnoid cyst': 5.0},
+    ('empty sella',): {'empty sella': 5.0, 'empty sella syndrome': 4.0},
+    ('pituitary microadenoma',): {'pituitary microadenoma': 5.0, 'pituitary adenoma': 4.0},
+    ('meningioma',): {'meningioma': 5.0},
+    ('acoustic neuroma',): {'vestibular schwannoma': 5.0, 'acoustic neuroma': 5.0},
+    ('vestibular schwannoma',): {'vestibular schwannoma': 5.0, 'acoustic neuroma': 5.0},
+    ('mucosal thickening', 'sinus'): {'sinusitis': 4.0, 'mucosal disease': 4.0},
+    ('sinus disease',): {'sinusitis': 4.0, 'chronic sinusitis': 4.0},
+    ('mastoid effusion',): {'mastoiditis': 4.0, 'middle ear disease': 4.0},
 }
 
 
@@ -1363,6 +1568,7 @@ class SemanticRadDict:
             'certainty': extracted.certainty.value,
             'temporality': extracted.temporality.value,
             'laterality': extracted.laterality,
+            'body_regions': extracted.body_regions,
             'measurements': [
                 {'value': m.value, 'unit': m.unit, 'dimension': m.dimension}
                 for m in extracted.measurements

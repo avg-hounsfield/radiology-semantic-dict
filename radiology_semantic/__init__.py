@@ -58,7 +58,7 @@ from .nlp import (
     extract_measurements,
 )
 
-__version__ = "1.2.0"
+__version__ = "1.2.1"
 __author__ = "Radiology AI Assistant Team"
 __all__ = [
     # Core dictionary
