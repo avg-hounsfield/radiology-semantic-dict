@@ -114,7 +114,9 @@ ANATOMICAL_LOCATIONS = {
 # FINDING CO-OCCURRENCE PATTERNS
 # =============================================================================
 FINDING_COOCCURRENCE = {
-    # If you see these findings together, boost this diagnosis
+    # =========================================================================
+    # GI - Already strong, maintain these
+    # =========================================================================
     ('fat stranding', 'rlq'): {'appendicitis': 5.0, 'crohn disease': 2.0},
     ('fat stranding', 'right lower quadrant'): {'appendicitis': 5.0, 'crohn disease': 2.0},
     ('fat stranding', 'llq'): {'diverticulitis': 5.0, 'colitis': 2.0},
@@ -128,16 +130,120 @@ FINDING_COOCCURRENCE = {
     ('pericholecystic fluid',): {'cholecystitis': 5.0},
     ('murphy sign',): {'cholecystitis': 4.0},
     ('double duct sign',): {'pancreatic adenocarcinoma': 5.0, 'ampullary carcinoma': 3.0},
-    ('ring enhancing', 'brain'): {'abscess': 3.0, 'glioblastoma': 3.0, 'metastasis': 3.0},
-    ('ring enhancing', 'periventricular'): {'lymphoma': 4.0, 'toxoplasmosis': 3.0},
     ('arterial enhancement', 'washout'): {'hepatocellular carcinoma': 5.0},
     ('arterial enhancement', 'washout', 'capsule'): {'hepatocellular carcinoma': 6.0},
-    ('ground glass', 'bilateral', 'peripheral'): {'covid-19': 4.0, 'organizing pneumonia': 3.0},
-    ('tree in bud',): {'infection': 4.0, 'tuberculosis': 3.0, 'aspiration': 3.0},
-    ('honeycomb', 'basal'): {'usual interstitial pneumonia': 5.0, 'ipf': 5.0},
     ('whirlpool sign',): {'volvulus': 5.0, 'sigmoid volvulus': 4.0, 'ovarian torsion': 4.0},
     ('coffee bean sign',): {'sigmoid volvulus': 5.0},
     ('birds beak',): {'sigmoid volvulus': 4.0, 'achalasia': 4.0},
+
+    # =========================================================================
+    # THORACIC - Need improvement (MRR 0.569 -> target 0.8)
+    # =========================================================================
+    # Ground glass patterns
+    ('ground glass', 'bilateral'): {'covid-19': 5.0, 'pneumocystis pneumonia': 3.0, 'pulmonary edema': 2.0},
+    ('ground glass', 'peripheral'): {'covid-19': 4.0, 'organizing pneumonia': 4.0, 'eosinophilic pneumonia': 3.0},
+    ('ground glass', 'bilateral', 'peripheral'): {'covid-19': 6.0, 'organizing pneumonia': 4.0},
+    ('ground glass opacity', 'bilateral'): {'covid-19': 5.0, 'pneumocystis pneumonia': 3.0},
+    ('ground glass opacity', 'peripheral'): {'covid-19': 4.0, 'organizing pneumonia': 4.0},
+    ('ground glass opacity',): {'covid-19': 3.0, 'viral pneumonia': 3.0, 'pneumocystis': 2.0},
+    # Tree-in-bud / infectious
+    ('tree in bud',): {'infection': 5.0, 'tuberculosis': 4.0, 'aspiration': 3.0, 'mycobacterial': 3.0},
+    ('tree in bud', 'centrilobular'): {'infection': 6.0, 'tuberculosis': 4.0, 'bronchiolitis': 3.0},
+    ('centrilobular nodules',): {'infection': 4.0, 'hypersensitivity pneumonitis': 3.0, 'respiratory bronchiolitis': 3.0},
+    # Aspergillosis patterns
+    ('halo sign',): {'invasive aspergillosis': 5.0, 'aspergillosis': 5.0, 'mucormycosis': 3.0, 'hemorrhagic metastasis': 2.0},
+    ('halo sign', 'immunocompromised'): {'invasive aspergillosis': 6.0, 'aspergillosis': 6.0, 'mucormycosis': 4.0},
+    ('halo sign', 'nodule'): {'invasive aspergillosis': 5.0, 'aspergillosis': 5.0},
+    ('air crescent sign',): {'aspergilloma': 6.0, 'recovering aspergillosis': 4.0},
+    ('mycetoma',): {'aspergilloma': 6.0},
+    # UIP/IPF
+    ('honeycombing',): {'usual interstitial pneumonia': 5.0, 'ipf': 5.0},
+    ('honeycomb', 'basal'): {'usual interstitial pneumonia': 6.0, 'ipf': 6.0},
+    ('honeycombing', 'basal'): {'usual interstitial pneumonia': 6.0, 'ipf': 6.0},
+    ('traction bronchiectasis',): {'usual interstitial pneumonia': 4.0, 'ipf': 4.0, 'fibrosis': 3.0},
+
+    # =========================================================================
+    # NEURO - Need improvement (MRR 0.600 -> target 0.8)
+    # =========================================================================
+    # Stroke patterns - CRITICAL
+    ('restricted diffusion',): {'stroke': 5.0, 'infarct': 5.0, 'acute infarct': 5.0, 'ischemic stroke': 5.0},
+    ('restricted diffusion', 'vascular'): {'stroke': 6.0, 'infarct': 6.0, 'acute infarct': 6.0},
+    ('restricted diffusion', 'territory'): {'stroke': 6.0, 'infarct': 6.0},
+    ('restricted diffusion', 'acute'): {'stroke': 6.0, 'acute infarct': 6.0, 'ischemic stroke': 6.0},
+    ('dwi', 'bright'): {'stroke': 5.0, 'infarct': 5.0, 'acute infarct': 5.0},
+    ('dwi', 'hyperintense'): {'stroke': 5.0, 'infarct': 5.0},
+    # MS patterns - CRITICAL
+    ('periventricular', 'white matter'): {'multiple sclerosis': 6.0, 'ms': 6.0},
+    ('periventricular', 'white matter', 'lesion'): {'multiple sclerosis': 8.0, 'ms': 8.0},
+    ('periventricular', 'white matter', 'ring'): {'multiple sclerosis': 7.0, 'ms': 7.0, 'tumefactive ms': 5.0},
+    ('periventricular', 'lesion'): {'multiple sclerosis': 5.0, 'ms': 5.0, 'lymphoma': 2.0},
+    ('dawson fingers',): {'multiple sclerosis': 6.0, 'ms': 6.0},
+    ('ovoid lesions', 'periventricular'): {'multiple sclerosis': 6.0, 'ms': 6.0},
+    ('ovoid', 'white matter'): {'multiple sclerosis': 5.0, 'ms': 5.0},
+    ('callosal', 'lesion'): {'multiple sclerosis': 5.0, 'ms': 5.0},
+    ('corpus callosum', 'lesion'): {'multiple sclerosis': 5.0, 'ms': 5.0},
+    ('demyelinating',): {'multiple sclerosis': 5.0, 'ms': 5.0, 'adem': 3.0},
+    ('demyelination',): {'multiple sclerosis': 5.0, 'ms': 5.0, 'adem': 3.0},
+    # Ring enhancing - context matters
+    ('ring enhancing', 'brain'): {'abscess': 3.0, 'glioblastoma': 3.0, 'metastasis': 3.0},
+    ('ring enhancing', 'periventricular'): {'lymphoma': 4.0, 'toxoplasmosis': 3.0, 'multiple sclerosis': 2.0},
+    ('ring enhancing', 'white matter'): {'multiple sclerosis': 4.0, 'tumefactive ms': 4.0, 'abscess': 2.0},
+    ('ring enhancing', 'solitary'): {'glioblastoma': 4.0, 'metastasis': 4.0, 'abscess': 3.0},
+    ('ring enhancing', 'multiple'): {'metastasis': 5.0, 'abscess': 3.0},
+    ('ring enhancing', 'edema', 'mass effect'): {'glioblastoma': 5.0, 'metastasis': 4.0},
+    # Other neuro
+    ('dural tail',): {'meningioma': 5.0},
+    ('extra-axial',): {'meningioma': 3.0, 'schwannoma': 3.0},
+    ('cerebellopontine angle',): {'vestibular schwannoma': 5.0, 'meningioma': 3.0, 'epidermoid': 3.0},
+    ('ice cream cone',): {'vestibular schwannoma': 5.0, 'acoustic neuroma': 5.0},
+    ('cpa', 'mass'): {'vestibular schwannoma': 5.0, 'meningioma': 3.0},
+
+    # =========================================================================
+    # GU - Need significant improvement (MRR 0.333 -> target 0.8)
+    # =========================================================================
+    # Urolithiasis patterns - CRITICAL
+    ('hydronephrosis',): {'ureterolithiasis': 4.0, 'ureteral obstruction': 4.0, 'ureteral stone': 4.0},
+    ('hydronephrosis', 'stone'): {'ureterolithiasis': 6.0, 'ureteral stone': 6.0, 'nephrolithiasis': 5.0},
+    ('hydronephrosis', 'ureteral'): {'ureterolithiasis': 6.0, 'ureteral stone': 6.0},
+    ('ureteral stone',): {'ureterolithiasis': 6.0, 'nephrolithiasis': 4.0},
+    ('perinephric stranding',): {'ureterolithiasis': 4.0, 'pyelonephritis': 4.0, 'renal stone': 3.0},
+    ('perinephric stranding', 'stone'): {'ureterolithiasis': 6.0, 'nephrolithiasis': 5.0},
+    ('perinephric stranding', 'hydronephrosis'): {'ureterolithiasis': 6.0},
+    ('renal calculus',): {'ureterolithiasis': 5.0, 'nephrolithiasis': 5.0},
+    # RCC patterns - CRITICAL (boost significantly)
+    ('renal mass',): {'renal cell carcinoma': 5.0, 'rcc': 5.0, 'oncocytoma': 2.0},
+    ('renal mass', 'enhancement'): {'renal cell carcinoma': 7.0, 'rcc': 7.0},
+    ('renal mass', 'enhancing'): {'renal cell carcinoma': 7.0, 'rcc': 7.0},
+    ('renal mass', 'heterogeneous'): {'renal cell carcinoma': 6.0, 'rcc': 6.0},
+    ('clear cell',): {'renal cell carcinoma': 6.0, 'clear cell rcc': 6.0, 'rcc': 6.0},
+    ('renal', 'mass'): {'renal cell carcinoma': 5.0, 'rcc': 5.0},
+    ('renal', 'enhancement'): {'renal cell carcinoma': 4.0, 'rcc': 4.0},
+    ('kidney', 'mass'): {'renal cell carcinoma': 5.0, 'rcc': 5.0},
+    ('kidney', 'tumor'): {'renal cell carcinoma': 5.0, 'rcc': 5.0},
+    ('enhancing renal mass',): {'renal cell carcinoma': 6.0, 'rcc': 6.0},
+    # RCC - combine multiple findings (high boost)
+    ('renal', 'mass', 'enhancement'): {'renal cell carcinoma': 8.0, 'rcc': 8.0},
+    ('renal', 'mass', 'clear cell'): {'renal cell carcinoma': 9.0, 'rcc': 9.0},
+    ('renal', 'enhancement', 'clear cell'): {'renal cell carcinoma': 9.0, 'rcc': 9.0},
+    ('kidney', 'mass', 'enhancement'): {'renal cell carcinoma': 8.0, 'rcc': 8.0},
+    # Adrenal
+    ('adrenal mass',): {'adrenal adenoma': 3.0, 'pheochromocytoma': 2.0, 'metastasis': 2.0},
+    ('adrenal', 'low attenuation'): {'adrenal adenoma': 5.0},
+    ('adrenal', 'lipid'): {'adrenal adenoma': 5.0},
+    ('adrenal', 'lipid rich'): {'adrenal adenoma': 6.0},
+    ('adrenal', 'washout'): {'adrenal adenoma': 5.0},
+
+    # =========================================================================
+    # MSK - Already at 0.833, minor improvements
+    # =========================================================================
+    ('soap bubble',): {'giant cell tumor': 5.0, 'aneurysmal bone cyst': 3.0},
+    ('soap bubble', 'epiphyseal'): {'giant cell tumor': 6.0},
+    ('epiphyseal', 'lytic'): {'giant cell tumor': 4.0, 'chondroblastoma': 4.0},
+    ('subarticular',): {'giant cell tumor': 3.0, 'subchondral cyst': 2.0},
+    ('sunburst',): {'osteosarcoma': 5.0},
+    ('codman triangle',): {'osteosarcoma': 5.0, 'ewing sarcoma': 3.0},
+    ('onion skin',): {'ewing sarcoma': 5.0},
+    ('permeative',): {'ewing sarcoma': 4.0, 'osteomyelitis': 3.0, 'lymphoma': 3.0},
 }
 
 

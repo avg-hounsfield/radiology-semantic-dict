@@ -1,0 +1,1154 @@
+{
+  "metrics": {
+    "total_cases": 33,
+    "accuracy@1": 0.8787878787878788,
+    "accuracy@3": 0.8787878787878788,
+    "accuracy@5": 0.8787878787878788,
+    "mrr": 0.8838383838383839,
+    "by_difficulty": {
+      "easy": {
+        "n": 9,
+        "accuracy@1": 1.0,
+        "accuracy@3": 1.0,
+        "mrr": 1.0
+      },
+      "medium": {
+        "n": 19,
+        "accuracy@1": 1.0,
+        "accuracy@3": 1.0,
+        "mrr": 1.0
+      },
+      "hard": {
+        "n": 5,
+        "accuracy@1": 0.2,
+        "accuracy@3": 0.2,
+        "mrr": 0.23333333333333334
+      }
+    },
+    "by_category": {
+      "Thoracic": {
+        "n": 5,
+        "accuracy@1": 1.0,
+        "accuracy@3": 1.0,
+        "mrr": 1.0
+      },
+      "Neuro": {
+        "n": 5,
+        "accuracy@1": 1.0,
+        "accuracy@3": 1.0,
+        "mrr": 1.0
+      },
+      "GI": {
+        "n": 12,
+        "accuracy@1": 1.0,
+        "accuracy@3": 1.0,
+        "mrr": 1.0
+      },
+      "MSK": {
+        "n": 3,
+        "accuracy@1": 1.0,
+        "accuracy@3": 1.0,
+        "mrr": 1.0
+      },
+      "Fuzzy": {
+        "n": 5,
+        "accuracy@1": 0.2,
+        "accuracy@3": 0.2,
+        "mrr": 0.23333333333333334
+      },
+      "GU": {
+        "n": 3,
+        "accuracy@1": 1.0,
+        "accuracy@3": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "abd_001",
+      "expected": "appendicitis",
+      "predicted": "appendicitis",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.8235294117647058,
+      "difficulty": "easy",
+      "category": "GI",
+      "predictions": [
+        [
+          "appendicitis",
+          0.8235294117647058
+        ],
+        [
+          "Diverticulitis",
+          0.35294117647058826
+        ],
+        [
+          "crohn disease",
+          0.29411764705882354
+        ],
+        [
+          "cecal volvulus",
+          0.17647058823529413
+        ],
+        [
+          "ovarian torsion",
+          0.17647058823529413
+        ]
+      ]
+    },
+    {
+      "id": "abd_002",
+      "expected": "appendicitis",
+      "predicted": "appendicitis",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.7272727272727273,
+      "difficulty": "easy",
+      "category": "GI",
+      "predictions": [
+        [
+          "appendicitis",
+          0.7272727272727273
+        ],
+        [
+          "Diverticulitis",
+          0.5454545454545454
+        ],
+        [
+          "crohn disease",
+          0.45454545454545453
+        ],
+        [
+          "Lymphoma",
+          0.33636363636363636
+        ],
+        [
+          "cecal volvulus",
+          0.2727272727272727
+        ]
+      ]
+    },
+    {
+      "id": "abd_003",
+      "expected": "appendicitis",
+      "predicted": "Appendicitis",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.9411764705882353,
+      "difficulty": "easy",
+      "category": "GI",
+      "predictions": [
+        [
+          "Appendicitis",
+          0.9411764705882353
+        ],
+        [
+          "appendicitis",
+          0.21568627450980393
+        ],
+        [
+          "Diverticulitis",
+          0.0784313725490196
+        ],
+        [
+          "Gallstones",
+          0.0784313725490196
+        ],
+        [
+          "Kidney stones",
+          0.06666666666666667
+        ]
+      ]
+    },
+    {
+      "id": "abd_004",
+      "expected": "diverticulitis",
+      "predicted": "Diverticulitis",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.9166666666666666,
+      "difficulty": "easy",
+      "category": "GI",
+      "predictions": [
+        [
+          "Diverticulitis",
+          0.9166666666666666
+        ],
+        [
+          "Bladder Cancer",
+          0.2777777777777778
+        ],
+        [
+          "diverticulitis",
+          0.2222222222222222
+        ],
+        [
+          "Crohn disease",
+          0.1111111111111111
+        ],
+        [
+          "Ischemic colitis",
+          0.09722222222222222
+        ]
+      ]
+    },
+    {
+      "id": "abd_005",
+      "expected": "diverticulitis",
+      "predicted": "Diverticulitis",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.75,
+      "difficulty": "easy",
+      "category": "GI",
+      "predictions": [
+        [
+          "Diverticulitis",
+          0.75
+        ],
+        [
+          "diverticulitis",
+          0.6666666666666666
+        ],
+        [
+          "sigmoid volvulus",
+          0.25
+        ],
+        [
+          "ovarian torsion",
+          0.25
+        ],
+        [
+          "ureteral stone",
+          0.25
+        ]
+      ]
+    },
+    {
+      "id": "abd_006",
+      "expected": "cholecystitis",
+      "predicted": "cholecystitis",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.8,
+      "difficulty": "easy",
+      "category": "GI",
+      "predictions": [
+        [
+          "cholecystitis",
+          0.8
+        ],
+        [
+          "cholelithiasis",
+          0.2
+        ],
+        [
+          "hepatitis",
+          0.2
+        ],
+        [
+          "liver abscess",
+          0.2
+        ],
+        [
+          "hepatocellular carcinoma",
+          0.2
+        ]
+      ]
+    },
+    {
+      "id": "abd_007",
+      "expected": "cholecystitis",
+      "predicted": "Acute Cholecystitis",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.8571428571428571,
+      "difficulty": "easy",
+      "category": "GI",
+      "predictions": [
+        [
+          "Acute Cholecystitis",
+          0.8571428571428571
+        ],
+        [
+          "cholecystitis",
+          0.19047619047619047
+        ],
+        [
+          "Chronic Cholecystitis",
+          0.19047619047619047
+        ],
+        [
+          "Acalculous Cholecystitis",
+          0.09523809523809523
+        ]
+      ]
+    },
+    {
+      "id": "abd_008",
+      "expected": "pancreatic adenocarcinoma",
+      "predicted": "Pancreatic adenocarcinoma",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.6666666666666666,
+      "difficulty": "medium",
+      "category": "GI",
+      "predictions": [
+        [
+          "Pancreatic adenocarcinoma",
+          0.6666666666666666
+        ],
+        [
+          "Ampullary carcinoma",
+          0.5777777777777778
+        ],
+        [
+          "pancreatic adenocarcinoma",
+          0.5555555555555556
+        ],
+        [
+          "Ampullary Carcinoma",
+          0.5555555555555556
+        ],
+        [
+          "Pancreatic Adenocarcinoma",
+          0.5555555555555556
+        ]
+      ]
+    },
+    {
+      "id": "abd_009",
+      "expected": "hepatocellular carcinoma",
+      "predicted": "Hepatocellular Carcinoma (HCC)",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.9032258064516129,
+      "difficulty": "medium",
+      "category": "GI",
+      "predictions": [
+        [
+          "Hepatocellular Carcinoma (HCC)",
+          0.9032258064516129
+        ],
+        [
+          "Adrenal Adenoma",
+          0.7096774193548387
+        ],
+        [
+          "Adrenal Cortical Carcinoma (ACC)",
+          0.5161290322580645
+        ],
+        [
+          "hepatocellular carcinoma",
+          0.3548387096774194
+        ],
+        [
+          "adrenal adenoma",
+          0.3225806451612903
+        ]
+      ]
+    },
+    {
+      "id": "abd_010",
+      "expected": "sigmoid volvulus",
+      "predicted": "sigmoid volvulus",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.625,
+      "difficulty": "medium",
+      "category": "GI",
+      "predictions": [
+        [
+          "sigmoid volvulus",
+          0.625
+        ],
+        [
+          "Sigmoid volvulus",
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "abd_011",
+      "expected": "volvulus",
+      "predicted": "volvulus",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.625,
+      "difficulty": "medium",
+      "category": "GI",
+      "predictions": [
+        [
+          "volvulus",
+          0.625
+        ],
+        [
+          "sigmoid volvulus",
+          0.5
+        ],
+        [
+          "ovarian torsion",
+          0.5
+        ],
+        [
+          "Sigmoid volvulus",
+          0.5
+        ],
+        [
+          "Cecal volvulus",
+          0.4375
+        ]
+      ]
+    },
+    {
+      "id": "abd_012",
+      "expected": "intussusception",
+      "predicted": "Intussusception",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.6842105263157895,
+      "difficulty": "medium",
+      "category": "GI",
+      "predictions": [
+        [
+          "Intussusception",
+          0.6842105263157895
+        ],
+        [
+          "Peutz-Jeghers Syndrome (PJS)",
+          0.42105263157894735
+        ],
+        [
+          "Crohn disease",
+          0.42105263157894735
+        ],
+        [
+          "Chronic/partial small bowel obstruction",
+          0.42105263157894735
+        ],
+        [
+          "Ischemic colitis",
+          0.3684210526315789
+        ]
+      ]
+    },
+    {
+      "id": "tho_001",
+      "expected": "covid-19",
+      "predicted": "covid-19",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.9,
+      "difficulty": "medium",
+      "category": "Thoracic",
+      "predictions": [
+        [
+          "covid-19",
+          0.9
+        ],
+        [
+          "organizing pneumonia",
+          0.4
+        ],
+        [
+          "Stress-induced Adrenal Hemorrhage",
+          0.3333333333333333
+        ],
+        [
+          "pneumocystis pneumonia",
+          0.2
+        ],
+        [
+          "Abscess (General)",
+          0.16666666666666666
+        ]
+      ]
+    },
+    {
+      "id": "tho_002",
+      "expected": "infection",
+      "predicted": "infection",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.8333333333333334,
+      "difficulty": "medium",
+      "category": "Thoracic",
+      "predictions": [
+        [
+          "infection",
+          0.8333333333333334
+        ],
+        [
+          "tuberculosis",
+          0.4444444444444444
+        ],
+        [
+          "TB",
+          0.4444444444444444
+        ],
+        [
+          "Aspiration",
+          0.4277777777777778
+        ],
+        [
+          "MAC",
+          0.3888888888888889
+        ]
+      ]
+    },
+    {
+      "id": "tho_003",
+      "expected": "usual interstitial pneumonia",
+      "predicted": "usual interstitial pneumonia",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.875,
+      "difficulty": "medium",
+      "category": "Thoracic",
+      "predictions": [
+        [
+          "usual interstitial pneumonia",
+          0.875
+        ],
+        [
+          "ipf",
+          0.875
+        ],
+        [
+          "Chronic Diverticulitis",
+          0.16666666666666666
+        ],
+        [
+          "Chronic Diverticulitis (Fibrosis)",
+          0.16666666666666666
+        ],
+        [
+          "fibrosis",
+          0.125
+        ]
+      ]
+    },
+    {
+      "id": "tho_004",
+      "expected": "aspergillosis",
+      "predicted": "invasive aspergillosis",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.8421052631578947,
+      "difficulty": "medium",
+      "category": "Thoracic",
+      "predictions": [
+        [
+          "invasive aspergillosis",
+          0.8421052631578947
+        ],
+        [
+          "aspergillosis",
+          0.8421052631578947
+        ],
+        [
+          "mucormycosis",
+          0.3684210526315789
+        ],
+        [
+          "Pulmonary Nodule",
+          0.21052631578947367
+        ],
+        [
+          "Invasive aspergillosis (immunocompromised)",
+          0.21052631578947367
+        ]
+      ]
+    },
+    {
+      "id": "tho_005",
+      "expected": "aspergilloma",
+      "predicted": "aspergilloma",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.8,
+      "difficulty": "medium",
+      "category": "Thoracic",
+      "predictions": [
+        [
+          "aspergilloma",
+          0.8
+        ],
+        [
+          "Aspergilloma (mycetoma)",
+          0.3333333333333333
+        ],
+        [
+          "recovering aspergillosis",
+          0.26666666666666666
+        ],
+        [
+          "Aspergilloma",
+          0.26666666666666666
+        ],
+        [
+          "Resolving invasive aspergillosis",
+          0.23333333333333334
+        ]
+      ]
+    },
+    {
+      "id": "neuro_001",
+      "expected": "multiple sclerosis",
+      "predicted": "multiple sclerosis",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.92,
+      "difficulty": "medium",
+      "category": "Neuro",
+      "predictions": [
+        [
+          "multiple sclerosis",
+          0.92
+        ],
+        [
+          "Glioblastoma",
+          0.7519999999999999
+        ],
+        [
+          "ms",
+          0.6933333333333334
+        ],
+        [
+          "Metastasis",
+          0.6666666666666665
+        ],
+        [
+          "Abscess",
+          0.4373333333333333
+        ]
+      ]
+    },
+    {
+      "id": "neuro_002",
+      "expected": "glioblastoma",
+      "predicted": "Glioblastoma",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.9038461538461539,
+      "difficulty": "medium",
+      "category": "Neuro",
+      "predictions": [
+        [
+          "Glioblastoma",
+          0.9038461538461539
+        ],
+        [
+          "Metastasis",
+          0.8012820512820512
+        ],
+        [
+          "Abscess",
+          0.5576923076923077
+        ],
+        [
+          "Glioblastoma multiforme",
+          0.4743589743589744
+        ],
+        [
+          "Glioblastoma Multiforme",
+          0.3653846153846154
+        ]
+      ]
+    },
+    {
+      "id": "neuro_003",
+      "expected": "stroke",
+      "predicted": "stroke",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.8846153846153846,
+      "difficulty": "easy",
+      "category": "Neuro",
+      "predictions": [
+        [
+          "stroke",
+          0.8846153846153846
+        ],
+        [
+          "Adrenal Hemorrhage",
+          0.7692307692307693
+        ],
+        [
+          "infarct",
+          0.6538461538461539
+        ],
+        [
+          "acute infarct",
+          0.6538461538461539
+        ],
+        [
+          "ischemic stroke",
+          0.4230769230769231
+        ]
+      ]
+    },
+    {
+      "id": "neuro_004",
+      "expected": "vestibular schwannoma",
+      "predicted": "vestibular schwannoma",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.8125,
+      "difficulty": "medium",
+      "category": "Neuro",
+      "predictions": [
+        [
+          "vestibular schwannoma",
+          0.8125
+        ],
+        [
+          "meningioma",
+          0.375
+        ],
+        [
+          "epidermoid",
+          0.375
+        ],
+        [
+          "acoustic neuroma",
+          0.3125
+        ],
+        [
+          "Vestibular schwannoma",
+          0.125
+        ]
+      ]
+    },
+    {
+      "id": "neuro_005",
+      "expected": "meningioma",
+      "predicted": "meningioma",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.7272727272727273,
+      "difficulty": "medium",
+      "category": "Neuro",
+      "predictions": [
+        [
+          "meningioma",
+          0.7272727272727273
+        ],
+        [
+          "Meningioma",
+          0.6363636363636364
+        ],
+        [
+          "Meningioma (most common)",
+          0.36363636363636365
+        ],
+        [
+          "Dural metastasis",
+          0.3181818181818182
+        ],
+        [
+          "schwannoma",
+          0.2727272727272727
+        ]
+      ]
+    },
+    {
+      "id": "gu_001",
+      "expected": "ureterolithiasis",
+      "predicted": "ureterolithiasis",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.926829268292683,
+      "difficulty": "easy",
+      "category": "GU",
+      "predictions": [
+        [
+          "ureterolithiasis",
+          0.926829268292683
+        ],
+        [
+          "Bladder Cancer",
+          0.4878048780487805
+        ],
+        [
+          "ureteral stone",
+          0.3902439024390244
+        ],
+        [
+          "nephrolithiasis",
+          0.34146341463414637
+        ],
+        [
+          "Ureteral Obstruction",
+          0.2926829268292683
+        ]
+      ]
+    },
+    {
+      "id": "gu_002",
+      "expected": "renal cell carcinoma",
+      "predicted": "renal cell carcinoma",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.9464285714285714,
+      "difficulty": "medium",
+      "category": "GU",
+      "predictions": [
+        [
+          "renal cell carcinoma",
+          0.9464285714285714
+        ],
+        [
+          "rcc",
+          0.9464285714285714
+        ],
+        [
+          "Acute Cholecystitis",
+          0.375
+        ],
+        [
+          "Adrenal Adenoma",
+          0.33571428571428574
+        ],
+        [
+          "Pheochromocytoma",
+          0.31071428571428567
+        ]
+      ]
+    },
+    {
+      "id": "gu_003",
+      "expected": "adrenal adenoma",
+      "predicted": "adrenal adenoma",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.8636363636363636,
+      "difficulty": "medium",
+      "category": "GU",
+      "predictions": [
+        [
+          "adrenal adenoma",
+          0.8636363636363636
+        ],
+        [
+          "renal cell carcinoma",
+          0.45454545454545453
+        ],
+        [
+          "rcc",
+          0.45454545454545453
+        ],
+        [
+          "oncocytoma",
+          0.09090909090909091
+        ],
+        [
+          "pheochromocytoma",
+          0.09090909090909091
+        ]
+      ]
+    },
+    {
+      "id": "msk_001",
+      "expected": "giant cell tumor",
+      "predicted": "giant cell tumor",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.8235294117647058,
+      "difficulty": "medium",
+      "category": "MSK",
+      "predictions": [
+        [
+          "giant cell tumor",
+          0.8235294117647058
+        ],
+        [
+          "Meconium ileus",
+          0.5294117647058824
+        ],
+        [
+          "Giant Cell Tumor (GCT)",
+          0.29411764705882354
+        ],
+        [
+          "Non-Ossifying Fibroma (NOF)",
+          0.29411764705882354
+        ],
+        [
+          "Cystic fibrosis",
+          0.20588235294117646
+        ]
+      ]
+    },
+    {
+      "id": "msk_002",
+      "expected": "osteosarcoma",
+      "predicted": "osteosarcoma",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.8333333333333334,
+      "difficulty": "medium",
+      "category": "MSK",
+      "predictions": [
+        [
+          "osteosarcoma",
+          0.8333333333333334
+        ],
+        [
+          "Osteosarcoma",
+          0.7222222222222222
+        ],
+        [
+          "Ewing sarcoma",
+          0.3888888888888889
+        ],
+        [
+          "Osteomyelitis",
+          0.3333333333333333
+        ],
+        [
+          "Ewing Sarcoma",
+          0.2777777777777778
+        ]
+      ]
+    },
+    {
+      "id": "msk_003",
+      "expected": "ewing sarcoma",
+      "predicted": "ewing sarcoma",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.75,
+      "difficulty": "medium",
+      "category": "MSK",
+      "predictions": [
+        [
+          "ewing sarcoma",
+          0.75
+        ],
+        [
+          "Ewing Sarcoma",
+          0.75
+        ],
+        [
+          "osteomyelitis",
+          0.25
+        ],
+        [
+          "lymphoma",
+          0.25
+        ],
+        [
+          "Lymphoma",
+          0.14166666666666666
+        ]
+      ]
+    },
+    {
+      "id": "fuzzy_001",
+      "expected": "appendicitis",
+      "predicted": "appendicitis",
+      "rank": 1,
+      "in_top_1": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "confidence": 0.5,
+      "difficulty": "hard",
+      "category": "Fuzzy",
+      "predictions": [
+        [
+          "appendicitis",
+          0.5
+        ],
+        [
+          "cecal volvulus",
+          0.5
+        ],
+        [
+          "crohn disease",
+          0.5
+        ],
+        [
+          "ovarian torsion",
+          0.5
+        ],
+        [
+          "ureteral stone",
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "fuzzy_002",
+      "expected": "hepatocellular carcinoma",
+      "predicted": "",
+      "rank": 0,
+      "in_top_1": false,
+      "in_top_3": false,
+      "in_top_5": false,
+      "confidence": 0.0,
+      "difficulty": "hard",
+      "category": "Fuzzy",
+      "predictions": []
+    },
+    {
+      "id": "fuzzy_003",
+      "expected": "volvulus",
+      "predicted": "Acute hemorrhage with active bleeding",
+      "rank": 0,
+      "in_top_1": false,
+      "in_top_3": false,
+      "in_top_5": false,
+      "confidence": 0.5714285714285714,
+      "difficulty": "hard",
+      "category": "Fuzzy",
+      "predictions": [
+        [
+          "Acute hemorrhage with active bleeding",
+          0.5714285714285714
+        ],
+        [
+          "Coagulopathy",
+          0.5
+        ],
+        [
+          "Acute Subdural Hematoma",
+          0.2857142857142857
+        ],
+        [
+          "Epidural Hematoma (EDH)",
+          0.14285714285714285
+        ],
+        [
+          "Subdural Hematoma (SDH)",
+          0.14285714285714285
+        ]
+      ]
+    },
+    {
+      "id": "fuzzy_004",
+      "expected": "glioblastoma",
+      "predicted": "Gallbladder Carcinoma",
+      "rank": 6,
+      "in_top_1": false,
+      "in_top_3": false,
+      "in_top_5": false,
+      "confidence": 0.7,
+      "difficulty": "hard",
+      "category": "Fuzzy",
+      "predictions": [
+        [
+          "Gallbladder Carcinoma",
+          0.7
+        ],
+        [
+          "Hepatocellular Carcinoma (HCC)",
+          0.2
+        ],
+        [
+          "Prostate Cancer (Adenocarcinoma)",
+          0.2
+        ],
+        [
+          "Uterine Sarcoma",
+          0.2
+        ],
+        [
+          "Brain Abscess",
+          0.2
+        ]
+      ]
+    },
+    {
+      "id": "fuzzy_005",
+      "expected": "melanoma metastasis",
+      "predicted": "Ependymoma",
+      "rank": 0,
+      "in_top_1": false,
+      "in_top_3": false,
+      "in_top_5": false,
+      "confidence": 0.5714285714285714,
+      "difficulty": "hard",
+      "category": "Fuzzy",
+      "predictions": [
+        [
+          "Ependymoma",
+          0.5714285714285714
+        ],
+        [
+          "Spinal Cord Injury (SCI)",
+          0.5714285714285714
+        ],
+        [
+          "Muscle Contusion",
+          0.42857142857142855
+        ],
+        [
+          "Astrocytoma",
+          0.2857142857142857
+        ],
+        [
+          "Hepatoblastoma",
+          0.2857142857142857
+        ]
+      ]
+    }
+  ]
+}
