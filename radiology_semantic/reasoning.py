@@ -220,19 +220,20 @@ MULTI_FINDING_PATTERNS = {
     # HCC PATTERNS (LI-RADS)
     # =========================================================================
     'hcc_classic': {
-        'required': ['arterial enhancement', 'washout'],
-        'optional': ['capsule', 'threshold growth', 'cirrhosis'],
-        'context': ['liver mass', 'hepatic lesion'],
+        'required': ['washout'],  # Washout is pathognomonic
+        'required_any': ['arterial enhancement', 'arterially enhancing', 'hyperenhancing', 'aphe'],
+        'optional': ['capsule', 'threshold growth', 'cirrhosis', 'cirrhotic'],
+        'context': ['liver', 'hepatic', 'segment'],
         'diagnosis': 'Hepatocellular carcinoma (LI-RADS 5)',
         'base_confidence': 0.85,
         'boost_per_optional': 0.03,
         'max_confidence': 0.95,
     },
     'hcc_probable': {
-        'required': ['arterial enhancement'],
-        'optional': ['washout', 'capsule'],
+        'required_any': ['arterial enhancement', 'arterially enhancing', 'hyperenhancing', 'aphe'],
+        'optional': ['washout', 'capsule', 'cirrhosis', 'cirrhotic'],
         'min_optional': 0,
-        'context': ['liver mass', 'cirrhosis'],
+        'context': ['liver', 'hepatic', 'segment'],
         'diagnosis': 'Probable HCC (LI-RADS 4)',
         'base_confidence': 0.70,
         'boost_per_optional': 0.05,
@@ -546,6 +547,7 @@ class ClinicalReasoner:
 
         for pattern_name, pattern in MULTI_FINDING_PATTERNS.items():
             required = pattern.get('required', [])
+            required_any = pattern.get('required_any', [])  # At least one must match
             optional = pattern.get('optional', [])
             excluded = pattern.get('excluded', [])
             context = pattern.get('context', [])
@@ -559,6 +561,15 @@ class ClinicalReasoner:
 
             if not required_met:
                 continue
+
+            # Check if at least one of required_any is present (synonym matching)
+            if required_any:
+                required_any_met = any(
+                    any(req in f for f in findings_lower) or req in findings_text
+                    for req in required_any
+                )
+                if not required_any_met:
+                    continue
 
             # Check if any excluded findings are present
             if excluded:
@@ -630,7 +641,12 @@ class ClinicalReasoner:
         urgent_keywords = [
             'dissection', 'rupture', 'ruptured', 'hemorrhage', 'bleeding',
             'tension', 'saddle', 'massive', 'acute stroke', 'strangulation',
-            'ischemia', 'infarct', 'perforation', 'free air'
+            'ischemia', 'infarct', 'perforation', 'free air',
+            # Hemodynamically significant PE
+            'right heart strain', 'rv strain', 'rv dilation', 'septal bowing',
+            'clot in transit', 'right ventricular dysfunction',
+            # Critical findings
+            'herniation', 'midline shift', 'uncal', 'tonsillar',
         ]
         findings_text = ' '.join(f.lower() for f in findings)
         if any(kw in findings_text for kw in urgent_keywords):
