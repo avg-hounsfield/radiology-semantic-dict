@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radiology-semantic-dict"
+version = "1.0.0"
+description = "Semantic dictionary for mapping radiology findings to diagnoses"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Radiology AI Assistant Team"}
+]
+keywords = [
+    "radiology",
+    "medical",
+    "imaging",
+    "diagnosis",
+    "differential",
+    "semantic",
+    "nlp",
+    "healthcare"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/radiology-ai/radiology-semantic-dict"
+Documentation = "https://github.com/radiology-ai/radiology-semantic-dict#readme"
+Repository = "https://github.com/radiology-ai/radiology-semantic-dict"
+
+[tool.setuptools]
+packages = ["radiology_semantic"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+radiology_semantic = ["data/*.json"]

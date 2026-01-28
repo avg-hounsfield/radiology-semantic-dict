@@ -1,0 +1,3977 @@
+[
+  {
+    "presentation": "\"Bright on T2\"",
+    "modality": "MRI",
+    "body_region": "msk",
+    "differentials": [
+      "Intramuscular Myxoma",
+      "Myxoid Liposarcoma",
+      "Low-grade myxofibrosarcoma"
+    ],
+    "clinical_context": "Myxoid soft tissue tumors are more common in young to middle-aged adults. Patient history of trauma, pain, or rapid growth can help differentiate between benign and malignant lesions."
+  },
+  {
+    "presentation": "\"Rim sign\"",
+    "modality": "CT",
+    "body_region": "Gallbladder",
+    "differentials": [
+      "Acute Cholecystitis"
+    ],
+    "clinical_context": "Acute cholecystitis typically presents with right upper quadrant pain, fever, and leukocytosis. Patient's clinical symptoms and inflammatory markers are crucial in confirming the diagnosis."
+  },
+  {
+    "presentation": "\"Target sign\"",
+    "modality": "Ultrasound",
+    "body_region": "Gallbladder",
+    "differentials": [
+      "Acute Cholecystitis",
+      "Gallbladder Carcinoma"
+    ],
+    "clinical_context": "Target sign in gallbladder suggests acute inflammatory process. Patient's clinical presentation of right upper quadrant pain, fever, and potential Murphy's sign are important diagnostic clues."
+  },
+  {
+    "presentation": "\"Wide Duodenal Sweep\"",
+    "modality": "Fluoroscopy (Upper GI Series)",
+    "body_region": "Duodenum",
+    "differentials": [
+      "Pancreatic head carcinoma",
+      "Pancreatitis",
+      "Large retroperitoneal adenopathy"
+    ],
+    "clinical_context": "Wide duodenal sweep suggests extrinsic compression or infiltration of surrounding structures. Patient's weight loss, jaundice, and abdominal pain are critical diagnostic indicators."
+  },
+  {
+    "presentation": ">4 cm size on CT",
+    "modality": "CT",
+    "body_region": "Adrenal gland",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "Adrenal masses require careful evaluation for functional status and potential malignancy. Hormonal screening and patient symptoms are crucial in differentiating between adenoma and pheochromocytoma."
+  },
+  {
+    "presentation": ">4 cm size on CT",
+    "modality": "CT",
+    "body_region": "Adrenal gland",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ]
+  },
+  {
+    "presentation": ">4 cm size on CT",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "Adrenal incidentalomas are common, but size and characteristics help distinguish between benign and potentially malignant lesions. Patient's hormonal symptoms and family history are important."
+  },
+  {
+    "presentation": "Abdominal mass in child",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Wilms tumor",
+      "Neuroblastoma",
+      "Hepatoblastoma",
+      "Lymphoma",
+      "Mesoblastic nephroma"
+    ],
+    "clinical_context": "Pediatric abdominal masses require comprehensive evaluation. Patient's age, tumor location, and associated symptoms help narrow the differential diagnosis."
+  },
+  {
+    "presentation": "Absence of cerebral hemispheres with CSF-filled sac",
+    "modality": "CT/MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Hydranencephaly",
+      "Severe Hydrocephalus",
+      "Alobar Holoprosencephaly"
+    ],
+    "clinical_context": "Severe congenital brain malformations require detailed prenatal and genetic history. Associated syndromic features and chromosomal abnormalities are critical in diagnosis."
+  },
+  {
+    "presentation": "Absent Septum Pellucidum",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Septooptic Dysplasia",
+      "Lobar Holoprosencephaly"
+    ],
+    "clinical_context": "Septal development disorders often associate with hormonal and visual abnormalities. Comprehensive endocrine and neurological evaluation is essential."
+  },
+  {
+    "presentation": "Active extravasation (arterial phase)",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Bile Duct Injury",
+      "Cholangitis"
+    ],
+    "clinical_context": "Active extravasation indicates potential severe biliary or vascular injury. Patient's clinical status, mechanism of injury, and associated symptoms are crucial for management."
+  },
+  {
+    "presentation": "Acute infarct with restricted diffusion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Acute Ischemic Stroke",
+      "Herpes Encephalitis (early)",
+      "Creutzfeldt-Jakob Disease (CJD)",
+      "Hypoglycemia"
+    ],
+    "clinical_context": "Acute neurological deficit with sudden onset suggests ischemic stroke. Patient's age, time of symptom onset, and vascular risk factors are crucial in distinguishing between differentials. Fever, altered mental status, or history of herpes infection would point towards herpes encephalitis."
+  },
+  {
+    "presentation": "Acute VCF (T2 hyperintensity)",
+    "modality": "MRI",
+    "body_region": "Spine",
+    "differentials": [
+      "Osteoporotic fracture",
+      "Traumatic fracture",
+      "Infectious spondylitis",
+      "Neoplastic infiltration"
+    ],
+    "clinical_context": "Vertebral compression fracture etiology depends on patient's age, trauma history, and underlying medical conditions. Older patients with osteoporosis are more likely to have osteoporotic fractures, while younger patients may have traumatic or pathological causes."
+  },
+  {
+    "presentation": "Adnexal mass",
+    "modality": "US",
+    "body_region": "pelvis",
+    "differentials": [
+      "Functional cyst",
+      "Endometrioma",
+      "Dermoid",
+      "Cystadenoma",
+      "Ovarian carcinoma",
+      "Ectopic pregnancy"
+    ],
+    "clinical_context": "Adnexal masses are common in women of reproductive age. Clinical presentation including menstrual history, fertility concerns, and associated symptoms help differentiate between benign and malignant masses."
+  },
+  {
+    "presentation": "Adrenal mass",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Adenoma",
+      "Metastasis",
+      "Pheochromocytoma",
+      "Adrenocortical carcinoma",
+      "Myelolipoma"
+    ],
+    "clinical_context": "Adrenal masses require careful evaluation of patient's age, cancer history, and hormonal symptoms. Functional status (hormone production) is critical in differentiating between benign and potentially malignant lesions."
+  },
+  {
+    "presentation": "Aggressive periosteal reaction",
+    "modality": "XR",
+    "body_region": "long bone",
+    "differentials": [
+      "Osteosarcoma",
+      "Ewing sarcoma",
+      "Infection (osteomyelitis)"
+    ],
+    "clinical_context": "Aggressive periosteal reaction in long bones raises concern for malignancy or severe infection. Patient's age, pain characteristics, and systemic symptoms are crucial in distinguishing between neoplastic and inflammatory processes."
+  },
+  {
+    "presentation": "Air bronchograms extending to periphery",
+    "modality": "XR",
+    "body_region": "chest",
+    "differentials": [
+      "Respiratory Distress Syndrome (RDS)",
+      "Transient Tachypnea of the Newborn (TTN)"
+    ],
+    "clinical_context": "Air bronchograms in newborns are typically seen in respiratory distress conditions. Gestational age, delivery circumstances, and clinical presentation help differentiate between neonatal respiratory pathologies."
+  },
+  {
+    "presentation": "Aortic intramural hematoma",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      "Type A dissection (ascending)",
+      "Type B dissection (descending)",
+      "Penetrating atherosclerotic ulcer",
+      "Traumatic injury"
+    ],
+    "clinical_context": "Aortic intramural hematoma is a potentially life-threatening condition. Patient's age, cardiovascular risk factors, and acute symptoms help distinguish between different types of aortic pathology."
+  },
+  {
+    "presentation": "Appendicolith",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Gallstones",
+      "Kidney stones"
+    ],
+    "clinical_context": "Appendicolith and other calcifications require careful evaluation of patient's age, symptoms, and anatomical location. Distinguishing between different types of stones involves assessing size, location, and associated clinical findings."
+  },
+  {
+    "presentation": "Arterial enhancement with central scar",
+    "modality": "CT/MRI",
+    "body_region": "liver",
+    "differentials": [
+      "FNH",
+      "HCC"
+    ]
+  },
+  {
+    "presentation": "Arterial hyperenhancement with washout",
+    "modality": "MRI",
+    "body_region": "Liver",
+    "differentials": [
+      "Hepatocellular Carcinoma (HCC)",
+      "Regenerative Nodules in BCS",
+      "Focal Nodular Hyperplasia (FNH)"
+    ],
+    "clinical_context": "Hepatic lesions with arterial hyperenhancement and washout require comprehensive evaluation. Patient's liver disease history, cancer risk, and underlying conditions are crucial in differentiating between benign and malignant lesions."
+  },
+  {
+    "presentation": "Asymmetric ductal dilation (intrahepatic ducts >6mm)",
+    "modality": "US/CT/MRI",
+    "body_region": "gi",
+    "differentials": [
+      "Cholangiocarcinoma",
+      "Hepatocellular carcinoma"
+    ],
+    "clinical_context": "Asymmetric ductal dilation raises concerns for biliary tract pathology. Patient's age, cancer risk, and systemic symptoms help differentiate between benign and malignant biliary conditions."
+  },
+  {
+    "presentation": "Asymmetry on Mammography",
+    "modality": "Mammography",
+    "body_region": "Breast",
+    "differentials": [
+      "Invasive Lobular Carcinoma",
+      "Invasive Ductal Carcinoma",
+      "Summation Artifact",
+      "Focal Fibrosis",
+      "Hormonal Influence",
+      "Post-Surgical/Traumatic Changes",
+      "Anatomic Variants"
+    ],
+    "clinical_context": "Asymmetric breast density is more concerning in women over 40, with risk increasing with age and family history. Patient's hormonal status, menstrual cycle phase, and prior breast changes are critical to evaluate."
+  },
+  {
+    "presentation": "Basal ganglia T2 hyperintensity",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Carbon monoxide poisoning",
+      "Hypoxic-ischemic injury",
+      "Wilson disease",
+      "Japanese encephalitis",
+      "Creutzfeldt-Jakob disease"
+    ],
+    "clinical_context": "Basal ganglia T2 hyperintensity suggests toxic, metabolic, or infectious etiology. Patient's exposure history, neurological symptoms, and systemic signs are crucial for narrowing differential."
+  },
+  {
+    "presentation": "Basal Meningeal Enhancement",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Sarcoidosis",
+      "Fungal Meningitis",
+      "Carcinomatous Meningitis"
+    ],
+    "clinical_context": "Basal meningeal enhancement indicates inflammatory or neoplastic process. Patient's immunocompromised status, systemic symptoms, and cancer history are key diagnostic clues."
+  },
+  {
+    "presentation": "Bilateral Basal Ganglia Lesions",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Carbon Monoxide Poisoning",
+      "Methanol Poisoning",
+      "Hypoxic-Ischemic Encephalopathy",
+      "Wilson's Disease",
+      "Leigh Syndrome",
+      "Other metabolic disorders"
+    ],
+    "clinical_context": "Bilateral basal ganglia lesions suggest toxic, metabolic, or genetic etiology. Patient's exposure history, neurological symptoms, and family history are critical diagnostic considerations."
+  },
+  {
+    "presentation": "Bilateral hilar lymphadenopathy",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      "Sarcoidosis",
+      "Lymphoma",
+      "Metastatic disease",
+      "Infection (TB, histoplasmosis)",
+      "Silicosis"
+    ],
+    "clinical_context": "Bilateral hilar lymphadenopathy suggests systemic inflammatory, infectious, or neoplastic process. Patient's age, smoking history, and systemic symptoms help narrow differential."
+  },
+  {
+    "presentation": "Bilateral symmetric thalamic or brainstem lesions",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Wernicke Encephalopathy"
+    ],
+    "clinical_context": "Bilateral symmetric thalamic lesions strongly suggest Wernicke encephalopathy, typically associated with chronic alcoholism, malnutrition, or severe nutritional deficiency."
+  },
+  {
+    "presentation": "Bilateral T1 hyperintensity in basal ganglia",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Gadolinium deposition",
+      "Total Parenteral Nutrition (TPN)",
+      "Hepatic encephalopathy",
+      "Wilson's disease",
+      "Neuroferritinopathy",
+      "Manganese exposure"
+    ],
+    "clinical_context": "Bilateral T1 hyperintensity in basal ganglia suggests metabolic derangement or toxic exposure. Patient's medical history, medication use, and systemic conditions are crucial."
+  },
+  {
+    "presentation": "Black rim on T2*",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Superficial Siderosis",
+      "Cerebral Amyloid Angiopathy (CAA)",
+      "Neurocutaneous Melanosis"
+    ],
+    "clinical_context": "Black rim on T2* suggests chronic hemosiderin deposition from repeated bleeding. Patient's neurological symptoms, trauma history, and vascular malformation risk are key considerations."
+  },
+  {
+    "presentation": "Blooming on SWI/GRE",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Capillary Telangiectasia",
+      "Cavernous Malformation",
+      "Hemorrhage",
+      "Other causes of susceptibility artifact"
+    ],
+    "clinical_context": "Blooming on SWI/GRE indicates presence of blood products, microhemorrhages, or vascular malformations. Patient's neurological symptoms and bleeding risk are critical."
+  },
+  {
+    "presentation": "Bowel Wall Thickening",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Ischemia",
+      "Bowel Trauma",
+      "Perforation"
+    ],
+    "clinical_context": "Bowel wall thickening suggests inflammatory, ischemic, or infectious process. Patient's clinical presentation, pain characteristics, and systemic symptoms are crucial."
+  },
+  {
+    "presentation": "Breast calcifications (suspicious)",
+    "modality": "Mammography",
+    "body_region": "breast",
+    "differentials": [
+      "DCIS",
+      "Invasive carcinoma",
+      "Atypical ductal hyperplasia",
+      "Lobular neoplasia"
+    ],
+    "clinical_context": "Suspicious calcifications require careful evaluation in women, especially those over 40. Patient history of breast cancer risk factors, family history, and prior mammogram changes are crucial in determining malignancy potential."
+  },
+  {
+    "presentation": "Breast mass with spiculated margins",
+    "modality": "Mammography",
+    "body_region": "breast",
+    "differentials": [
+      "Invasive ductal carcinoma",
+      "Invasive lobular carcinoma",
+      "Radial scar",
+      "Fat necrosis (post-surgical)"
+    ],
+    "clinical_context": "Spiculated breast masses are highly suspicious for malignancy. Patient age, hormone receptor status, and prior biopsy history help differentiate between invasive carcinoma types and benign processes."
+  },
+  {
+    "presentation": "Caudate Hypertrophy",
+    "modality": "CT",
+    "body_region": "Abdomen/Liver",
+    "differentials": [
+      "Focal Nodular Hyperplasia",
+      "Hepatocellular Carcinoma"
+    ],
+    "clinical_context": "Caudate hypertrophy suggests underlying liver pathology. Clinical context of chronic liver disease, portal hypertension, or known malignancy is critical in narrowing differential diagnosis."
+  },
+  {
+    "presentation": "Caudate Hypertrophy",
+    "modality": "CT",
+    "body_region": "Liver",
+    "differentials": [
+      "Focal Nodular Hyperplasia",
+      "Hepatocellular Carcinoma"
+    ],
+    "clinical_context": "Caudate hypertrophy in liver imaging requires comprehensive evaluation of underlying hepatic conditions. Patient history of chronic liver disease, viral hepatitis, or metabolic disorders helps guide diagnosis."
+  },
+  {
+    "presentation": "Caudate hypertrophy (>10 cm length)",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Budd-Chiari Syndrome",
+      "Liver Cancer"
+    ],
+    "clinical_context": "Significant caudate hypertrophy suggests potential vascular obstruction or malignant process. Patient history of thrombotic disorders, prior liver disease, or systemic conditions is crucial."
+  },
+  {
+    "presentation": "Cavitary lung lesion",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      "Squamous cell carcinoma",
+      "Abscess",
+      "Tuberculosis",
+      "Wegener granulomatosis",
+      "Septic emboli",
+      "Rheumatoid nodule"
+    ],
+    "clinical_context": "Cavitary lung lesions have broad differential diagnosis. Patient's smoking history, immunocompromised status, systemic symptoms, and exposure history are critical in narrowing diagnosis."
+  },
+  {
+    "presentation": "Central stellate scar with malformed vessels",
+    "modality": "CT/MRI/US",
+    "body_region": "liver",
+    "differentials": [
+      "FNH",
+      "Hemangioma"
+    ]
+  },
+  {
+    "presentation": "Central stellate scar with malformed vessels, no enhancement in portal phase",
+    "modality": "CT/MRI/US",
+    "body_region": "liver",
+    "differentials": [
+      "FNH",
+      "Hemangioma"
+    ]
+  },
+  {
+    "presentation": "Cerebellopontine angle mass",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Vestibular schwannoma",
+      "Meningioma",
+      "Epidermoid cyst",
+      "Arachnoid cyst",
+      "Trigeminal schwannoma"
+    ],
+    "clinical_context": "Cerebellopontine angle masses require detailed neurological assessment. Patient symptoms of hearing loss, facial weakness, or cranial nerve dysfunction help differentiate between tumor types."
+  },
+  {
+    "presentation": "Chronic VCF (T1/T2 hypointensity, cortical thickening)",
+    "modality": "MRI",
+    "body_region": "Spine",
+    "differentials": [
+      "Old, healed fracture",
+      "Benign compression fracture"
+    ],
+    "clinical_context": "Chronic vertebral compression fracture evaluation requires understanding patient's bone health, trauma history, and potential underlying conditions like osteoporosis or malignancy."
+  },
+  {
+    "presentation": "Clival Mass",
+    "modality": "MRI",
+    "body_region": "Skull Base",
+    "differentials": [
+      "Chordoma",
+      "Chondrosarcoma"
+    ],
+    "clinical_context": "Clival masses require comprehensive evaluation of patient's age, symptoms, and potential primary tumor sources. Skull base tumors can have significant clinical implications."
+  },
+  {
+    "presentation": "Complex Cystic Mass",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Abscess",
+      "Cystic neoplasm",
+      "Hemorrhagic cyst"
+    ],
+    "clinical_context": "Complex cystic masses demand thorough clinical correlation. Patient's infection history, prior surgeries, and systemic symptoms help differentiate between inflammatory and neoplastic processes."
+  },
+  {
+    "presentation": "Complex Cystic Mass",
+    "modality": "US",
+    "body_region": "breast",
+    "differentials": [
+      "Abscess",
+      "Hemorrhagic Cyst",
+      "Papillary Carcinoma",
+      "Fibrocystic Change"
+    ],
+    "clinical_context": "Complex breast cysts require careful evaluation in women, especially those with risk factors for breast cancer. Age, family history, and prior mammographic findings are crucial in determining malignancy potential."
+  },
+  {
+    "presentation": "Complex Free Fluid",
+    "modality": "Ultrasound (Transvaginal)",
+    "body_region": "Pelvis",
+    "differentials": [
+      "Hemoperitoneum",
+      "Intrauterine Pregnancy",
+      "Miscarriage"
+    ]
+  },
+  {
+    "presentation": "Complex free fluid in the pelvis",
+    "modality": "Ultrasound (Transvaginal)",
+    "body_region": "pelvis",
+    "differentials": [
+      "Intrauterine Pregnancy",
+      "Miscarriage",
+      "Ectopic Pregnancy"
+    ]
+  },
+  {
+    "presentation": "Contrast extravasation (active extravasation >150 HU)",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Bowel Perforation",
+      "Inflammatory Bowel Disease"
+    ],
+    "clinical_context": "Contrast extravasation in abdomen suggests potential bowel injury or inflammatory process. Patient's clinical status, recent surgery, trauma history, and inflammatory markers are critical in determining underlying pathology."
+  },
+  {
+    "presentation": "Contrast extravasation (active extravasation >150 HU)",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Bowel Perforation",
+      "Inflammatory Bowel Disease"
+    ],
+    "clinical_context": "Contrast extravasation in abdomen suggests potential bowel injury or inflammatory process. Patient's clinical status, recent surgery, trauma history, and inflammatory markers are critical in determining underlying pathology."
+  },
+  {
+    "presentation": "CPA mass",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Meningioma",
+      "Epidermoid cyst",
+      "Arachnoid cyst",
+      "Facial nerve schwannoma"
+    ],
+    "clinical_context": "Cerebellopontine angle masses require comprehensive neurological assessment. Patient's symptoms like hearing loss, tinnitus, facial weakness help differentiate between neoplastic and developmental lesions."
+  },
+  {
+    "presentation": "CPA Mass",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Epidermoid Cyst",
+      "Arachnoid Cyst",
+      "Vestibular Schwannoma",
+      "Meningioma"
+    ],
+    "clinical_context": "Cerebellopontine angle masses require comprehensive neurological assessment. Patient's symptoms like hearing loss, tinnitus, facial weakness help differentiate between neoplastic and developmental lesions."
+  },
+  {
+    "presentation": "Cyst with a mural nodule",
+    "modality": "MRI",
+    "body_region": "posterior fossa",
+    "differentials": [
+      "Hemangioblastoma",
+      "Pilocytic Astrocytoma"
+    ],
+    "clinical_context": "Posterior fossa cystic lesions with mural nodules in pediatric or young adult patients require careful evaluation for potential neoplastic processes. Genetic syndromes and family history are important considerations."
+  },
+  {
+    "presentation": "Cyst with mural nodule",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Ganglioglioma",
+      "Pilocytic Astrocytoma",
+      "PXA (Pleomorphic Xanthoastrocytoma)",
+      "Hemangioblastoma"
+    ],
+    "clinical_context": "Cystic brain lesions with mural nodules suggest potential low-grade neoplastic processes. Patient's age, neurological symptoms, and genetic predispositions are crucial in narrowing differential diagnosis."
+  },
+  {
+    "presentation": "Cystic intracranial lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Porencephaly",
+      "Schizencephaly",
+      "Arachnoid cyst",
+      "Epidermoid cyst",
+      "Abscess"
+    ],
+    "clinical_context": "Cystic intracranial lesions can represent developmental, inflammatory, or neoplastic processes. Patient's developmental history, neurological symptoms, and age are critical in determining etiology."
+  },
+  {
+    "presentation": "Cystic pancreatic lesion",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "IPMN",
+      "Mucinous cystic neoplasm",
+      "Serous cystadenoma",
+      "Pseudocyst",
+      "Solid pseudopapillary tumor"
+    ],
+    "clinical_context": "Pancreatic cystic lesions require comprehensive evaluation considering patient's age, risk factors, and clinical symptoms. Distinguishing between benign and potentially malignant lesions is crucial."
+  },
+  {
+    "presentation": "Cystic renal mass with restricted diffusion",
+    "modality": "MRI",
+    "body_region": "GU",
+    "differentials": [
+      "Cystic nephroma",
+      "MCDK"
+    ],
+    "clinical_context": "Cystic renal masses with restricted diffusion require careful characterization. Patient's age, prior imaging, and clinical context help differentiate between developmental and neoplastic processes."
+  },
+  {
+    "presentation": "Cystic sellar mass with calcification",
+    "modality": "CT",
+    "body_region": "sella",
+    "differentials": [
+      "Craniopharyngioma",
+      "Rathke Cleft Cyst (rarely)"
+    ],
+    "clinical_context": "Craniopharyngiomas typically occur in children and young adults, with calcifications being a hallmark. Patient history of visual disturbances, endocrine dysfunction, and headaches are critical in differentiating from Rathke Cleft Cyst."
+  },
+  {
+    "presentation": "Decreased Occipital Metabolism",
+    "modality": "FDG-PET",
+    "body_region": "brain",
+    "differentials": [
+      "Lewy Body Dementia",
+      "Posterior Cortical Atrophy",
+      "Corticobasal Degeneration"
+    ],
+    "clinical_context": "Posterior cortical metabolism changes are characteristic of neurodegenerative disorders. Patient's age, cognitive symptoms, and specific neurological deficits help distinguish between Lewy Body Dementia and other atypical parkinsonian syndromes."
+  },
+  {
+    "presentation": "Decreased pulmonary vascularity",
+    "modality": "CXR",
+    "body_region": "chest",
+    "differentials": [
+      "TOF",
+      "Tricuspid Atresia"
+    ],
+    "clinical_context": "Congenital cyanotic heart diseases like Tetralogy of Fallot and Tricuspid Atresia present with decreased pulmonary vascularity. Clinical history of cyanosis, oxygen saturation, and associated cardiac murmurs are crucial in differentiating these conditions."
+  },
+  {
+    "presentation": "Decreased thyroid uptake",
+    "modality": "NM",
+    "body_region": "thyroid",
+    "differentials": [
+      "Thyroiditis",
+      "Amiodarone-induced thyroiditis",
+      "Postpartum thyroiditis",
+      "Exogenous thyroid hormone use"
+    ],
+    "clinical_context": "Thyroid uptake changes can result from various inflammatory and iatrogenic conditions. Patient's medication history, recent pregnancy, and autoimmune background are critical in determining the specific etiology."
+  },
+  {
+    "presentation": "Dense center and ill-defined periphery",
+    "modality": "CT",
+    "body_region": "Musculoskeletal",
+    "differentials": [
+      "Osteosarcoma"
+    ],
+    "clinical_context": "Osteosarcoma typically presents in adolescents and young adults with characteristic radiographic features. Patient's age, pain history, and rapid growth are important in distinguishing from other bone lesions."
+  },
+  {
+    "presentation": "Destruction/Erosion of skull base",
+    "modality": "CT",
+    "body_region": "skull base",
+    "differentials": [
+      "Malignancy",
+      "Infection"
+    ],
+    "clinical_context": "Skull base destruction can indicate malignant processes or severe infections. Patient's systemic symptoms, cancer history, and immune status are crucial in narrowing the differential."
+  },
+  {
+    "presentation": "Detrusor muscle invasion",
+    "modality": "MRI",
+    "body_region": "Bladder",
+    "differentials": [
+      "Non-Muscle-Invasive Bladder Cancer",
+      "Prostate Cancer"
+    ]
+  },
+  {
+    "presentation": "Diffuse FDG Uptake",
+    "modality": "FDG PET/CT",
+    "body_region": "Colon",
+    "differentials": [
+      "Benign conditions",
+      "Physiologic uptake"
+    ],
+    "clinical_context": "Diffuse FDG uptake in the colon can represent various conditions beyond malignancy. Patient's clinical context, inflammatory markers, and additional imaging findings are essential for accurate interpretation."
+  },
+  {
+    "presentation": "Diffuse liver hypointensity on T2/T2*",
+    "modality": "MRI",
+    "body_region": "Liver",
+    "differentials": [
+      "Hemochromatosis",
+      "Wilson's disease (copper deposition)",
+      "Amiodarone toxicity"
+    ],
+    "clinical_context": "Liver hypointensity on T2 suggests metal deposition disorders. Patient's genetic history, neurological symptoms, and specific metabolic markers help differentiate between hemochromatosis and Wilson's disease."
+  },
+  {
+    "presentation": "Diffuse lung uptake on I-131 scintigraphy",
+    "modality": "I-131 Scintigraphy",
+    "body_region": "lungs",
+    "differentials": [
+      "Lung metastases from DTC",
+      "Pulmonary fibrosis",
+      "Pneumoconiosis"
+    ],
+    "clinical_context": "Diffuse lung uptake on I-131 can indicate multiple pathological processes. Patient's thyroid cancer history, treatment status, and pulmonary symptoms are critical in interpretation."
+  },
+  {
+    "presentation": "Diffuse Skin Enhancement",
+    "modality": "MRI",
+    "body_region": "breast",
+    "differentials": [
+      "Inflammatory Breast Cancer",
+      "Mastitis"
+    ],
+    "clinical_context": "Diffuse skin enhancement in breast imaging can represent inflammatory conditions or aggressive malignancies. Patient's clinical symptoms, inflammatory markers, and additional imaging features are crucial."
+  },
+  {
+    "presentation": "Diffuse, decreasing enhancement",
+    "modality": "MRI",
+    "body_region": "Breast",
+    "differentials": [
+      "Post-RT Change"
+    ],
+    "clinical_context": "Post-radiation changes in breast typically occur months to years after treatment. Patient history of breast cancer and radiation therapy is crucial in distinguishing from recurrence."
+  },
+  {
+    "presentation": "Dilated bile ducts",
+    "modality": "US",
+    "body_region": "Hepatobiliary",
+    "differentials": [
+      "Pancreatic Cancer",
+      "Cholangiocarcinoma",
+      "Choledocholithiasis",
+      "Post-surgical stricture",
+      "Primary Sclerosing Cholangitis (PSC)",
+      "Chronic Pancreatitis"
+    ],
+    "clinical_context": "Biliary ductal dilatation requires comprehensive clinical assessment of patient's age, risk factors, and associated symptoms like jaundice, abdominal pain, or weight loss. Patient's history of prior surgeries or inflammatory conditions is critical."
+  },
+  {
+    "presentation": "Double duct sign",
+    "modality": "CT",
+    "body_region": "Pancreas",
+    "differentials": [
+      "Pancreatic adenocarcinoma",
+      "Ampullary carcinoma",
+      "Distal cholangiocarcinoma",
+      "Pancreatitis (rarely)"
+    ],
+    "clinical_context": "Double duct sign suggests malignant obstruction, most commonly pancreatic head adenocarcinoma. Patient's age over 60, unexplained weight loss, and painless jaundice are key clinical indicators."
+  },
+  {
+    "presentation": "Ductal cutoff with shouldering",
+    "modality": "MRCP",
+    "body_region": "biliary system",
+    "differentials": [
+      "Cholangitis",
+      "Hepatocellular carcinoma"
+    ],
+    "clinical_context": "Ductal cutoff with shouldering indicates potential malignant obstruction. Clinical context of chronic liver disease, hepatitis, or known cancer risk factors helps narrow differential."
+  },
+  {
+    "presentation": "Ductal dilatation",
+    "modality": "CT",
+    "body_region": "Pancreas",
+    "differentials": [
+      "Pancreatic Cancer",
+      "Chronic Pancreatitis",
+      "Acute Pancreatitis"
+    ],
+    "clinical_context": "Pancreatic ductal dilatation can result from various pathologies. Patient's clinical presentation, including acute vs. chronic symptoms, is crucial in differentiating between inflammatory and neoplastic processes."
+  },
+  {
+    "presentation": "Ductal dilatation",
+    "modality": "CT",
+    "body_region": "Pancreas",
+    "differentials": [
+      "Chronic Pancreatitis",
+      "Acute Pancreatitis",
+      "Pancreatic Cancer"
+    ],
+    "clinical_context": "Pancreatic ductal dilatation requires careful evaluation of patient's clinical symptoms, alcohol use history, and risk factors for pancreatic disease. Chronic pancreatitis can mimic pancreatic cancer."
+  },
+  {
+    "presentation": "Ductal dilation (CBD >6 mm post-cholecystectomy)",
+    "modality": "US",
+    "body_region": "abdomen",
+    "differentials": [
+      "Bile Duct Injury",
+      "Cholangitis"
+    ],
+    "clinical_context": "Post-cholecystectomy bile duct dilatation suggests potential surgical complication or underlying biliary pathology. Patient's surgical history and post-operative symptoms are critical."
+  },
+  {
+    "presentation": "Ductal dilation >6mm",
+    "modality": "US/CT/MRI",
+    "body_region": "gi",
+    "differentials": [
+      "Choledochal Cysts",
+      "Biliary Stones"
+    ],
+    "clinical_context": "Bile duct dilatation >6mm requires comprehensive evaluation of patient's age, symptoms, and risk factors for biliary pathology. Choledochal cysts are more common in younger patients."
+  },
+  {
+    "presentation": "Ductal dilation and biloma formation",
+    "modality": "US/CT/MRI",
+    "body_region": "abdomen",
+    "differentials": [
+      "Bile Duct Injury",
+      "Cholangitis"
+    ]
+  },
+  {
+    "presentation": "Ductal wall thickening >3mm",
+    "modality": "US/CT/MRI",
+    "body_region": "gi",
+    "differentials": [
+      "Cholangiocarcinoma",
+      "Primary Sclerosing Cholangitis"
+    ],
+    "clinical_context": "Ductal wall thickening suggests potential malignant or inflammatory process. Patient's age, liver disease history, and inflammatory markers are crucial in differentiating diagnoses."
+  },
+  {
+    "presentation": "Dural-based mass",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Meningioma",
+      "Dural metastases",
+      "Solitary fibrous tumor/hemangiopericytoma",
+      "Sarcoma"
+    ],
+    "clinical_context": "Dural-based masses require comprehensive neurological assessment. Patient's age, cancer history, and neurological symptoms help distinguish between benign and malignant lesions."
+  },
+  {
+    "presentation": "DWI hyperintensity, ADC hypointensity",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Acute Ischemic Stroke",
+      "Abscess",
+      "Highly Cellular Tumor",
+      "Cytotoxic Edema"
+    ],
+    "clinical_context": "Acute neurological deficit is key. Stroke typically presents with sudden onset focal neurological symptoms. Patient's age, vascular risk factors, and time of symptom onset are critical in distinguishing between ischemic stroke and other processes."
+  },
+  {
+    "presentation": "Elevated Resistive Index (RI) > 0.8",
+    "modality": "US",
+    "body_region": "Renal Transplant",
+    "differentials": [
+      "Rejection",
+      "ATN",
+      "RVT",
+      "Obstruction",
+      "Compression"
+    ],
+    "clinical_context": "Recent transplant history is crucial. Timing post-transplant, clinical signs of infection, rejection, or vascular compromise help differentiate causes of elevated resistive index in renal transplant."
+  },
+  {
+    "presentation": "Elevated vascularity",
+    "modality": "Ultrasound",
+    "body_region": "Breast",
+    "differentials": [
+      "Inflammatory Breast Cancer",
+      "Mastitis",
+      "Abscess",
+      "Angiogenesis related to tumor growth"
+    ],
+    "clinical_context": "Patient's age and breast cancer risk are critical. Inflammatory conditions often present with associated symptoms like pain, redness, or recent infection. Recent breast surgery or trauma can also influence vascularity."
+  },
+  {
+    "presentation": "Enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Neoplasm",
+      "Abscess",
+      "Active MS plaque"
+    ],
+    "clinical_context": "Neurological symptoms and patient history guide differential. Multiple sclerosis patients have characteristic clinical course, while neoplasms and abscesses have distinct enhancement patterns and associated symptoms."
+  },
+  {
+    "presentation": "Enhancing mass",
+    "modality": "MRI",
+    "body_region": "breast",
+    "differentials": [
+      "Recurrence",
+      "Granulomatous mastitis",
+      "Surgical scar"
+    ],
+    "clinical_context": "Recent breast surgery or inflammatory conditions are key considerations. Patient's age, cancer history, and timing of mass appearance help distinguish between benign and malignant processes."
+  },
+  {
+    "presentation": "Enhancing Mass",
+    "modality": "MRI",
+    "body_region": "breast",
+    "differentials": [
+      "Invasive Ductal Carcinoma",
+      "Fibroadenoma",
+      "DCIS",
+      "Abscess"
+    ],
+    "clinical_context": "Breast imaging and biopsy history are crucial. Patient age, mammographic features, and enhancement patterns help differentiate between benign and malignant breast lesions."
+  },
+  {
+    "presentation": "Enhancing renal mass",
+    "modality": "CT",
+    "body_region": "Kidney",
+    "differentials": [
+      "Renal Cell Carcinoma",
+      "Oncocytoma",
+      "Angiomyolipoma (fat poor)",
+      "Metastasis"
+    ],
+    "clinical_context": "Patient's age, prior cancer history, and renal risk factors are critical. Imaging characteristics like enhancement pattern, size, and heterogeneity help distinguish between benign and malignant renal masses."
+  },
+  {
+    "presentation": "Enlarged Bronchial Artery",
+    "modality": "CT Angiography",
+    "body_region": "thorax",
+    "differentials": [
+      "Cystic Fibrosis",
+      "TB Sequelae",
+      "Lung Cancer",
+      "Bronchiectasis",
+      "Chronic Inflammatory Lung Diseases"
+    ],
+    "clinical_context": "Chronic respiratory conditions are key. Patient's history of lung disease, smoking, infections, or systemic inflammatory conditions help narrow the differential for bronchial artery enlargement."
+  },
+  {
+    "presentation": "Expansile lytic lesion with fluid-fluid levels",
+    "modality": "CT/MRI",
+    "body_region": "Bone",
+    "differentials": [
+      "Aneurysmal Bone Cyst",
+      "Telangiectatic Osteosarcoma",
+      "Giant Cell Tumor"
+    ],
+    "clinical_context": "Patient's age and bone pain are critical. Adolescents and young adults are more likely to have aggressive bone lesions. Imaging characteristics and patient symptoms help distinguish between different bone lesions."
+  },
+  {
+    "presentation": "Extraluminal air (HU -1000 to -900)",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Bowel Perforation",
+      "Peptic Ulcer Disease"
+    ],
+    "clinical_context": "Extraluminal air suggests bowel wall disruption. Patient history of recent abdominal surgery, trauma, or underlying gastrointestinal disease increases perforation risk."
+  },
+  {
+    "presentation": "Extraluminal air (HU -1000 to -900)",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Bowel Perforation",
+      "Peptic Ulcer Disease"
+    ],
+    "clinical_context": "Acute abdominal symptoms are crucial. Patient's recent medical history, surgical interventions, and clinical signs of peritonitis help differentiate causes of extraluminal air."
+  },
+  {
+    "presentation": "Fat stranding in pericolonic fat",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Diverticulitis",
+      "Appendicitis",
+      "Pancreatitis"
+    ]
+  },
+  {
+    "presentation": "FDG avid lung nodule",
+    "modality": "PET/CT",
+    "body_region": "lung",
+    "differentials": [
+      "Primary lung cancer",
+      "Lung metastasis from another primary",
+      "Infection (e.g., fungal, bacterial)",
+      "Inflammation (e.g., granulomatous disease)"
+    ],
+    "clinical_context": "FDG avid lung nodules require comprehensive clinical assessment. Patient's smoking history, age, prior cancer history, and systemic symptoms are critical in distinguishing malignancy from inflammatory processes."
+  },
+  {
+    "presentation": "Fibular Head Avulsion Fracture",
+    "modality": "XR",
+    "body_region": "Knee",
+    "differentials": [
+      "Arcuate Sign (PLC Injury)",
+      "Segond Fracture (ACL/Anterolateral Ligament Injury)"
+    ],
+    "clinical_context": "Knee trauma with fibular head avulsion suggests significant ligamentous injury. Mechanism of injury (sports, twisting) and physical exam findings are crucial in determining specific ligament involvement."
+  },
+  {
+    "presentation": "Focal dilation >3 cm",
+    "modality": "US/CT/MRI",
+    "body_region": "abdomen",
+    "differentials": [
+      "Atherosclerosis",
+      "Hypertension"
+    ],
+    "clinical_context": "Focal vascular dilation requires assessment of underlying risk factors. Patient's age, hypertension history, and genetic predisposition help differentiate potential etiologies."
+  },
+  {
+    "presentation": "Focal dilation >3 cm",
+    "modality": "US/CT/MRI",
+    "body_region": "abdomen",
+    "differentials": [
+      "Atherosclerosis",
+      "Genetic syndromes (Marfan, Ehlers-Danlos)"
+    ],
+    "clinical_context": "Focal vascular dilation in younger patients suggests potential genetic connective tissue disorder. Family history and physical stigmata are critical in distinguishing inherited syndromes."
+  },
+  {
+    "presentation": "Focal dilation >3 cm",
+    "modality": "US/CT/MRI",
+    "body_region": "abdomen",
+    "differentials": [
+      "Atherosclerosis",
+      "Hypertension"
+    ],
+    "clinical_context": "Focal vascular dilation requires comprehensive cardiovascular risk assessment. Patient's age, hypertension history, and atherosclerotic risk factors are crucial in determining etiology."
+  },
+  {
+    "presentation": "Focal dilation >3 cm",
+    "modality": "CT/US/MRI",
+    "body_region": "abdomen",
+    "differentials": [
+      "Atherosclerosis",
+      "Genetic syndromes (Marfan, Ehlers-Danlos)"
+    ],
+    "clinical_context": "Focal vascular dilation in younger patients suggests potential genetic connective tissue disorder. Family history and physical stigmata are critical in distinguishing inherited syndromes."
+  },
+  {
+    "presentation": "Focal dilation of the abdominal aorta",
+    "modality": "US/CT/MRI",
+    "body_region": "abdomen",
+    "differentials": [
+      "Atherosclerosis",
+      "Genetic syndromes (Marfan, Ehlers-Danlos)"
+    ],
+    "clinical_context": "Focal abdominal aortic dilation requires comprehensive risk stratification. Patient's age, cardiovascular risk factors, and potential genetic predispositions guide diagnostic approach."
+  },
+  {
+    "presentation": "Focal hypointensity on T2WI",
+    "modality": "MRI",
+    "body_region": "Prostate",
+    "differentials": [
+      "Prostate cancer",
+      "Chronic prostatitis",
+      "Granulomatous prostatitis"
+    ],
+    "clinical_context": "Focal prostate hypointensity requires correlation with clinical symptoms and PSA levels. Patient's age, urinary symptoms, and prior biopsy history are crucial in distinguishing pathologies."
+  },
+  {
+    "presentation": "Focal lesions in bone marrow",
+    "modality": "MRI",
+    "body_region": "msk",
+    "differentials": [
+      "Osteomyelitis",
+      "Metastasis",
+      "Langerhans cell histiocytosis"
+    ],
+    "clinical_context": "Focal bone marrow lesions require comprehensive clinical and laboratory evaluation. Patient's age, systemic symptoms, and prior medical history help differentiate between infectious, neoplastic, and inflammatory processes."
+  },
+  {
+    "presentation": "Focal or Clumped Enhancement",
+    "modality": "MRI",
+    "body_region": "breast",
+    "differentials": [
+      "Malignancy",
+      "Benign BPE"
+    ],
+    "clinical_context": "Focal enhancement in breast MRI requires careful characterization of morphology and kinetics. Patient's age, family history of breast cancer, and prior biopsy results are critical in determining malignancy risk."
+  },
+  {
+    "presentation": "Focal, increasing enhancement",
+    "modality": "MRI",
+    "body_region": "Breast",
+    "differentials": [
+      "Recurrence"
+    ],
+    "clinical_context": "Breast cancer recurrence risk increases with prior surgical history, tumor grade, and molecular subtype. Clinical correlation with prior treatment, surgical margins, and tumor markers is essential."
+  },
+  {
+    "presentation": "Focal/Nodular FDG Uptake",
+    "modality": "FDG PET/CT",
+    "body_region": "Colon/Liver/Lymph Nodes",
+    "differentials": [
+      "Malignancy",
+      "Infection",
+      "Inflammation"
+    ],
+    "clinical_context": "Focal FDG uptake requires comprehensive clinical context including patient's inflammatory status, recent infections, and cancer history. Metabolic activity can indicate malignancy, infection, or inflammatory processes."
+  },
+  {
+    "presentation": "Foraminal expansion",
+    "modality": "CT",
+    "body_region": "skull base",
+    "differentials": [
+      "Schwannoma",
+      "Meningioma",
+      "Other slow-growing tumors"
+    ],
+    "clinical_context": "Foraminal expansion suggests slow-growing lesions with distinct clinical presentations. Patient's age, neurological symptoms, and progression of symptoms help differentiate between tumor types."
+  },
+  {
+    "presentation": "Free air in the abdomen",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Pneumoperitoneum due to perforated ulcer",
+      "Perforated diverticulitis (Hinchey II-IV)"
+    ],
+    "clinical_context": "Free air in abdomen represents a surgical emergency requiring immediate intervention. Patient's clinical symptoms, recent procedures, and abdominal pain characteristics are crucial for diagnosis."
+  },
+  {
+    "presentation": "Frontal/Temporal Atrophy",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Alzheimer's Disease",
+      "Vascular Dementia",
+      "Lewy Body Dementia",
+      "Normal Aging"
+    ],
+    "clinical_context": "Frontal/temporal atrophy requires comprehensive neuropsychological assessment. Patient's age, cognitive decline pattern, and associated symptoms help distinguish between neurodegenerative processes."
+  },
+  {
+    "presentation": "Gallbladder distension and wall thickening",
+    "modality": "Ultrasound",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Gallstones",
+      "Biliary obstruction"
+    ],
+    "clinical_context": "Gallbladder distension indicates potential biliary pathology. Patient's age, pain characteristics, and associated symptoms help differentiate between obstructive and inflammatory conditions."
+  },
+  {
+    "presentation": "Gallbladder wall thickening >4mm",
+    "modality": "Ultrasound (US)",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Chronic cholecystitis",
+      "Biliary obstruction"
+    ],
+    "clinical_context": "Gallbladder wall thickening suggests chronic inflammatory process. Patient's risk factors, duration of symptoms, and associated clinical findings are critical for accurate diagnosis."
+  },
+  {
+    "presentation": "Gas bubbles in wall/lumen",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Emphysematous cholecystitis",
+      "Gangrenous cholecystitis"
+    ],
+    "clinical_context": "Gas in gallbladder wall indicates severe inflammatory process with potential gangrene. Diabetic patients and immunocompromised individuals are at higher risk for emphysematous cholecystitis."
+  },
+  {
+    "presentation": "Ground glass opacity",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      "Viral pneumonia (COVID, CMV)",
+      "Pulmonary edema",
+      "Alveolar hemorrhage",
+      "Pneumocystis",
+      "Adenocarcinoma in situ",
+      "Organizing pneumonia"
+    ],
+    "clinical_context": "Ground glass opacity requires comprehensive assessment of patient's respiratory status, immune function, and exposure history. Differentiating infectious from neoplastic processes is crucial."
+  },
+  {
+    "presentation": "Heterogeneous appearance on US with avascular center",
+    "modality": "US",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "In patients with adrenal masses, clinical history of hypertension, episodic sweating, or family history of endocrine tumors suggests pheochromocytoma. Adrenal adenomas are typically incidental findings in older patients without significant hormonal symptoms."
+  },
+  {
+    "presentation": "Heterogeneous enhancement on CT",
+    "modality": "CT",
+    "body_region": "Genitourinary",
+    "differentials": [
+      "Adrenal Hemorrhage",
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "In genitourinary adrenal lesions, recent trauma, anticoagulation use, or history of bleeding disorders can suggest adrenal hemorrhage. Hormonal symptoms and patient age help distinguish between adenoma and pheochromocytoma."
+  },
+  {
+    "presentation": "Heterogeneous enhancement on CT",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Pheochromocytoma",
+      "Adrenal Adenoma"
+    ],
+    "clinical_context": "Heterogeneous enhancement on CT can indicate complex adrenal lesions. Consider patient's cancer history, hormonal symptoms, and age to differentiate between benign and potentially malignant processes."
+  },
+  {
+    "presentation": "Heterogeneous enhancement on CT",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Hemorrhage",
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ]
+  },
+  {
+    "presentation": "Heterogeneous enhancement on CT in 90% of cases",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Hemorrhage",
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ]
+  },
+  {
+    "presentation": "Heterogeneous enhancement pattern on CT",
+    "modality": "CT",
+    "body_region": "Adrenal gland",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ]
+  },
+  {
+    "presentation": "Heterogeneous enhancement pattern on CT",
+    "modality": "CT",
+    "body_region": "Adrenal gland",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ]
+  },
+  {
+    "presentation": "Heterogeneous enhancement pattern on CT",
+    "modality": "CT",
+    "body_region": "Adrenal gland",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "Adrenal gland lesions require careful evaluation of patient's endocrine status, age, and potential underlying malignancies. Hormonal screening and detailed clinical history are crucial for accurate diagnosis."
+  },
+  {
+    "presentation": "Heterogeneous enhancement pattern on CT",
+    "modality": "CT",
+    "body_region": "Adrenal gland",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "Adrenal gland lesions with heterogeneous enhancement necessitate comprehensive evaluation of patient's endocrine function, potential malignancy, and underlying systemic conditions."
+  },
+  {
+    "presentation": "Heterogeneous enhancement pattern on CT",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "Abdominal adrenal masses require thorough investigation of hormonal status, potential metastatic disease, and underlying systemic conditions that might explain the imaging findings."
+  },
+  {
+    "presentation": "Heterogeneous enhancement pattern on CT",
+    "modality": "CT",
+    "body_region": "Adrenal gland",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "Heterogeneous adrenal enhancement demands comprehensive clinical correlation. Consider patient's endocrine symptoms, cancer history, and potential genetic predispositions."
+  },
+  {
+    "presentation": "Heterogeneous hyperintense mass distending the endometrial cavity",
+    "modality": "MRI",
+    "body_region": "Pelvis",
+    "differentials": [
+      "Invasive Mole/Choriocarcinoma",
+      "Retained products of conception",
+      "Pus"
+    ],
+    "clinical_context": "In gynecological cases with heterogeneous endometrial masses, recent pregnancy, miscarriage, or abnormal bleeding are critical historical factors. Consider potential gestational complications or malignant transformations."
+  },
+  {
+    "presentation": "Heterogeneous uterine mass ± necrosis",
+    "modality": "CT",
+    "body_region": "Pelvis",
+    "differentials": [
+      "Endometrial Cancer",
+      "Fibroids",
+      "Other pelvic masses"
+    ]
+  },
+  {
+    "presentation": "Heterogeneous uterine mass ± necrosis",
+    "modality": "CT",
+    "body_region": "Pelvis",
+    "differentials": [
+      "Endometrial Cancer",
+      "Serous/Clear Cell Carcinoma"
+    ]
+  },
+  {
+    "presentation": "Heterogeneous uterine mass ± necrosis",
+    "modality": "CT",
+    "body_region": "Pelvis",
+    "differentials": [
+      "Endometrial Cancer",
+      "Serous/Clear Cell Carcinoma"
+    ]
+  },
+  {
+    "presentation": "Homogeneous hyperintense nodules on T2WI",
+    "modality": "MRI",
+    "body_region": "GU",
+    "differentials": [
+      "Prostate Cancer",
+      "Benign Prostatic Hyperplasia (BPH)"
+    ],
+    "clinical_context": "Prostate nodules require careful assessment of patient's age, PSA levels, and urinary symptoms. Differentiation between benign and malignant processes depends on multiple clinical and imaging factors."
+  },
+  {
+    "presentation": "Homogeneously enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Primary CNS Lymphoma",
+      "Glioblastoma",
+      "Metastasis",
+      "Abscess"
+    ],
+    "clinical_context": "Brain lesions with homogeneous enhancement demand comprehensive evaluation of patient's cancer history, immunocompromised status, and neurological symptoms to distinguish between various pathologies."
+  },
+  {
+    "presentation": "Hydronephrosis",
+    "modality": "CT",
+    "body_region": "Kidney",
+    "differentials": [
+      "Ureteral Obstruction",
+      "Kidney Stone"
+    ],
+    "clinical_context": "Hydronephrosis suggests urinary tract obstruction. Patient's age, gender, and associated symptoms like flank pain, hematuria, or urinary frequency help distinguish between ureteral obstruction and kidney stones."
+  },
+  {
+    "presentation": "Hydronephrosis",
+    "modality": "CT",
+    "body_region": "Kidney",
+    "differentials": [
+      "Prostate Cancer",
+      "Kidney Cancer"
+    ]
+  },
+  {
+    "presentation": "Hydronephrosis",
+    "modality": "CT",
+    "body_region": "Kidney",
+    "differentials": [
+      "Ureteral Obstruction",
+      "Kidney Stone"
+    ],
+    "clinical_context": "Hydronephrosis suggests urinary tract obstruction. Patient's age, gender, and associated symptoms like flank pain, hematuria, or urinary frequency help distinguish between ureteral obstruction and kidney stones."
+  },
+  {
+    "presentation": "Hydronephrosis",
+    "modality": "CT",
+    "body_region": "Kidney",
+    "differentials": [
+      "Ureteral Obstruction",
+      "Kidney Stones"
+    ],
+    "clinical_context": "Hydronephrosis suggests urinary tract obstruction. Patient's age, gender, and associated symptoms like flank pain, hematuria, or urinary frequency help distinguish between ureteral obstruction and kidney stones."
+  },
+  {
+    "presentation": "Hyperechoic foci with posterior shadowing (gallstones)",
+    "modality": "Ultrasound/CT/MRI",
+    "body_region": "Gallbladder",
+    "differentials": [
+      "Pigment Stones",
+      "Cholelithiasis"
+    ],
+    "clinical_context": "Gallstones are common in middle-aged and older patients, with risk factors including obesity, rapid weight loss, and certain dietary habits. Distinguishing between pigment and cholesterol stones requires additional clinical context."
+  },
+  {
+    "presentation": "Hyperechoic lines",
+    "modality": "US",
+    "body_region": "Lung/Surgical Site",
+    "differentials": [
+      "Reverberation artifact (pleural line, surgical clips)"
+    ],
+    "clinical_context": "Hyperechoic lines can represent normal anatomical structures or surgical interventions. Context of patient's medical history and specific location are crucial for accurate interpretation."
+  },
+  {
+    "presentation": "Hyperenhancement due to fibrosis",
+    "modality": "CT",
+    "body_region": "liver",
+    "differentials": [
+      "Hepatocellular carcinoma",
+      "Focal nodular hyperplasia"
+    ],
+    "clinical_context": "Liver hyperenhancement can indicate various pathological processes. Patient's underlying liver disease, cancer history, and additional imaging features help differentiate between hepatocellular carcinoma and focal nodular hyperplasia."
+  },
+  {
+    "presentation": "Hypervascular carotid space mass",
+    "modality": "CT/MRI",
+    "body_region": "neck",
+    "differentials": [
+      "Carotid Body Tumor",
+      "Glomus Vagale"
+    ],
+    "clinical_context": "Hypervascular carotid space masses require careful evaluation. Patient's age, symptoms, and specific mass characteristics help distinguish between rare tumors like carotid body tumor and glomus vagale."
+  },
+  {
+    "presentation": "Hypoechoic breast mass",
+    "modality": "US",
+    "body_region": "breast",
+    "differentials": [
+      "Fibroadenoma",
+      "Invasive ductal carcinoma"
+    ],
+    "clinical_context": "Hypoechoic breast masses require comprehensive assessment. Patient's age, risk factors, and specific ultrasound characteristics help differentiate between benign fibroadenoma and invasive ductal carcinoma."
+  },
+  {
+    "presentation": "Increased cortical uptake",
+    "modality": "PET",
+    "body_region": "brain",
+    "differentials": [
+      "Alzheimer's Disease",
+      "Cerebral Amyloid Angiopathy",
+      "Lewy Body Dementia",
+      "Frontotemporal Dementia"
+    ],
+    "clinical_context": "Increased cortical uptake in brain PET scans can indicate various neurodegenerative processes. Patient's age, cognitive symptoms, and additional clinical findings help distinguish between different dementia types."
+  },
+  {
+    "presentation": "Increased pulmonary vascularity",
+    "modality": "CXR",
+    "body_region": "chest",
+    "differentials": [
+      "ASD",
+      "VSD",
+      "PDA"
+    ],
+    "clinical_context": "Increased pulmonary vascularity on chest X-ray suggests potential cardiac shunting. Patient's age, associated symptoms, and additional cardiac imaging help identify specific congenital heart defects."
+  },
+  {
+    "presentation": "Increased thyroid uptake",
+    "modality": "NM",
+    "body_region": "thyroid",
+    "differentials": [
+      "Graves' disease",
+      "Toxic multinodular goiter",
+      "Toxic adenoma",
+      "TSH-receptor antibody mediated hyperthyroidism"
+    ],
+    "clinical_context": "Thyroid uptake changes are typically associated with autoimmune or functional thyroid disorders. Patient's age, symptoms of hyperthyroidism, and presence of eye signs are critical in distinguishing between different causes."
+  },
+  {
+    "presentation": "Increased uptake on bone scan",
+    "modality": "NM",
+    "body_region": "bone",
+    "differentials": [
+      "Osteomyelitis",
+      "Fracture",
+      "Tumor",
+      "Arthritis",
+      "Heterotopic ossification"
+    ],
+    "clinical_context": "Bone scan increased uptake can indicate active bone remodeling or pathological processes. Clinical history of recent trauma, infection, cancer history, or inflammatory conditions helps narrow the differential."
+  },
+  {
+    "presentation": "Intermediate signal on T2-weighted MRI",
+    "modality": "MRI",
+    "body_region": "Cervix",
+    "differentials": [
+      "Benign cervical lesions",
+      "Other GU malignancies"
+    ],
+    "clinical_context": "Cervical lesions require careful evaluation of patient's age, sexual history, and risk factors. Intermediate T2 signal can represent various pathologies ranging from benign to malignant conditions."
+  },
+  {
+    "presentation": "Intermediate signal on T2-weighted MRI",
+    "modality": "MRI",
+    "body_region": "Cervix",
+    "differentials": [
+      "Other GU malignancies",
+      "Pelvic inflammatory disease"
+    ],
+    "clinical_context": "Intermediate T2 signal in cervix requires comprehensive assessment of patient's inflammatory and infectious history. Distinguishing between malignancy and inflammatory processes is crucial."
+  },
+  {
+    "presentation": "Intracranial hemorrhage",
+    "modality": "CT",
+    "body_region": "brain",
+    "differentials": [
+      "Hypertensive hemorrhage",
+      "Aneurysmal subarachnoid hemorrhage",
+      "Traumatic brain injury",
+      "Amyloid angiopathy",
+      "Coagulopathy"
+    ],
+    "clinical_context": "Intracranial hemorrhage etiology depends critically on patient's age, comorbidities, and acute symptoms. Distinguishing between traumatic and spontaneous causes is essential for management."
+  },
+  {
+    "presentation": "Intraventricular mass at the Foramen of Monro",
+    "modality": "CT/MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Central Neurocytoma",
+      "Subependymoma",
+      "SEGA (Subependymal Giant Cell Astrocytoma)",
+      "Intraventricular Meningioma"
+    ],
+    "clinical_context": "Intraventricular masses at Foramen of Monro require careful age-specific evaluation. Pediatric and adult populations have different likelihood of specific tumor types."
+  },
+  {
+    "presentation": "Intraventricular mass in a child",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Choroid Plexus Papilloma",
+      "Ependymoma",
+      "Medulloblastoma",
+      "Astrocytoma"
+    ],
+    "clinical_context": "Pediatric intraventricular masses require comprehensive evaluation of neurological symptoms, age-specific tumor prevalence, and potential genetic predispositions."
+  },
+  {
+    "presentation": "Irregular mass with spiculated margins",
+    "modality": "MRI",
+    "body_region": "breast",
+    "differentials": [
+      "Diabetic Mastopathy",
+      "Invasive Ductal Carcinoma"
+    ],
+    "clinical_context": "Breast masses with irregular, spiculated margins raise significant concern for malignancy. Patient's age, risk factors, and additional imaging characteristics are crucial for diagnosis."
+  },
+  {
+    "presentation": "Irregular wall thickening >10 mm or Polypoid mass >10 mm",
+    "modality": "US",
+    "body_region": "abdomen",
+    "differentials": [
+      "Chronic cholecystitis",
+      "Porcelain gallbladder"
+    ]
+  },
+  {
+    "presentation": "Irregular wall thickening >10 mm or Polypoid mass >10 mm",
+    "modality": "US",
+    "body_region": "abdomen",
+    "differentials": [
+      "Chronic cholecystitis",
+      "Porcelain gallbladder"
+    ]
+  },
+  {
+    "presentation": "Irregular wall thickening >10 mm or Polypoid mass >10 mm on US",
+    "modality": "US",
+    "body_region": "abdomen",
+    "differentials": [
+      "Chronic cholecystitis",
+      "Porcelain gallbladder"
+    ]
+  },
+  {
+    "presentation": "Ivory Vertebra",
+    "modality": "XR",
+    "body_region": "Spine",
+    "differentials": [
+      "Paget Disease of Bone",
+      "Metastasis",
+      "Lymphoma"
+    ],
+    "clinical_context": "Ivory vertebra represents a distinctive radiographic finding that can indicate various underlying pathological processes. Patient's age and systemic conditions are critical for differential diagnosis."
+  },
+  {
+    "presentation": "Joint space narrowing",
+    "modality": "XR",
+    "body_region": "Joints",
+    "differentials": [
+      "Osteoarthritis",
+      "Rheumatoid arthritis",
+      "Septic arthritis",
+      "Crystal arthropathy (Gout, Pseudogout)",
+      "Psoriatic arthritis"
+    ],
+    "clinical_context": "Joint space narrowing indicates progressive joint destruction. Patient's age, inflammatory markers, and specific joint involvement help distinguish between different arthropathies."
+  },
+  {
+    "presentation": "Lesion at Foramen of Monro",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Colloid Cyst",
+      "Meningioma",
+      "Subependymoma",
+      "Ependymal Cyst"
+    ],
+    "clinical_context": "Colloid cysts typically occur in middle-aged adults and can cause intermittent hydrocephalus. Location at the foramen of Monro is critical, with patient symptoms of positional headaches or sudden neurological changes being key diagnostic clues."
+  },
+  {
+    "presentation": "Lesion with mass effect",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Neoplasm",
+      "Abscess"
+    ],
+    "clinical_context": "Mass effect can indicate either infectious or neoplastic process. Key distinguishing factors include patient's immune status, systemic symptoms, and rate of progression."
+  },
+  {
+    "presentation": "LETM (Longitudinally Extensive Transverse Myelitis)",
+    "modality": "MRI",
+    "body_region": "Spinal Cord",
+    "differentials": [
+      "Multiple Sclerosis",
+      "Infection",
+      "Vascular malformation",
+      "Spinal cord infarction",
+      "Sarcoidosis"
+    ],
+    "clinical_context": "LETM suggests an inflammatory or demyelinating process spanning three or more vertebral segments. Patient's age, systemic autoimmune history, and neurological symptoms are critical in narrowing the differential."
+  },
+  {
+    "presentation": "Lipid-rich adenoma on Non-Contrast CT",
+    "modality": "CT",
+    "body_region": "Adrenal Gland",
+    "differentials": [
+      "Benign Adenoma",
+      "Primary Adrenal Tumor"
+    ],
+    "clinical_context": "Adrenal lipid-rich adenomas are typically benign and <4cm. Patient's age, hormonal status, and incidental discovery are important diagnostic considerations."
+  },
+  {
+    "presentation": "Lipid-rich adenoma on Non-Contrast CT",
+    "modality": "CT",
+    "body_region": "Adrenal Gland",
+    "differentials": [
+      "Benign Adenoma",
+      "Primary Adrenal Tumor"
+    ],
+    "clinical_context": "Adrenal lipid-rich adenomas are typically benign and <4cm. Patient's age, hormonal status, and incidental discovery are important diagnostic considerations."
+  },
+  {
+    "presentation": "Lipid-rich adenoma on Non-Contrast CT",
+    "modality": "CT",
+    "body_region": "Adrenal Gland",
+    "differentials": [
+      "Benign Adenoma",
+      "Primary Adrenal Tumor"
+    ],
+    "clinical_context": "Adrenal lipid-rich adenomas are typically benign and <4cm. Patient's age, hormonal status, and incidental discovery are important diagnostic considerations."
+  },
+  {
+    "presentation": "Lipid-rich density on Non-Contrast CT",
+    "modality": "CT",
+    "body_region": "Adrenal Gland",
+    "differentials": [
+      "Benign Adrenal Adenoma",
+      "Primary Adrenal Tumor"
+    ]
+  },
+  {
+    "presentation": "Liver invasion (hypoechoic hepatic mass) or Vascular encasement on US",
+    "modality": "US",
+    "body_region": "abdomen",
+    "differentials": [
+      "Hepatocellular carcinoma",
+      "Metastatic disease"
+    ]
+  },
+  {
+    "presentation": "Liver lesion",
+    "presentation_type": "finding",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      {
+        "name": "Hemangioma",
+        "likelihood": "common"
+      },
+      {
+        "name": "Hepatocellular carcinoma",
+        "likelihood": "common"
+      },
+      {
+        "name": "Metastasis",
+        "likelihood": "common"
+      },
+      {
+        "name": "FNH",
+        "likelihood": "uncommon"
+      },
+      {
+        "name": "Hepatic adenoma",
+        "likelihood": "rare"
+      }
+    ],
+    "clinical_context": "LI-RADS applies in at-risk patients"
+  },
+  {
+    "presentation": "Liver mass with arterial enhancement",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Hepatocellular carcinoma",
+      "Focal nodular hyperplasia",
+      "Hepatic adenoma",
+      "Hypervascular metastasis",
+      "Hemangioma (flash filling)"
+    ],
+    "clinical_context": "Liver masses with arterial enhancement require careful characterization. Patient's risk factors, underlying liver disease, and tumor markers help distinguish between benign and malignant processes."
+  },
+  {
+    "presentation": "Liver mass with arterial enhancement and venous washout",
+    "modality": "MRI/CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Hepatocellular Carcinoma (HCC)",
+      "Focal Nodular Hyperplasia",
+      "Adenoma"
+    ]
+  },
+  {
+    "presentation": "Liver metastases on PET/CT",
+    "modality": "PET/CT",
+    "body_region": "Liver",
+    "differentials": [
+      "Other primary malignancies"
+    ],
+    "clinical_context": "PET/CT liver metastases suggest an underlying malignancy. Primary cancer origin, patient's cancer history, and systemic staging are crucial for comprehensive evaluation."
+  },
+  {
+    "presentation": "Liver metastases on PET/CT",
+    "modality": "PET/CT",
+    "body_region": "Liver",
+    "differentials": [
+      "Other liver lesions"
+    ],
+    "clinical_context": "PET/CT liver metastases suggest an underlying malignancy. Primary cancer origin, patient's cancer history, and systemic staging are crucial for comprehensive evaluation."
+  },
+  {
+    "presentation": "Liver metastases on PET/CT",
+    "modality": "PET/CT",
+    "body_region": "Liver",
+    "differentials": [
+      "Metastases from other malignancies"
+    ]
+  },
+  {
+    "presentation": "Lower lobe predominant fibrosis",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      "UIP/IPF",
+      "Asbestosis",
+      "Rheumatoid lung",
+      "Scleroderma",
+      "Drug toxicity"
+    ],
+    "clinical_context": "Lower lobe predominant fibrosis suggests interstitial lung disease. Patient's occupational history, autoimmune conditions, and smoking status are critical in narrowing the differential."
+  },
+  {
+    "presentation": "Lung mass",
+    "presentation_type": "finding",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      {
+        "name": "Primary lung cancer",
+        "likelihood": "common"
+      },
+      {
+        "name": "Metastasis",
+        "likelihood": "common"
+      },
+      {
+        "name": "Granuloma",
+        "likelihood": "common"
+      },
+      {
+        "name": "Hamartoma",
+        "likelihood": "uncommon"
+      },
+      {
+        "name": "Carcinoid",
+        "likelihood": "uncommon"
+      }
+    ],
+    "clinical_context": "Consider smoking history, prior malignancy"
+  },
+  {
+    "presentation": "Lytic bone lesion",
+    "modality": "XR",
+    "body_region": "bone",
+    "differentials": [
+      "Metastasis",
+      "Multiple myeloma",
+      "Lymphoma",
+      "Giant cell tumor",
+      "Aneurysmal bone cyst",
+      "Infection"
+    ],
+    "clinical_context": "Lytic bone lesions require careful age and systemic assessment. In older patients with known cancer history, metastasis is most likely. In younger patients, consider primary bone tumors or benign lesions."
+  },
+  {
+    "presentation": "Lytic lesion with chondroid matrix",
+    "modality": "XR",
+    "body_region": "Bone",
+    "differentials": [
+      "Enchondroma",
+      "Chondrosarcoma",
+      "Bone infarct",
+      "Giant cell tumor"
+    ],
+    "clinical_context": "Chondroid matrix lesions are more common in middle-aged adults. Enchondromas are typically benign and incidental, while chondrosarcomas show more aggressive features and potential malignant transformation."
+  },
+  {
+    "presentation": "Lytic, expansile bone lesion",
+    "modality": "XR",
+    "body_region": "bone",
+    "differentials": [
+      "Brown Tumor",
+      "Giant Cell Tumor"
+    ],
+    "clinical_context": "Lytic expansile bone lesions in young adults suggest giant cell tumor, while in patients with hyperparathyroidism, brown tumors are more likely. Clinical endocrine status is crucial for differentiation."
+  },
+  {
+    "presentation": "Marked hyperintensity on T2 MRI",
+    "modality": "MRI",
+    "body_region": "Liver",
+    "differentials": [
+      "Focal Nodular Hyperplasia",
+      "Hepatocellular Carcinoma"
+    ]
+  },
+  {
+    "presentation": "Marrow hypointensity on T1",
+    "modality": "MRI",
+    "body_region": "foot",
+    "differentials": [
+      "Osteomyelitis",
+      "Bone infarct",
+      "Tumor"
+    ],
+    "clinical_context": "Marrow hypointensity on T1 requires correlation with clinical symptoms. Recent trauma, fever, or immunocompromised status suggest osteomyelitis, while chronic pain might indicate tumor or infarct."
+  },
+  {
+    "presentation": "Mass with hypervascularity",
+    "modality": "US Doppler",
+    "body_region": "Breast",
+    "differentials": [
+      "Recurrence",
+      "Inflammation/Infection"
+    ],
+    "clinical_context": "Hypervascular breast masses require careful assessment of patient history. Recent surgery or inflammatory conditions can mimic recurrence, necessitating comprehensive clinical evaluation."
+  },
+  {
+    "presentation": "Mass with posterior acoustic shadowing",
+    "modality": "US",
+    "body_region": "breast",
+    "differentials": [
+      "Diabetic Mastopathy",
+      "Invasive Ductal Carcinoma",
+      "Fibroadenoma"
+    ],
+    "clinical_context": "Diabetic mastopathy predominantly affects patients with long-standing diabetes. Distinguishing from malignancy requires careful correlation with clinical and imaging features."
+  },
+  {
+    "presentation": "Mass with posterior acoustic shadowing",
+    "modality": "US",
+    "body_region": "breast",
+    "differentials": [
+      "Invasive Ductal Carcinoma",
+      "Fibroadenoma (less common)",
+      "Surgical Scar",
+      "Radial Scar"
+    ],
+    "clinical_context": "Posterior acoustic shadowing in breast masses suggests solid, dense lesions. Patient age, prior biopsy history, and mammographic findings help distinguish between benign and malignant processes."
+  },
+  {
+    "presentation": "Mass with Washout Kinetics",
+    "modality": "MRI",
+    "body_region": "Breast",
+    "differentials": [
+      "Invasive Ductal Carcinoma",
+      "DCIS (high grade)",
+      "Some benign lesions (rare)"
+    ],
+    "clinical_context": "Washout kinetics in breast MRI suggest potential malignancy, though some benign lesions can demonstrate similar enhancement patterns. Clinical context and additional imaging features are crucial."
+  },
+  {
+    "presentation": "Matched V/Q defects",
+    "modality": "NM",
+    "body_region": "lung",
+    "differentials": [
+      "Pneumonia",
+      "Atelectasis"
+    ],
+    "clinical_context": "Matched V/Q defects suggest potential pulmonary pathology. Clinical symptoms like fever, cough, and patient comorbidities help differentiate between infectious and non-infectious causes."
+  },
+  {
+    "presentation": "Matched ventilation and perfusion defects",
+    "modality": "NM",
+    "body_region": "lung",
+    "differentials": [
+      "COPD",
+      "Pneumonia",
+      "Lung Cancer"
+    ],
+    "clinical_context": "Matched ventilation and perfusion defects can indicate chronic lung diseases. Patient smoking history, pulmonary function tests, and clinical symptoms are critical for accurate diagnosis."
+  },
+  {
+    "presentation": "Medial Temporal Atrophy",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Alzheimer's Disease",
+      "Lewy Body Dementia",
+      "Normal Aging",
+      "Temporal Lobe Epilepsy",
+      "Hippocampal Sclerosis"
+    ],
+    "clinical_context": "Medial temporal atrophy is most commonly associated with neurodegenerative disorders. Patient age, cognitive decline pattern, and associated neurological symptoms are crucial in distinguishing between different conditions."
+  },
+  {
+    "presentation": "Medial Temporal Lobe Hyperintensity",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Limbic Encephalitis",
+      "Herpes Simplex Encephalitis",
+      "Glioma",
+      "Mesial Temporal Sclerosis"
+    ],
+    "clinical_context": "Medial temporal lobe hyperintensity suggests acute or subacute inflammatory/infectious process. Clinical presentation of fever, altered mental status, and recent viral illness are critical in narrowing the differential."
+  },
+  {
+    "presentation": "Mediastinal mass (anterior)",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      "Thymoma",
+      "Teratoma",
+      "Terrible lymphoma",
+      "Thyroid goiter"
+    ],
+    "clinical_context": "Anterior mediastinal masses are typically neoplastic or developmental. Patient age, gender, and associated symptoms like chest pain or systemic symptoms help differentiate between potential diagnoses."
+  },
+  {
+    "presentation": "Mediastinal mass (middle)",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      "Lymphadenopathy",
+      "Bronchogenic cyst",
+      "Pericardial cyst",
+      "Vascular anomaly"
+    ],
+    "clinical_context": "Middle mediastinal masses often relate to lymph node pathology or cystic lesions. Clinical history of infection, malignancy, or developmental conditions is crucial in interpretation."
+  },
+  {
+    "presentation": "Mediastinal mass (posterior)",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      "Neurogenic tumor",
+      "Meningocele",
+      "Extramedullary hematopoiesis",
+      "Descending aortic aneurysm"
+    ],
+    "clinical_context": "Posterior mediastinal masses typically involve neurogenic tumors or developmental abnormalities. Patient age, neurological symptoms, and associated spinal findings are key diagnostic considerations."
+  },
+  {
+    "presentation": "Mesenteric Mass with Fat Ring Sign",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Sclerosing Mesenteritis",
+      "Mesenteric Panniculitis",
+      "Lymphoma"
+    ],
+    "clinical_context": "Mesenteric masses with fat ring sign suggest inflammatory or neoplastic processes. Patient age, systemic symptoms, and inflammatory markers are critical in differentiating between conditions."
+  },
+  {
+    "presentation": "Microcalcifications",
+    "modality": "Mammography",
+    "body_region": "Breast",
+    "differentials": [
+      "DCIS",
+      "Invasive Ductal Carcinoma",
+      "Fibrocystic Changes",
+      "Vascular Calcifications",
+      "Skin Calcifications"
+    ],
+    "clinical_context": "Breast microcalcifications require careful evaluation for potential malignancy. Patient age, risk factors, and calcification morphology are crucial in determining clinical significance."
+  },
+  {
+    "presentation": "Mosaic Attenuation",
+    "modality": "CT",
+    "body_region": "lung",
+    "differentials": [
+      "Bronchiolitis Obliterans",
+      "Chronic Thromboembolic Disease",
+      "Swyer-James Syndrome",
+      "Hypersensitivity Pneumonitis"
+    ],
+    "clinical_context": "Mosaic attenuation in lungs suggests underlying obstructive or vascular pathology. Patient history of smoking, chronic lung disease, and pulmonary symptoms are key diagnostic considerations."
+  },
+  {
+    "presentation": "Multiple sclerotic bone lesions",
+    "modality": "CT",
+    "body_region": "bone",
+    "differentials": [
+      "Osteoblastic metastases (prostate, breast)",
+      "Mastocytosis",
+      "Tuberous sclerosis",
+      "Osteopoikilosis",
+      "Paget disease (polyostotic)"
+    ],
+    "clinical_context": "Multiple sclerotic bone lesions require comprehensive evaluation for potential metastatic or systemic conditions. Patient age, primary cancer history, and systemic symptoms are critical."
+  },
+  {
+    "presentation": "Multiple small T2/FLAIR hyperintensities in the brain",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "CNS Lyme Disease",
+      "Multiple Sclerosis (MS)",
+      "Neurosarcoidosis"
+    ],
+    "clinical_context": "Multiple brain hyperintensities suggest demyelinating or inflammatory conditions. Patient age, neurological symptoms, and systemic manifestations are crucial in differentiating diagnoses."
+  },
+  {
+    "presentation": "Multiple subcentimeter hypodense lesions",
+    "modality": "CT",
+    "body_region": "Liver",
+    "differentials": [
+      "Fungal Hepatic Abscess",
+      "Hepatocellular Carcinoma",
+      "Metastatic Liver Disease"
+    ]
+  },
+  {
+    "presentation": "Multiple subcentimeter hypodense lesions",
+    "modality": "CT",
+    "body_region": "Liver",
+    "differentials": [
+      "Fungal Hepatic Abscess",
+      "Pyogenic Cholangitis",
+      "Liver Cancer"
+    ]
+  },
+  {
+    "presentation": "Multiple Subcentimeter Hypodense Lesions",
+    "modality": "CT",
+    "body_region": "Liver",
+    "differentials": [
+      "Fungal Hepatic Abscess",
+      "Pyogenic Cholangitis"
+    ]
+  },
+  {
+    "presentation": "Multiple, diffuse hot uptake",
+    "modality": "NM",
+    "body_region": "whole body",
+    "differentials": [
+      "Metastatic disease"
+    ],
+    "clinical_context": "Multiple hot uptake suggests systemic process. Consider metastatic malignancy, but also evaluate for inflammatory conditions like sarcoidosis or multiple myeloma. Patient's cancer history and primary tumor location are crucial."
+  },
+  {
+    "presentation": "Multiseptated cystic neck mass",
+    "modality": "US/MRI",
+    "body_region": "Neck",
+    "differentials": [
+      "Cystic Hygroma",
+      "Branchial cleft cyst",
+      "Thyroglossal duct cyst",
+      "Lymphangioma",
+      "Venous malformation"
+    ],
+    "clinical_context": "Pediatric neck masses require careful evaluation. Age is critical - congenital lesions more common in children, while neoplastic processes more likely in adults. Location and fluid characteristics help differentiate."
+  },
+  {
+    "presentation": "Non-contrast HU <10 or Absolute washout >60%",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "Adrenal incidentalomas require precise characterization. Non-contrast density and washout help distinguish benign from potentially malignant lesions. Clinical context of hypertension or hormonal symptoms is important."
+  },
+  {
+    "presentation": "Non-Enhancing Areas (0-30 HU)",
+    "modality": "CT",
+    "body_region": "pancreas",
+    "differentials": [
+      "Pancreatic Cancer",
+      "Chronic Pancreatitis",
+      "Gallstones"
+    ],
+    "clinical_context": "Pancreatic lesions require comprehensive clinical correlation. Non-enhancing areas can represent necrosis, fibrosis, or tumor. Patient's symptoms, CA 19-9 levels, and risk factors are crucial."
+  },
+  {
+    "presentation": "Non-Enhancing Areas (0-30 HU)",
+    "modality": "CT",
+    "body_region": "pancreas",
+    "differentials": [
+      "Pancreatic Cancer",
+      "Chronic Pancreatitis"
+    ],
+    "clinical_context": "Pancreatic non-enhancing areas suggest potential malignancy or chronic inflammation. Patient's risk factors, smoking history, and alcohol consumption help differentiate between pancreatic cancer and chronic pancreatitis."
+  },
+  {
+    "presentation": "Non-Enhancing Pancreas",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Pancreatic Cancer",
+      "Chronic Pancreatitis",
+      "Gallstones"
+    ],
+    "clinical_context": "Non-enhancing pancreas requires comprehensive evaluation. Chronic pancreatitis and pancreatic cancer can have similar imaging appearances. Clinical history and tumor markers are essential."
+  },
+  {
+    "presentation": "Non-marginal syndesmophytes",
+    "modality": "XR/CT/MRI",
+    "body_region": "Spine",
+    "differentials": [
+      "Psoriatic arthritis",
+      "Reactive arthritis"
+    ],
+    "clinical_context": "Non-marginal syndesmophytes suggest inflammatory spondyloarthropathies. Psoriatic and reactive arthritis share similar radiographic features. Extra-articular manifestations help differentiate."
+  },
+  {
+    "presentation": "Non-mass enhancement",
+    "modality": "MRI",
+    "body_region": "breast",
+    "differentials": [
+      "LCIS",
+      "DCIS",
+      "Invasive Carcinoma",
+      "Fibrocystic changes",
+      "Atypical Hyperplasia"
+    ],
+    "clinical_context": "Non-mass enhancement in breast imaging requires careful characterization. Morphological features and kinetic curves help distinguish between benign and malignant processes. Patient's risk factors are crucial."
+  },
+  {
+    "presentation": "Non-Mass Enhancement",
+    "modality": "MRI",
+    "body_region": "breast",
+    "differentials": [
+      "DCIS",
+      "Fibrocystic changes",
+      "Invasive Lobular Carcinoma"
+    ],
+    "clinical_context": "Breast non-mass enhancement requires comprehensive evaluation. Invasive lobular carcinoma often presents with subtle, non-mass enhancement. Clinical risk factors and molecular markers help differentiate."
+  },
+  {
+    "presentation": "Non-mass Enhancement (NME)",
+    "modality": "MRI",
+    "body_region": "breast",
+    "differentials": [
+      "DCIS",
+      "ILC",
+      "Fibrocystic changes",
+      "Adenosis",
+      "PASH",
+      "Mastitis",
+      "Mucinous Lesions",
+      "Background Parenchymal Enhancement (BPE)"
+    ],
+    "clinical_context": "Non-mass enhancement in breast MRI requires nuanced interpretation. Distinguishing between benign and malignant processes depends on enhancement characteristics and clinical context."
+  },
+  {
+    "presentation": "Non-visualized Hepatic Veins",
+    "modality": "CT",
+    "body_region": "Liver",
+    "differentials": [
+      "Thrombotic Thrombocytopenic Purpura (TTP)",
+      "Hemolytic Uremic Syndrome (HUS)"
+    ],
+    "clinical_context": "TTP and HUS typically occur in younger patients with acute microangiopathic hemolytic anemia. Consider recent infection, autoimmune disease, or medication history that could trigger thrombotic microangiopathy."
+  },
+  {
+    "presentation": "Non-visualized hepatic veins (HVs)",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Portal Vein Thrombosis",
+      "Liver Cancer"
+    ],
+    "clinical_context": "Portal vein thrombosis often associated with cirrhosis, hypercoagulable states, or malignancy. Liver cancer typically presents with risk factors like chronic hepatitis, alcohol use, or known primary malignancy."
+  },
+  {
+    "presentation": "Non-visualized Hepatic Veins (HVs)",
+    "modality": "CT",
+    "body_region": "Abdomen/Liver",
+    "differentials": [
+      "Portal Vein Thrombosis",
+      "Liver Cancer"
+    ],
+    "clinical_context": "Portal vein thrombosis often associated with cirrhosis, hypercoagulable states, or malignancy. Liver cancer typically presents with risk factors like chronic hepatitis, alcohol use, or known primary malignancy."
+  },
+  {
+    "presentation": "Parenchymal calcifications",
+    "modality": "CT",
+    "body_region": "Pancreas",
+    "differentials": [
+      "Pancreatic Cancer",
+      "Chronic Pancreatitis",
+      "Acute Pancreatitis"
+    ],
+    "clinical_context": "Pancreatic calcifications suggest long-standing pancreatic damage. Chronic pancreatitis is most common, typically associated with alcohol use, while pancreatic cancer may show additional suspicious features."
+  },
+  {
+    "presentation": "Perforation risk ↑ 5%/hour after 36 hrs",
+    "modality": "Clinical",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Gastroenteritis",
+      "Intussusception"
+    ]
+  },
+  {
+    "presentation": "Perforation risk ↑ 5%/hour after 36 hrs",
+    "modality": "Clinical",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Gastroenteritis",
+      "Intussusception"
+    ]
+  },
+  {
+    "presentation": "Perforation risk ↑ 5%/hour after 36 hrs",
+    "modality": "Clinical",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Gastroenteritis",
+      "Intussusception"
+    ],
+    "clinical_context": "Perforation risk increases with time, suggesting potential bowel obstruction or inflammatory process. Intussusception is more common in children, while gastroenteritis can affect all ages."
+  },
+  {
+    "presentation": "Peri-aortic soft tissue mass",
+    "modality": "CT",
+    "body_region": "Retroperitoneum",
+    "differentials": [
+      "Lymphoma",
+      "Metastasis",
+      "Infection",
+      "Aortic aneurysm with perianeurysmal fibrosis"
+    ],
+    "clinical_context": "Peri-aortic masses require careful evaluation of patient's age, cancer history, and inflammatory markers. Lymphoma tends to be more homogeneous, while infections may show irregular margins."
+  },
+  {
+    "presentation": "Periappendiceal fat stranding",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Diverticulitis",
+      "Crohn's disease"
+    ],
+    "clinical_context": "Periappendiceal fat stranding suggests acute inflammation. Diverticulitis typically occurs in older patients, while Crohn's disease often presents in younger individuals with chronic inflammatory symptoms."
+  },
+  {
+    "presentation": "Periappendiceal fat stranding",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Diverticulitis",
+      "Inflammatory bowel disease (IBD)"
+    ],
+    "clinical_context": "Periappendiceal fat stranding suggests acute inflammation. Diverticulitis typically occurs in older patients, while inflammatory bowel disease can affect younger individuals with chronic symptoms."
+  },
+  {
+    "presentation": "Pericholecystic fluid",
+    "modality": "Ultrasound (US)",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Pancreatitis",
+      "Hepatic abscess"
+    ],
+    "clinical_context": "Pericholecystic fluid indicates potential inflammatory process around the gallbladder. Pancreatitis typically presents with severe abdominal pain, while hepatic abscess may show systemic signs of infection."
+  },
+  {
+    "presentation": "Periosteal reaction",
+    "modality": "XR",
+    "body_region": "Bone",
+    "differentials": [
+      "Osteosarcoma",
+      "Ewing Sarcoma",
+      "Osteomyelitis",
+      "Trauma"
+    ],
+    "clinical_context": "Periosteal reaction suggests active bone process. Osteosarcoma and Ewing sarcoma typically affect younger patients, while osteomyelitis can occur at any age with clear infectious signs."
+  },
+  {
+    "presentation": "Periosteal reaction (aggressive)",
+    "modality": "XR",
+    "body_region": "bone",
+    "differentials": [
+      "Osteosarcoma",
+      "Ewing sarcoma",
+      "Osteomyelitis",
+      "Langerhans cell histiocytosis",
+      "Metastasis"
+    ],
+    "clinical_context": "Aggressive periosteal reaction suggests rapid bone destruction. Most common in children and young adults, with bone pain and potential pathological fracture. Malignant processes are more likely in younger patients."
+  },
+  {
+    "presentation": "Peripheral nodular enhancement on CT",
+    "modality": "CT",
+    "body_region": "Liver",
+    "differentials": [
+      "Focal Nodular Hyperplasia",
+      "Hepatocellular Carcinoma"
+    ]
+  },
+  {
+    "presentation": "Periventricular white matter lesions",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Multiple sclerosis",
+      "Small vessel ischemic disease",
+      "Migraine",
+      "Vasculitis",
+      "ADEM",
+      "Lyme disease"
+    ],
+    "clinical_context": "Periventricular white matter lesions are common in demyelinating and vascular conditions. Patient age, neurological symptoms, and clinical history are crucial in differentiating between inflammatory and ischemic processes."
+  },
+  {
+    "presentation": "Permeative bone lesion",
+    "modality": "CT",
+    "body_region": "bone",
+    "differentials": [
+      "Lymphoma",
+      "Metastases",
+      "Osteomyelitis",
+      "Ewing Sarcoma"
+    ],
+    "clinical_context": "Permeative bone lesions suggest aggressive bone destruction. Consider malignancy in older patients, especially with known cancer history. Lymphoma and metastases are more common in adults over 50."
+  },
+  {
+    "presentation": "Permeative lytic bone lesion",
+    "modality": "XR",
+    "body_region": "Bone",
+    "differentials": [
+      "Ewing Sarcoma",
+      "Lymphoma",
+      "Osteomyelitis",
+      "Langerhans Cell Histiocytosis",
+      "Metastasis"
+    ],
+    "clinical_context": "Permeative lytic bone lesions indicate aggressive bone destruction. More common in children and young adults for primary bone tumors, while metastases are more likely in older patients with known malignancy."
+  },
+  {
+    "presentation": "Photopenic lesions in liver",
+    "modality": "PET/CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Hepatocellular Carcinoma",
+      "Focal Nodular Hyperplasia",
+      "Metastatic Disease"
+    ]
+  },
+  {
+    "presentation": "Pneumobilia (XR)",
+    "modality": "XR",
+    "body_region": "Liver",
+    "differentials": [
+      "Recent biliary intervention",
+      "Biliary-enteric fistula",
+      "Gallstone ileus"
+    ],
+    "clinical_context": "Pneumobilia suggests recent biliary intervention or pathological communication between biliary and gastrointestinal systems. Recent procedures or chronic conditions increase likelihood of specific diagnoses."
+  },
+  {
+    "presentation": "Pneumoperitoneum",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Perforation",
+      "Blunt Trauma",
+      "Penetrating Trauma"
+    ],
+    "clinical_context": "Pneumoperitoneum indicates free air in peritoneal cavity, suggesting serious intra-abdominal pathology. Trauma, perforation, and surgical complications are primary considerations requiring immediate intervention."
+  },
+  {
+    "presentation": "Pneumoperitoneum",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Bowel Perforation",
+      "Inflammatory Bowel Disease"
+    ],
+    "clinical_context": "Pneumoperitoneum in context of inflammatory bowel disease suggests potential bowel perforation. Patient's inflammatory condition, medication history, and clinical symptoms are crucial in determining underlying cause."
+  },
+  {
+    "presentation": "Portal Venous Gas (XR)",
+    "modality": "XR",
+    "body_region": "Liver",
+    "differentials": [
+      "Necrotizing Enterocolitis",
+      "Other causes of bowel ischemia",
+      "Umbilical catheter placement"
+    ],
+    "clinical_context": "Portal venous gas indicates potential bowel ischemia or severe systemic infection. Most common in neonates with necrotizing enterocolitis or critically ill patients with compromised circulation."
+  },
+  {
+    "presentation": "Posterior fossa cyst",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Dandy-Walker Malformation",
+      "Mega Cisterna Magna",
+      "Blake's Pouch Cyst",
+      "Arachnoid Cyst"
+    ],
+    "clinical_context": "Posterior fossa cysts are developmental variants with varying clinical significance. Congenital malformations are more likely in pediatric patients, with potential neurological implications."
+  },
+  {
+    "presentation": "Posterior Fossa Mass",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Pilocytic Astrocytoma",
+      "Medulloblastoma",
+      "Ependymoma",
+      "Hemangioblastoma"
+    ],
+    "clinical_context": "Posterior fossa masses are predominantly pediatric tumors. Patient age, specific location, and imaging characteristics help differentiate between various neoplasms with different prognoses."
+  },
+  {
+    "presentation": "Posterior fossa mass in child",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Pilocytic astrocytoma",
+      "Medulloblastoma",
+      "Ependymoma",
+      "Brainstem glioma",
+      "Atypical teratoid/rhabdoid tumor"
+    ],
+    "clinical_context": "Posterior fossa masses in children are predominantly pediatric tumors. Age is critical - under 5 years suggests pilocytic astrocytoma, while 5-10 years increases likelihood of medulloblastoma. Patient symptoms like headache, vomiting, and neurological deficits help differentiate."
+  },
+  {
+    "presentation": "Posterior mediastinal mass in child",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      "Neuroblastoma",
+      "Ganglioneuroma",
+      "Neurofibroma",
+      "Lateral meningocele"
+    ],
+    "clinical_context": "Posterior mediastinal masses in children are typically neurogenic tumors. Neuroblastoma is most common in young children under 5, while ganglioneuroma tends to occur in older children and adolescents. Family history and systemic symptoms are important diagnostic clues."
+  },
+  {
+    "presentation": "Posterolateral extradural mass adjacent to the facet joint",
+    "modality": "CT/MRI",
+    "body_region": "Spine",
+    "differentials": [
+      "Synovial Cyst",
+      "Disc Fragment",
+      "Ganglion Cyst",
+      "Tumor"
+    ],
+    "clinical_context": "Posterolateral extradural spinal masses require careful evaluation of patient's age, pain characteristics, and neurological symptoms. Synovial and ganglion cysts are more common in older patients with degenerative changes, while tumors require more comprehensive workup."
+  },
+  {
+    "presentation": "Pseudoaneurysms",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Renal cell carcinoma",
+      "Onocytic renal tumor"
+    ],
+    "clinical_context": "Pseudoaneurysms in the abdomen often indicate underlying vascular pathology or malignancy. Patient history of trauma, prior surgery, or known renal tumors helps narrow differential diagnosis. Careful assessment of size, location, and enhancement patterns is crucial."
+  },
+  {
+    "presentation": "Pseudoaneurysms",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Renal cell carcinoma",
+      "Onocytic renal tumor"
+    ]
+  },
+  {
+    "presentation": "Pseudoaneurysms",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Renal cell carcinoma",
+      "Onocytic renal tumor"
+    ],
+    "clinical_context": "Pseudoaneurysms in the abdomen often indicate underlying vascular pathology or malignancy. Patient history of trauma, prior surgery, or known renal tumors helps narrow differential diagnosis. Careful assessment of size, location, and enhancement patterns is crucial."
+  },
+  {
+    "presentation": "Pseudoaneurysms on CT",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Renal cell carcinoma",
+      "Onocytic renal tumor"
+    ],
+    "clinical_context": "Pseudoaneurysms in the abdomen often indicate underlying vascular pathology or malignancy. Patient history of trauma, prior surgery, or known renal tumors helps narrow differential diagnosis. Careful assessment of size, location, and enhancement patterns is crucial."
+  },
+  {
+    "presentation": "Pseudoaneurysms or 'sunburst pattern'",
+    "modality": "CT/Angiography",
+    "body_region": "Kidneys",
+    "differentials": [
+      "Renal cell carcinoma",
+      "Onocytic renal tumor"
+    ]
+  },
+  {
+    "presentation": "Punctate DWI restriction in hippocampus",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Transient Global Amnesia",
+      "Transient Epileptic Amnesia"
+    ],
+    "clinical_context": "Punctate DWI restriction in hippocampus suggests transient neurological events. Patient's age, duration of symptoms, and concurrent medical conditions help differentiate between transient global amnesia and transient epileptic amnesia. Detailed clinical history is paramount."
+  },
+  {
+    "presentation": "Radiopaque density in the abdomen/pelvis",
+    "modality": "X-ray",
+    "body_region": "Abdomen/Pelvis",
+    "differentials": [
+      "Nephrolithiasis",
+      "Phleboliths",
+      "Calcified lymph nodes",
+      "Gallstones",
+      "Foreign body"
+    ],
+    "clinical_context": "Radiopaque densities in abdomen/pelvis require comprehensive evaluation considering patient's age, symptoms, and risk factors. Differentiating between calcifications, stones, and potential pathological processes is crucial for accurate diagnosis."
+  },
+  {
+    "presentation": "Renal cystic mass (Bosniak classification)",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Simple cyst (I)",
+      "Minimally complex (II)",
+      "Complex (IIF)",
+      "Cystic RCC (III-IV)",
+      "Multilocular cystic nephroma"
+    ],
+    "clinical_context": "Renal cystic masses require systematic Bosniak classification assessment. Patient's age, risk factors, and imaging characteristics help determine malignancy potential. Complex cysts require close monitoring and potential intervention."
+  },
+  {
+    "presentation": "Renal mass",
+    "presentation_type": "finding",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      {
+        "name": "Simple cyst",
+        "likelihood": "common"
+      },
+      {
+        "name": "Renal cell carcinoma",
+        "likelihood": "common"
+      },
+      {
+        "name": "Angiomyolipoma",
+        "likelihood": "uncommon"
+      },
+      {
+        "name": "Oncocytoma",
+        "likelihood": "uncommon"
+      },
+      {
+        "name": "Complex cyst",
+        "likelihood": "common"
+      }
+    ],
+    "clinical_context": "Bosniak classification for cystic lesions"
+  },
+  {
+    "presentation": "Renal mass with central scar",
+    "modality": "CT",
+    "body_region": "Kidney",
+    "differentials": [
+      "Renal Oncocytoma",
+      "Renal Cell Carcinoma"
+    ],
+    "clinical_context": "Renal masses with central scar require careful evaluation to distinguish between benign and malignant lesions. Patient's age, size of lesion, and enhancement characteristics are critical in differentiating renal oncocytoma from renal cell carcinoma."
+  },
+  {
+    "presentation": "Renal mass with macroscopic fat",
+    "modality": "CT",
+    "body_region": "GU",
+    "differentials": [
+      "Classic Angiomyolipoma",
+      "Liposarcoma (rare)",
+      "Teratoma (rare)"
+    ],
+    "clinical_context": "In young females with tuberous sclerosis, classic angiomyolipoma is most likely. Patient history of renal angiomyolipomas, seizures, or skin lesions supports this diagnosis. Macroscopic fat is pathognomonic."
+  },
+  {
+    "presentation": "Renal mass with macroscopic fat",
+    "modality": "CT",
+    "body_region": "GU",
+    "differentials": [
+      "Angiomyolipoma",
+      "Liposarcoma",
+      "Myelolipoma",
+      "Xanthogranulomatous pyelonephritis"
+    ],
+    "clinical_context": "Myelolipomas are typically found in older patients with adrenal disorders or metabolic syndrome. Clinical context of Cushing's syndrome, hypertension, or adrenal incidentaloma increases likelihood of myelolipoma."
+  },
+  {
+    "presentation": "Restricted Diffusion",
+    "modality": "MRI",
+    "body_region": "Prostate",
+    "differentials": [
+      "Prostatic Abscess",
+      "Granulomatous Prostatitis",
+      "Prostate Cancer"
+    ],
+    "clinical_context": "Prostatic abscess typically presents with acute urinary symptoms, fever, and significant pain. Patient history of recent UTI, instrumentation, or immunocompromise increases abscess probability."
+  },
+  {
+    "presentation": "Restricted Diffusion in Prostate",
+    "modality": "MRI",
+    "body_region": "Prostate",
+    "differentials": [
+      "BPH",
+      "Prostate Cancer",
+      "Prostatitis"
+    ],
+    "clinical_context": "Prostate cancer typically affects older men with elevated PSA. Clinical risk factors include family history, African American ethnicity, and age over 50. Gleason score and PSA levels help differentiate."
+  },
+  {
+    "presentation": "Retrocardiac mass with air-fluid level",
+    "modality": "CT/Chest Radiography",
+    "body_region": "Mediastinum",
+    "differentials": [
+      "Hiatal Hernia",
+      "Lung Abscess",
+      "Mediastinal Mass"
+    ],
+    "clinical_context": "Retrocardiac air-fluid level suggests potential infectious or inflammatory process. Patient history of chronic lung disease, immunosuppression, or recent pneumonia increases diagnostic specificity."
+  },
+  {
+    "presentation": "Reverse V/Q mismatch",
+    "modality": "NM",
+    "body_region": "lung",
+    "differentials": [
+      "COPD",
+      "Asthma"
+    ],
+    "clinical_context": "Reverse V/Q mismatch is characteristic of chronic obstructive lung diseases. Patient history of smoking, chronic bronchitis, or emphysema strongly supports COPD diagnosis."
+  },
+  {
+    "presentation": "Rim-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "breast",
+    "differentials": [
+      "Breast Cancer",
+      "Abscess",
+      "Fat necrosis",
+      "Hematoma",
+      "Granulomatous mastitis"
+    ],
+    "clinical_context": "Breast rim-enhancing lesions require careful clinical correlation. Recent trauma, infection risk, or known cancer history help distinguish between benign and malignant processes."
+  },
+  {
+    "presentation": "Rim-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "foot",
+    "differentials": [
+      "Abscess",
+      "Necrotic tumor",
+      "Demyelinating lesion"
+    ],
+    "clinical_context": "Rim-enhancing foot lesions may represent infectious, neoplastic, or inflammatory processes. Recent trauma, diabetes, or immunocompromise significantly influence diagnostic probability."
+  },
+  {
+    "presentation": "Rim-enhancing lesion",
+    "modality": "CT",
+    "body_region": "Liver",
+    "differentials": [
+      "Liver Metastases",
+      "Hepatocellular Carcinoma (HCC)",
+      "Liver Abscess"
+    ],
+    "clinical_context": "Liver rim-enhancing lesions in patients with chronic liver disease suggest potential hepatocellular carcinoma. Cirrhosis, hepatitis history, and tumor markers are critical diagnostic considerations."
+  },
+  {
+    "presentation": "Rim-enhancing lesion",
+    "modality": "CT",
+    "body_region": "Neck",
+    "differentials": [
+      "Retropharyngeal Abscess",
+      "Tuberculosis",
+      "Neoplasm"
+    ],
+    "clinical_context": "In neck rim-enhancing lesions, patient's age, systemic symptoms, and immunocompromised status are crucial. Recent upper respiratory infection or dental procedure suggests abscess, while chronic symptoms and risk factors like TB exposure point towards tuberculosis."
+  },
+  {
+    "presentation": "Rim-enhancing lesion",
+    "modality": "CT",
+    "body_region": "Kidney",
+    "differentials": [
+      "Renal Abscess",
+      "Renal Cell Carcinoma (necrotic)",
+      "Infected Cyst",
+      "Fungal infection"
+    ],
+    "clinical_context": "Renal rim-enhancing lesions require assessment of infection risk, prior urologic procedures, and systemic inflammatory conditions. Diabetic patients and immunocompromised individuals are at higher risk."
+  },
+  {
+    "presentation": "Rim-enhancing mass",
+    "modality": "MRI",
+    "body_region": "breast",
+    "differentials": [
+      "Breast Cancer",
+      "Abscess",
+      "Fat Necrosis"
+    ],
+    "clinical_context": "Breast rim-enhancing masses require careful clinical correlation with patient's age, risk factors, and recent breast trauma or procedures. Inflammatory changes, recent biopsy, or history of breast surgery can suggest abscess or fat necrosis."
+  },
+  {
+    "presentation": "Rim APHE, Peripheral washout, Delayed central enhancement",
+    "modality": "CT",
+    "body_region": "Liver",
+    "differentials": [
+      "Cholangiocarcinoma",
+      "Hepatocellular carcinoma"
+    ],
+    "clinical_context": "Liver rim-enhancing lesions with specific enhancement patterns are highly suspicious for hepatobiliary malignancies. Patient's underlying liver disease, viral hepatitis status, and cirrhosis risk are critical in distinguishing between hepatocellular carcinoma and cholangiocarcinoma."
+  },
+  {
+    "presentation": "Rim Arterial Enhancement",
+    "modality": "CT/MRI",
+    "body_region": "Liver",
+    "differentials": [
+      "Cholangiocarcinoma",
+      "Metastasis"
+    ],
+    "clinical_context": "Liver rim arterial enhancement requires comprehensive assessment of patient's cancer history, liver disease, and metastatic potential. Primary tumor origin and systemic inflammatory markers help differentiate between metastatic lesions and primary cholangiocarcinoma."
+  },
+  {
+    "presentation": "Ring-and-arc",
+    "modality": "MRI",
+    "body_region": "bone",
+    "differentials": [
+      "Chondrosarcoma"
+    ],
+    "clinical_context": "Ring-and-arc bone lesions are complex, requiring detailed patient history of bone pain, age, and potential malignancy risk. Chondrosarcoma typically affects middle-aged to older patients with gradual symptom progression."
+  },
+  {
+    "presentation": "Ring-enhancing brain lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma multiforme",
+      "Brain abscess",
+      "Metastasis",
+      "Tumefactive MS",
+      "Lymphoma",
+      "Toxoplasmosis (AIDS)"
+    ],
+    "clinical_context": "Ring-enhancing brain lesions demand comprehensive neurological assessment, including immunocompromised status, systemic symptoms, and cancer history. Patient's age, neurological deficits, and immune status significantly narrow differential diagnosis."
+  },
+  {
+    "presentation": "ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "brain abscess",
+      "glioblastoma",
+      "demyelinating disease",
+      "tumefactive MS"
+    ],
+    "clinical_context": "Brain ring-enhancing lesions require detailed neurological evaluation, considering patient's immune status, systemic symptoms, and prior medical history. Differentiating between inflammatory, infectious, and neoplastic processes is crucial."
+  },
+  {
+    "presentation": "ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Multiple Sclerosis",
+      "Abscess",
+      "Tumor (Glioblastoma)",
+      "Demyelinating disease",
+      "Infarction (subacute)",
+      "Radiation necrosis"
+    ],
+    "clinical_context": "Evaluate patient's neurological symptoms, history of demyelinating disease, and inflammatory markers. Multiple sclerosis typically presents with multiple lesions and specific white matter involvement."
+  },
+  {
+    "presentation": "ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Neurocysticercosis (Colloidal Vesicular stage)",
+      "Brain abscess",
+      "Glioblastoma multiforme",
+      "Metastasis",
+      "Toxoplasmosis"
+    ],
+    "clinical_context": "In endemic regions, neurocysticercosis is more prevalent. Assess travel history, socioeconomic background, and potential exposure to parasitic infections. Immunocompromised patients are at higher risk for toxoplasmosis."
+  },
+  {
+    "presentation": "ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Brain Abscess",
+      "Glioblastoma",
+      "Metastasis",
+      "Toxoplasmosis",
+      "Tumefactive demyelination"
+    ],
+    "clinical_context": "Ring-enhancing brain lesions necessitate comprehensive clinical assessment, focusing on patient's immunocompromised status, systemic symptoms, and potential infectious exposures. HIV status and recent travel history are particularly important."
+  },
+  {
+    "presentation": "ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Toxoplasmosis",
+      "Lymphoma",
+      "Abscess",
+      "Metastasis",
+      "Tuberculosis"
+    ],
+    "clinical_context": "Brain ring-enhancing lesions require thorough evaluation of patient's immunological status, systemic symptoms, and potential infectious or neoplastic processes. HIV status, recent infections, and cancer history are critical discriminators."
+  },
+  {
+    "presentation": "ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastasis",
+      "Abscess",
+      "Demyelinating lesion",
+      "Radiation necrosis"
+    ],
+    "clinical_context": "Ring-enhancing brain lesions demand comprehensive neurological and oncological assessment. Patient's prior radiation therapy, cancer history, and neurological symptoms help distinguish between various pathological processes."
+  },
+  {
+    "presentation": "ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma",
+      "Abscess",
+      "Demyelinating disease",
+      "Metastasis"
+    ],
+    "clinical_context": "Consider patient's immunocompromised status, recent infections, or systemic malignancy. Age and neurological symptoms are critical in differentiating between infectious and neoplastic processes."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Glioblastoma multiforme",
+      "Metastatic brain tumor",
+      "Cysticercosis"
+    ],
+    "clinical_context": "Assess patient's age, neurological symptoms, and potential exposure to parasitic infections. Cysticercosis is more common in specific geographic regions, while glioblastoma is more prevalent in older populations."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Glioblastoma multiforme",
+      "Metastatic brain tumor",
+      "Primary CNS lymphoma"
+    ],
+    "clinical_context": "In a patient with known cancer history, metastasis is more likely. For immunocompromised patients, primary CNS lymphoma becomes a key consideration. Age and prior medical history are critical in narrowing the differential."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Abscess",
+      "Tumor with necrosis",
+      "Hematoma",
+      "Cyst"
+    ],
+    "clinical_context": "Assess patient's recent trauma, surgical history, and inflammatory conditions. Abscesses are more likely in patients with recent procedures or systemic infections."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastasis",
+      "Cysticercosis"
+    ],
+    "clinical_context": "In patients with travel history to endemic regions or poor sanitation, cysticercosis becomes a key differential. Immunocompromised status and neurological symptoms help distinguish between infectious and neoplastic processes."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma multiforme",
+      "Metastatic brain tumor",
+      "Primary CNS lymphoma"
+    ]
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Cerebral Abscess",
+      "Glioblastoma Multiforme"
+    ],
+    "clinical_context": "Assess for signs of systemic infection, recent procedures, or immunocompromised state. Fever, headache, and focal neurological deficits can help distinguish between abscess and tumor."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Glioblastoma multiforme",
+      "Metastatic brain tumor",
+      "Primary CNS lymphoma"
+    ],
+    "clinical_context": "Consider patient's age, immunocompetence, and systemic malignancy history. Primary CNS lymphoma is more common in immunocompromised patients, while metastases suggest known primary cancer."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma Multiforme",
+      "Metastatic Brain Tumor",
+      "Cerebral Abscess"
+    ]
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastasis",
+      "Cysticercosis"
+    ]
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "liver",
+    "differentials": [
+      "Residual HCC",
+      "Abscess",
+      "Metastasis"
+    ],
+    "clinical_context": "In patients with known liver disease or cancer history, the ring-enhancing lesion could represent residual hepatocellular carcinoma or metastatic focus. Patient's underlying liver condition is crucial."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastasis",
+      "Lymphoma"
+    ]
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastatic Brain Tumor",
+      "Cerebral Abscess"
+    ],
+    "clinical_context": "Evaluate patient's systemic health, cancer history, and neurological symptoms. Glioblastoma typically occurs in older patients with rapid neurological decline, while abscesses suggest infectious etiology."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "Spinal Cord",
+    "differentials": [
+      "Spinal cord abscess",
+      "Spinal cord tumor"
+    ],
+    "clinical_context": "Assess for recent spinal procedures, systemic infections, or immunocompromised state. Evaluate patient's pain, neurological deficits, and potential sources of infection."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Abscess",
+      "Glioblastoma",
+      "Metastasis",
+      "Toxoplasmosis",
+      "Neurocysticercosis"
+    ],
+    "clinical_context": "Consider patient's immune status, travel history, and potential exposure to infectious agents. Toxoplasmosis is common in immunocompromised patients, while neurocysticercosis relates to specific geographic and socioeconomic factors."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Tumefactive Demyelination",
+      "Glioblastoma (GBM)",
+      "Abscess",
+      "CNS Lymphoma"
+    ],
+    "clinical_context": "Evaluate patient's history of neurological symptoms, inflammatory markers, and previous demyelinating events. Tumefactive demyelination can mimic aggressive tumors but has distinct clinical and radiological features."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Abscess",
+      "Tumefactive demyelination",
+      "Glioblastoma",
+      "Metastasis"
+    ],
+    "clinical_context": "Assess patient's overall health, neurological symptoms, and potential underlying conditions. Differentiating between inflammatory, infectious, and neoplastic processes requires comprehensive clinical evaluation."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Epidural Abscess",
+      "Glioblastoma",
+      "Metastasis",
+      "Toxoplasmosis",
+      "Neurocysticercosis"
+    ],
+    "clinical_context": "In an immunocompromised patient (HIV, transplant), toxoplasmosis becomes highly likely. Consider patient's travel history, immune status, and systemic symptoms like fever or headache."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma Multiforme (GBM)",
+      "Abscess"
+    ],
+    "clinical_context": "Age and neurological symptoms are critical. Older patients with progressive neurological deficits are more likely to have GBM, while younger patients with focal symptoms might suggest alternative diagnoses."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Brain Abscess",
+      "Glioblastoma",
+      "Metastasis",
+      "Demyelinating Lesion",
+      "Toxoplasmosis"
+    ],
+    "clinical_context": "Evaluate patient's systemic symptoms, immune status, and recent infections. Immunocompromised patients are more prone to brain abscesses, while those with cancer history might suggest metastasis."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Cerebral abscess",
+      "Glioblastoma multiforme",
+      "Metastatic brain tumor"
+    ],
+    "clinical_context": "Consider patient's recent medical procedures, chronic infections, and systemic inflammatory conditions. Cerebral abscesses often have a history of recent infection or compromised immune system."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastasis",
+      "Cysticercosis"
+    ],
+    "clinical_context": "Consider patient's geographic origin and travel history. Cysticercosis is more prevalent in regions with poor sanitation, while glioblastoma is more common in older patients with no specific geographic predisposition."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Cerebral abscess",
+      "Glioblastoma multiforme",
+      "Metastatic brain tumor"
+    ],
+    "clinical_context": "Evaluate neurological symptoms, patient's cancer history, and progression of symptoms. Metastatic brain tumors are more likely in patients with known systemic cancer."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastasis",
+      "Abscess",
+      "Radiation Necrosis",
+      "Demyelinating disease"
+    ],
+    "clinical_context": "Consider patient's prior radiation therapy, cancer treatment history, and current neurological symptoms. Radiation necrosis can mimic tumor recurrence in previously treated patients."
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Glioblastoma Multiforme",
+      "Metastatic Brain Tumor",
+      "Cerebral Abscess"
+    ]
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma multiforme",
+      "Metastatic brain tumor",
+      "Cerebral abscess"
+    ]
+  },
+  {
+    "presentation": "Ring-enhancing lesion",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Glioblastoma Multiforme",
+      "Metastatic Brain Tumor",
+      "Cerebral Abscess"
+    ]
+  },
+  {
+    "presentation": "Ring-enhancing Lesion",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastasis",
+      "Lymphoma"
+    ]
+  },
+  {
+    "presentation": "Ring-Enhancing Lesion",
+    "modality": "MRI",
+    "body_region": "Liver",
+    "differentials": [
+      "Pyogenic Hepatic Abscess",
+      "Amoebic Hepatic Abscess"
+    ]
+  },
+  {
+    "presentation": "Ring-Enhancing Lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastasis",
+      "Cysticercosis"
+    ],
+    "clinical_context": "Endemic region exposure increases likelihood of cysticercosis. Neurological symptoms, immune status, and travel history help distinguish between infectious and neoplastic processes."
+  },
+  {
+    "presentation": "Ring-Enhancing Lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Cerebral Abscess",
+      "Glioblastoma Multiforme",
+      "Metastatic Brain Tumor"
+    ],
+    "clinical_context": "Fever, recent infection, or immunocompromised status suggest cerebral abscess. Patient's systemic symptoms and recent medical history are critical in differentiating between infectious and neoplastic processes."
+  },
+  {
+    "presentation": "Ring-Enhancing Lesion",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma Multiforme",
+      "Metastatic Brain Tumor"
+    ],
+    "clinical_context": "Older patients with progressive neurological deficits are more likely to have glioblastoma or metastatic disease. Patient's cancer history and neurological symptoms are crucial in differentiating these lesions."
+  },
+  {
+    "presentation": "Ring-enhancing lesion in the gallbladder",
+    "modality": "MRI/MRCP",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Gangrenous Cholecystitis",
+      "Emphysematous Cholecystitis"
+    ],
+    "clinical_context": "Patients with diabetes, severe infection, or acute cholecystitis are at higher risk for emphysematous cholecystitis. Presence of gas and patient's systemic inflammatory markers help distinguish between gangrenous and emphysematous variants."
+  },
+  {
+    "presentation": "Ring-enhancing lesion on CT or MRI",
+    "modality": "CT/MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastasis",
+      "Primary CNS Lymphoma"
+    ]
+  },
+  {
+    "presentation": "Ring-enhancing lesion on CT or MRI",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastatic Brain Tumor",
+      "Primary Central Nervous System Lymphoma"
+    ]
+  },
+  {
+    "presentation": "Ring-enhancing lesion on MRI",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Glioblastoma multiforme",
+      "Metastatic brain tumor",
+      "Primary CNS lymphoma"
+    ],
+    "clinical_context": "Immunocompromised patients have higher risk of primary CNS lymphoma. Patient's age, cancer history, and immune status are critical in narrowing the differential diagnosis."
+  },
+  {
+    "presentation": "Ring-enhancing lesion on MRI",
+    "modality": "MRI",
+    "body_region": "Brain",
+    "differentials": [
+      "Glioblastoma",
+      "Metastatic brain tumor",
+      "Cerebral abscess"
+    ],
+    "clinical_context": "Recent infection, fever, or immunocompromised status increase likelihood of cerebral abscess. Patient's systemic symptoms and recent medical history help distinguish between infectious and neoplastic processes."
+  },
+  {
+    "presentation": "Ring enhancement",
+    "modality": "MRI",
+    "body_region": "Liver",
+    "differentials": [
+      "Abscess",
+      "Metastasis",
+      "Hemangioma"
+    ],
+    "clinical_context": "Patient's liver disease history, cancer status, and inflammatory markers help differentiate between hepatic lesions. Contrast enhancement patterns and lesion characteristics are crucial in diagnosis."
+  },
+  {
+    "presentation": "Round adrenal mass >2cm on CT",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "Patients with hypertension, episodic sweating, or family history of endocrine tumors are more likely to have pheochromocytoma. Hormonal studies and patient symptoms help distinguish between benign and potentially malignant adrenal masses."
+  },
+  {
+    "presentation": "Round adrenal mass >2cm on CT",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ]
+  },
+  {
+    "presentation": "Round adrenal mass >2cm on CT",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ]
+  },
+  {
+    "presentation": "Round adrenal mass >2cm on CT",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "In a patient with hypertension, episodic headaches, or palpitations, pheochromocytoma should be strongly considered. Adrenal adenomas are typically incidental findings, while pheochromocytomas can cause significant hormonal symptoms."
+  },
+  {
+    "presentation": "Round adrenal mass >2cm on CT",
+    "modality": "CT",
+    "body_region": "Genitourinary",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "Similar to previous presentation, but consider patient's age and gender-specific risk factors. Hormonal screening and biochemical markers are crucial in differentiating between benign and potentially functional adrenal masses."
+  },
+  {
+    "presentation": "Rupture signs",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Aortic dissection",
+      "Pseudoaneurysm"
+    ],
+    "clinical_context": "Acute aortic dissection is a life-threatening condition characterized by sudden, severe pain radiating to the back. Pseudoaneurysms may have different etiology and risk factors."
+  },
+  {
+    "presentation": "Rupture signs",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Aortic Dissection",
+      "Pseudoaneurysm"
+    ],
+    "clinical_context": "Similar to previous presentation, focusing on distinguishing between acute aortic pathologies. Clinical context and patient risk factors are crucial in differentiating between types of vascular rupture."
+  },
+  {
+    "presentation": "Rupture signs",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Atherosclerosis",
+      "Genetic syndromes (Marfan, Ehlers-Danlos)"
+    ],
+    "clinical_context": "Genetic connective tissue disorders predispose patients to vascular complications. Marfan and Ehlers-Danlos syndromes have specific genetic markers and associated physical characteristics that increase rupture risk."
+  },
+  {
+    "presentation": "Rupture signs",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Aortic Dissection",
+      "Pseudoaneurysm"
+    ],
+    "clinical_context": "Acute onset of severe chest or abdominal pain with signs of hemodynamic instability suggests acute aortic pathology. Pseudoaneurysms are often related to trauma, infection, or previous interventional procedures."
+  },
+  {
+    "presentation": "Sclerotic bone lesion",
+    "modality": "XR",
+    "body_region": "bone",
+    "differentials": [
+      "Osteoblastic metastasis",
+      "Osteoid osteoma",
+      "Bone island",
+      "Paget disease",
+      "Lymphoma",
+      "Osteosarcoma"
+    ],
+    "clinical_context": "Sclerotic bone lesions require comprehensive evaluation considering patient age, cancer history, and systemic symptoms. Metastatic disease is more common in older patients with known malignancy."
+  },
+  {
+    "presentation": "Sella filled with CSF",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Empty Sella Syndrome",
+      "Arachnoid cyst",
+      "Rathke cleft cyst"
+    ],
+    "clinical_context": "Empty sella syndrome can be primary or secondary, often associated with hormonal dysfunction or previous pituitary surgery. Clinical presentation may include endocrine abnormalities."
+  },
+  {
+    "presentation": "Sellar/suprasellar mass",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Pituitary adenoma",
+      "Craniopharyngioma",
+      "Meningioma",
+      "Rathke cleft cyst",
+      "Germinoma",
+      "Hypothalamic glioma"
+    ],
+    "clinical_context": "Sellar/suprasellar masses require comprehensive evaluation of hormonal function, visual symptoms, and growth characteristics. Age and specific symptoms help differentiate between potential diagnoses."
+  },
+  {
+    "presentation": "Short axis >10 mm (pelvic), >8 mm (para-aortic)",
+    "modality": "CT",
+    "body_region": "Abdomen/Pelvis",
+    "differentials": [
+      "Lymph Node Metastases",
+      "Lymphadenopathy",
+      "Other metastases"
+    ]
+  },
+  {
+    "presentation": "Signal loss >20% on opposed-phase",
+    "modality": "MRI",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Adenoma",
+      "Pheochromocytoma"
+    ],
+    "clinical_context": "Signal loss on opposed-phase imaging is characteristic of lipid-containing adrenal lesions. Differentiating between benign adenomas and potentially functional tumors requires comprehensive evaluation."
+  },
+  {
+    "presentation": "Significant lymphadenopathy",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Lymphoma",
+      "Adenocarcinoma"
+    ],
+    "clinical_context": "Lymphadenopathy in abdomen requires careful assessment of patient's age, systemic symptoms, and cancer history. Lymphoma typically presents with generalized lymph node enlargement, while metastatic adenocarcinoma often shows asymmetric, irregular lymph node involvement."
+  },
+  {
+    "presentation": "Sinonasal mass with bony destruction",
+    "modality": "CT",
+    "body_region": "Head & Neck",
+    "differentials": [
+      "Squamous Cell Carcinoma",
+      "Adenoid Cystic Carcinoma",
+      "Esthesioneuroblastoma",
+      "Fungal Sinusitis"
+    ],
+    "clinical_context": "Sinonasal masses with bony destruction suggest aggressive pathology. Patient's age, smoking history, and prior sinus disease are critical. Squamous cell carcinoma is most common in older patients with tobacco use, while esthesioneuroblastoma typically affects younger patients."
+  },
+  {
+    "presentation": "Skin thickening",
+    "modality": "Mammography/Ultrasound",
+    "body_region": "Breast",
+    "differentials": [
+      "Inflammatory Breast Cancer",
+      "Mastitis",
+      "Lymphedema",
+      "Benign skin conditions"
+    ],
+    "clinical_context": "Breast skin thickening requires comprehensive clinical correlation. Inflammatory breast cancer presents with rapid onset, diffuse skin changes, and often no discrete mass. Mastitis typically shows more acute inflammatory signs with potential infectious markers."
+  },
+  {
+    "presentation": "Skin Thickening > 2mm",
+    "modality": "MG",
+    "body_region": "breast",
+    "differentials": [
+      "Edema",
+      "Lymphatic Obstruction",
+      "Inflammatory Carcinoma"
+    ],
+    "clinical_context": "Skin thickening >2mm in breast demands careful evaluation of underlying cause. Lymphatic obstruction often presents with progressive changes, while inflammatory carcinoma shows rapid, diffuse skin involvement with potential erythema."
+  },
+  {
+    "presentation": "Solid renal mass",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Renal cell carcinoma",
+      "Oncocytoma",
+      "Angiomyolipoma",
+      "Metastasis",
+      "Lymphoma",
+      "Transitional cell carcinoma"
+    ],
+    "clinical_context": "Solid renal masses require comprehensive assessment of patient demographics and risk factors. Renal cell carcinoma is more common in older patients with smoking history, while angiomyolipoma is often associated with younger females and tuberous sclerosis."
+  },
+  {
+    "presentation": "Solitary pulmonary nodule",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      "Granuloma",
+      "Lung carcinoma",
+      "Hamartoma",
+      "Metastasis",
+      "Carcinoid",
+      "AVM"
+    ],
+    "clinical_context": "Solitary pulmonary nodules demand careful risk stratification. Patient's smoking history, age, and prior cancer exposure are critical. Lung carcinoma risk increases with age and tobacco use, while granulomas are more common in younger patients with infectious exposure."
+  },
+  {
+    "presentation": "Spiculated mass",
+    "modality": "Mammography",
+    "body_region": "breast",
+    "differentials": [
+      "Tumor recurrence",
+      "Scarring",
+      "Fat necrosis"
+    ],
+    "clinical_context": "Spiculated breast masses require detailed characterization. Tumor recurrence typically shows irregular margins and architectural distortion, while scarring demonstrates more stable, consistent appearance over time."
+  },
+  {
+    "presentation": "Spiculated Mass",
+    "modality": "Mammography",
+    "body_region": "Breast",
+    "differentials": [
+      "Radial Scar",
+      "Invasive Ductal Carcinoma",
+      "Invasive Lobular Carcinoma"
+    ],
+    "clinical_context": "Spiculated breast masses demand careful differential diagnosis. Radial scars can be challenging to distinguish from malignancy. Invasive ductal and lobular carcinomas show different imaging characteristics based on tumor biology."
+  },
+  {
+    "presentation": "Spiculated Mass",
+    "modality": "Mammography",
+    "body_region": "Breast",
+    "differentials": [
+      "Invasive Ductal Carcinoma",
+      "Invasive Lobular Carcinoma",
+      "Radial Scar",
+      "Complex Sclerosing Lesion"
+    ],
+    "clinical_context": "Spiculated masses in mammography are highly suspicious for malignancy. Patient age, family history, and risk factors are critical in determining likelihood of breast cancer. Premenopausal women have different risk profiles compared to postmenopausal patients."
+  },
+  {
+    "presentation": "Spiculated Mass",
+    "modality": "Mammography",
+    "body_region": "Breast",
+    "differentials": [
+      "Fat Necrosis",
+      "Breast Carcinoma"
+    ],
+    "clinical_context": "Spiculated breast masses demand comprehensive evaluation. Fat necrosis can mimic malignancy, often resulting from prior trauma or intervention. Breast carcinoma typically shows more suspicious architectural distortion."
+  },
+  {
+    "presentation": "Spiculated Mass",
+    "modality": "Mammography",
+    "body_region": "Breast",
+    "differentials": [
+      "Invasive Ductal Carcinoma",
+      "Radial Scar",
+      "Fat Necrosis",
+      "Sclerosing Adenosis"
+    ],
+    "clinical_context": "Spiculated breast masses require nuanced interpretation. Invasive ductal carcinoma often presents with irregular margins and architectural distortion. Radial scars can mimic malignancy but typically show more stable characteristics."
+  },
+  {
+    "presentation": "Splenic nodule",
+    "modality": "PET/CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Splenule",
+      "Pancreatic Neuroendocrine Tumor (PNET)"
+    ],
+    "clinical_context": "Splenic nodules require careful evaluation of patient's underlying conditions. Consider metastatic disease in patients with known malignancy, or incidental finding in asymptomatic patients. PET/CT uptake can help differentiate benign from malignant lesions."
+  },
+  {
+    "presentation": "Spondylodiscitis",
+    "modality": "XR/CT/MRI",
+    "body_region": "Spine",
+    "differentials": [
+      "Andersson Lesion",
+      "Infectious discitis/osteomyelitis"
+    ],
+    "clinical_context": "Spondylodiscitis requires comprehensive clinical assessment of infection risk. Patients with immunocompromise, diabetes, recent procedures, or intravenous drug use are at higher risk. Distinguishing infectious from degenerative processes is crucial."
+  },
+  {
+    "presentation": "Stones: Filling defects on T2WI",
+    "modality": "MRI/MRCP",
+    "body_region": "Gallbladder",
+    "differentials": [
+      "Cholelithiasis",
+      "Pigment Stones"
+    ],
+    "clinical_context": "Gallbladder stones on MRI require correlation with patient symptoms and risk factors. Pigment stones are more common in patients with hemolytic disorders, while cholesterol stones are associated with metabolic syndrome."
+  },
+  {
+    "presentation": "Stones: Variable attenuation (cholesterol = -10 to +30 HU, calcified >100 HU)",
+    "modality": "CT",
+    "body_region": "Gallbladder",
+    "differentials": [
+      "Cholelithiasis",
+      "Pigment Stones"
+    ],
+    "clinical_context": "CT evaluation of gallbladder stones helps characterize stone composition and potential complications. Hounsfield unit measurements provide insight into stone type and potential inflammatory processes."
+  },
+  {
+    "presentation": "Stones: Variable attenuation (cholesterol = -10 to +30 HU, calcified >100 HU)",
+    "modality": "CT",
+    "body_region": "Gallbladder",
+    "differentials": [
+      "Chronic Cholecystitis",
+      "Acute Cholecystitis"
+    ],
+    "clinical_context": "Cholecystitis presentations vary between acute and chronic forms. Patient's clinical symptoms, duration of symptoms, and inflammatory markers help distinguish between different pathological processes."
+  },
+  {
+    "presentation": "Stranding >3mm on T2-weighted MRI",
+    "modality": "MRI",
+    "body_region": "Cervix",
+    "differentials": [
+      "Other GU malignancies",
+      "Pelvic inflammatory disease"
+    ],
+    "clinical_context": "Cervical stranding can indicate various pathological processes, from inflammatory to malignant conditions. Patient's sexual history, prior infections, and clinical symptoms are critical in narrowing the differential."
+  },
+  {
+    "presentation": "Stranding >3mm on T2-weighted MRI",
+    "modality": "MRI",
+    "body_region": "Parametrium",
+    "differentials": [
+      "Benign parametrial disease",
+      "Other GU malignancies"
+    ],
+    "clinical_context": "Parametrial stranding on MRI requires careful evaluation of potential malignant versus inflammatory processes. Patient's gynecological history, prior treatments, and associated symptoms are crucial in differential diagnosis."
+  },
+  {
+    "presentation": "Striated wall enhancement",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Gangrenous cholecystitis",
+      "Emphysematous cholecystitis",
+      "Perforated peptic ulcer"
+    ],
+    "clinical_context": "Striated wall enhancement suggests severe inflammatory or ischemic process in abdominal organs. Patient's clinical status, comorbidities, and acute symptoms help differentiate between potential diagnoses."
+  },
+  {
+    "presentation": "Striated wall enhancement",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Gangrenous cholecystitis",
+      "Emphysematous cholecystitis",
+      "Perforated peptic ulcer"
+    ],
+    "clinical_context": "Striated wall enhancement in abdominal imaging requires comprehensive evaluation of potential life-threatening conditions. Patient's clinical presentation, comorbidities, and acute symptoms are crucial in determining underlying pathology."
+  },
+  {
+    "presentation": "Subperiosteal Resorption",
+    "modality": "XR",
+    "body_region": "Bone",
+    "differentials": [
+      "Hyperparathyroidism",
+      "CRPS"
+    ],
+    "clinical_context": "Hyperparathyroidism typically occurs in older patients with chronic kidney disease or endocrine disorders. CRPS is more likely in patients with recent trauma or neurological injury."
+  },
+  {
+    "presentation": "Symmetric enlargement of prostate gland with calcifications",
+    "modality": "TRUS",
+    "body_region": "GU",
+    "differentials": [
+      "Prostate Cancer",
+      "Prostatitis"
+    ],
+    "clinical_context": "Prostate cancer risk increases with age, typically presenting in men over 50. Prostatitis is more common in younger men and can be associated with urinary symptoms and infection."
+  },
+  {
+    "presentation": "Symmetric T2/FLAIR hyperintensity in the pons",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Osmotic Demyelination Syndrome (ODS)",
+      "Multiple Sclerosis (MS)",
+      "Infarction",
+      "Infection"
+    ],
+    "clinical_context": "ODS typically occurs in patients with rapid sodium correction, while MS presents with relapsing-remitting neurological symptoms. Infection and infarction have distinct clinical presentations and additional imaging features."
+  },
+  {
+    "presentation": "T1 and T2 basal ganglia abnormalities",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Chronic Hepatic Encephalopathy"
+    ],
+    "clinical_context": "Chronic hepatic encephalopathy is associated with long-standing liver disease, cirrhosis, and portal hypertension. Clinical history of alcohol abuse or chronic hepatitis is crucial."
+  },
+  {
+    "presentation": "T1 Bright Sella",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "Blood",
+      "Fat",
+      "Protein (Rathke Cleft Cyst)",
+      "Melanin"
+    ],
+    "clinical_context": "T1 bright sella can result from various pathologies. Clinical context of hormonal symptoms, visual changes, or incidental finding helps differentiate between causes."
+  },
+  {
+    "presentation": "T2 hyperintense bile and abrupt duct cutoff",
+    "modality": "MRI/MRCP",
+    "body_region": "abdomen",
+    "differentials": [
+      "Bile Duct Injury",
+      "Cholangitis"
+    ]
+  },
+  {
+    "presentation": "T2 hyperintense peritoneal implants",
+    "modality": "MRI",
+    "body_region": "abdomen/pelvis",
+    "differentials": [
+      "Peritoneal Carcinomatosis",
+      "Tuberculosis (typically hypointense)",
+      "Peritoneal Mesothelioma"
+    ],
+    "clinical_context": "Peritoneal carcinomatosis often occurs in patients with known malignancy, while tuberculosis is more common in immunocompromised patients or those with TB exposure."
+  },
+  {
+    "presentation": "T2 hyperintensity + restricted diffusion",
+    "modality": "MRI",
+    "body_region": "GU",
+    "differentials": [
+      "Uterine Sarcoma",
+      "Degenerated Fibroid"
+    ],
+    "clinical_context": "Uterine sarcomas are rare malignancies typically seen in older women with rapidly growing masses. Degenerated fibroids are more common and associated with prior fibroid diagnosis."
+  },
+  {
+    "presentation": "T2 hypointense renal mass",
+    "modality": "MRI",
+    "body_region": "Kidney",
+    "differentials": [
+      "Renal Oncocytoma",
+      "Other renal tumors"
+    ],
+    "clinical_context": "Renal oncocytomas are typically benign tumors, while other renal tumors may be malignant. Patient age, size, and additional imaging characteristics help differentiate."
+  },
+  {
+    "presentation": "Target sign in bowel",
+    "modality": "CT",
+    "body_region": "abdomen",
+    "differentials": [
+      "Intussusception",
+      "Bowel wall edema",
+      "Crohn disease",
+      "Ischemia"
+    ],
+    "clinical_context": "Intussusception is more common in children, while bowel wall edema can result from various inflammatory or ischemic conditions. Clinical symptoms and patient demographics are crucial."
+  },
+  {
+    "presentation": "Testicular mass",
+    "modality": "US",
+    "body_region": "pelvis",
+    "differentials": [
+      "Seminoma",
+      "Non-seminomatous germ cell tumor",
+      "Lymphoma",
+      "Epidermoid cyst",
+      "Leydig cell tumor"
+    ],
+    "clinical_context": "Testicular masses require careful evaluation. Seminomas are most common in young adults, while other tumors have different age distributions and clinical presentations."
+  },
+  {
+    "presentation": "Thrombus on imaging",
+    "modality": "CT Venography, MRI",
+    "body_region": "Lower Extremity Veins",
+    "differentials": [
+      "Venous stenosis",
+      "Valvular disease",
+      "Surgical ligation"
+    ],
+    "clinical_context": "Thrombus risk increases with immobilization, recent surgery, cancer, or inherited thrombophilia. Patient's age, gender, and recent medical history are crucial in determining underlying etiology."
+  },
+  {
+    "presentation": "Tree-in-bud",
+    "modality": "CT",
+    "body_region": "lung",
+    "differentials": [
+      "Infection (e.g., bacterial bronchiolitis, tuberculosis)",
+      "Aspiration",
+      "Cystic Fibrosis",
+      "Bronchiolitis Obliterans"
+    ],
+    "clinical_context": "Tree-in-bud pattern suggests small airway disease, most commonly seen in infectious or inflammatory conditions. Patient's age, immunocompromised status, and respiratory symptoms help narrow differential."
+  },
+  {
+    "presentation": "Upper lobe predominant fibrosis",
+    "modality": "CT",
+    "body_region": "chest",
+    "differentials": [
+      "Sarcoidosis",
+      "Silicosis",
+      "Tuberculosis",
+      "Ankylosing spondylitis",
+      "Radiation fibrosis"
+    ],
+    "clinical_context": "Upper lobe predominant fibrosis suggests occupational exposure, autoimmune disease, or chronic inflammatory process. Patient's age, occupational history, and systemic symptoms are critical in diagnosis."
+  },
+  {
+    "presentation": "Variable density (Attenuation)",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Adrenal Metastases",
+      "Benign Adenoma",
+      "Primary Adrenal Tumor"
+    ]
+  },
+  {
+    "presentation": "Ventriculomegaly",
+    "modality": "CT",
+    "body_region": "brain",
+    "differentials": [
+      "Normal Pressure Hydrocephalus (NPH)",
+      "Hydrocephalus Ex-Vacuo (Cerebral Atrophy)"
+    ],
+    "clinical_context": "Ventriculomegaly can result from various neurological conditions. Age is crucial - elderly patients with gait disturbance and cognitive decline suggest Normal Pressure Hydrocephalus."
+  },
+  {
+    "presentation": "Wall thickening",
+    "modality": "CT",
+    "body_region": "Bladder",
+    "differentials": [
+      "Urethral Stricture",
+      "Bladder Diverticulum"
+    ]
+  },
+  {
+    "presentation": "Wall thickening >3 mm",
+    "modality": "Ultrasound/CT/MRI",
+    "body_region": "Gallbladder",
+    "differentials": [
+      "Acute Cholecystitis",
+      "Chronic Cholecystitis"
+    ],
+    "clinical_context": "Gallbladder wall thickening indicates inflammation, with acute cholecystitis typically presenting with acute pain and systemic signs of infection. Chronic cholecystitis presents more insidiously."
+  },
+  {
+    "presentation": "Wall thickening >3 mm",
+    "modality": "Ultrasound/CT/MRI",
+    "body_region": "Gallbladder",
+    "differentials": [
+      "Acute Cholecystitis",
+      "Chronic Cholecystitis"
+    ],
+    "clinical_context": "Gallbladder wall thickening indicates inflammation, with acute cholecystitis typically presenting with acute pain and systemic signs of infection. Chronic cholecystitis presents more insidiously."
+  },
+  {
+    "presentation": "Wall thickening >3 mm",
+    "modality": "Ultrasound/CT/MRI",
+    "body_region": "Gallbladder",
+    "differentials": [
+      "Acute Cholecystitis",
+      "Chronic Cholecystitis"
+    ],
+    "clinical_context": "Gallbladder wall thickening indicates inflammation, with acute cholecystitis typically presenting with acute pain and systemic signs of infection. Chronic cholecystitis presents more insidiously."
+  },
+  {
+    "presentation": "Wall thickening >5 mm",
+    "modality": "CT",
+    "body_region": "Bladder",
+    "differentials": [
+      "Urethral Stricture",
+      "Prostate Enlargement"
+    ],
+    "clinical_context": "Bladder wall thickening suggests chronic obstruction or inflammation. Patient's urinary symptoms, history of urological procedures, and risk factors are crucial in determining underlying cause."
+  },
+  {
+    "presentation": "Wall thickening >5 mm",
+    "modality": "CT",
+    "body_region": "Bladder",
+    "differentials": [
+      "Urethral Stricture",
+      "Bladder Diverticulum"
+    ],
+    "clinical_context": "Bladder wall thickening suggests chronic obstruction or inflammation. Patient's urinary symptoms, history of urological procedures, and risk factors are crucial in determining underlying cause."
+  },
+  {
+    "presentation": "Wall thickening >5 mm",
+    "modality": "CT",
+    "body_region": "Bladder",
+    "differentials": [
+      "Urethral Stricture",
+      "Bladder Stones"
+    ],
+    "clinical_context": "Bladder wall thickening suggests chronic obstruction or inflammation. Patient's urinary symptoms, history of urological procedures, and risk factors are crucial in determining underlying cause."
+  },
+  {
+    "presentation": "Wall thickening >5 mm focal/diffuse",
+    "modality": "CT",
+    "body_region": "Bladder",
+    "differentials": [
+      "Urethral Stricture",
+      "Bladder Diverticulum"
+    ]
+  },
+  {
+    "presentation": "Well-circumscribed adrenal mass with low attenuation on non-contrast CT",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Pheochromocytoma",
+      "Adrenal carcinoma"
+    ],
+    "clinical_context": "Pheochromocytomas typically occur in younger patients with episodic hypertension, while adrenal carcinomas are more common in older patients with systemic symptoms. Patient's age, blood pressure history, and hormonal symptoms are critical in distinguishing these masses."
+  },
+  {
+    "presentation": "Well-circumscribed adrenal mass with low attenuation on non-contrast CT",
+    "modality": "CT",
+    "body_region": "Abdomen",
+    "differentials": [
+      "Pheochromocytoma",
+      "Adrenal carcinoma"
+    ],
+    "clinical_context": "Pheochromocytomas typically occur in younger patients with episodic hypertension, while adrenal carcinomas are more common in older patients with systemic symptoms. Patient's age, blood pressure history, and hormonal symptoms are critical in distinguishing these masses."
+  },
+  {
+    "presentation": "Well-circumscribed, hypointense on T1 and hyperintense on T2",
+    "modality": "MRI",
+    "body_region": "liver",
+    "differentials": [
+      "Hemangioma",
+      "Adenoma"
+    ]
+  },
+  {
+    "presentation": "Well-circumscribed, hypointense on T1 and hyperintense on T2",
+    "modality": "MRI",
+    "body_region": "liver",
+    "differentials": [
+      "Hemangioma",
+      "Adenoma"
+    ]
+  },
+  {
+    "presentation": "Well-circumscribed, hypointense on T1 and hyperintense on T2",
+    "modality": "MRI",
+    "body_region": "liver",
+    "differentials": [
+      "Hemangioma",
+      "Adenoma"
+    ]
+  },
+  {
+    "presentation": "White matter lesions without mass effect",
+    "modality": "MRI",
+    "body_region": "brain",
+    "differentials": [
+      "PML",
+      "HIV Encephalopathy",
+      "CADASIL",
+      "Multiple Sclerosis"
+    ],
+    "clinical_context": "White matter lesions without mass effect suggest demyelinating or inflammatory processes. Patient's immunological status, neurological symptoms progression, and specific clinical history are crucial in differentiating between these conditions."
+  }
+]

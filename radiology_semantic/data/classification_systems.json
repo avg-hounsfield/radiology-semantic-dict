@@ -1,0 +1,412 @@
+[
+  {
+    "name": "BI-RADS",
+    "full_name": "Breast Imaging Reporting and Data System",
+    "category": "0",
+    "category_name": "Incomplete",
+    "description": "Need additional imaging evaluation",
+    "management": "Additional imaging needed",
+    "malignancy_risk": "N/A",
+    "modality": "Mammography"
+  },
+  {
+    "name": "BI-RADS",
+    "full_name": "Breast Imaging Reporting and Data System",
+    "category": "1",
+    "category_name": "Negative",
+    "description": "No findings to report",
+    "management": "Routine screening",
+    "malignancy_risk": "Essentially 0%",
+    "modality": "Mammography"
+  },
+  {
+    "name": "BI-RADS",
+    "full_name": "Breast Imaging Reporting and Data System",
+    "category": "2",
+    "category_name": "Benign",
+    "description": "Definitely benign finding",
+    "management": "Routine screening",
+    "malignancy_risk": "Essentially 0%",
+    "modality": "Mammography"
+  },
+  {
+    "name": "BI-RADS",
+    "full_name": "Breast Imaging Reporting and Data System",
+    "category": "3",
+    "category_name": "Probably Benign",
+    "description": "Finding with very low probability of malignancy",
+    "management": "Short-interval follow-up (6 months)",
+    "malignancy_risk": "<2%",
+    "modality": "Mammography"
+  },
+  {
+    "name": "BI-RADS",
+    "full_name": "Breast Imaging Reporting and Data System",
+    "category": "4A",
+    "category_name": "Low Suspicion",
+    "description": "Low suspicion for malignancy",
+    "management": "Biopsy should be considered",
+    "malignancy_risk": "2-10%",
+    "modality": "Mammography"
+  },
+  {
+    "name": "BI-RADS",
+    "full_name": "Breast Imaging Reporting and Data System",
+    "category": "4B",
+    "category_name": "Moderate Suspicion",
+    "description": "Moderate suspicion for malignancy",
+    "management": "Biopsy recommended",
+    "malignancy_risk": "10-50%",
+    "modality": "Mammography"
+  },
+  {
+    "name": "BI-RADS",
+    "full_name": "Breast Imaging Reporting and Data System",
+    "category": "4C",
+    "category_name": "High Suspicion",
+    "description": "High suspicion for malignancy",
+    "management": "Biopsy strongly recommended",
+    "malignancy_risk": "50-95%",
+    "modality": "Mammography"
+  },
+  {
+    "name": "BI-RADS",
+    "full_name": "Breast Imaging Reporting and Data System",
+    "category": "5",
+    "category_name": "Highly Suggestive of Malignancy",
+    "description": "Highly suggestive of malignancy",
+    "management": "Biopsy required, appropriate action should be taken",
+    "malignancy_risk": ">95%",
+    "modality": "Mammography"
+  },
+  {
+    "name": "BI-RADS",
+    "full_name": "Breast Imaging Reporting and Data System",
+    "category": "6",
+    "category_name": "Known Biopsy-Proven Malignancy",
+    "description": "Known biopsy-proven malignancy",
+    "management": "Surgical excision when appropriate",
+    "malignancy_risk": "100%",
+    "modality": "Mammography"
+  },
+  {
+    "name": "Bosniak",
+    "full_name": "Bosniak Renal Cyst Classification",
+    "category": "I",
+    "category_name": "Simple Cyst",
+    "description": "Hairline-thin wall, water density, no septa/calcifications/enhancement",
+    "management": "Benign, no follow-up needed",
+    "malignancy_risk": "0%",
+    "modality": "CT"
+  },
+  {
+    "name": "Bosniak",
+    "full_name": "Bosniak Renal Cyst Classification",
+    "category": "II",
+    "category_name": "Minimally Complex",
+    "description": "Few hairline septa, fine calcification, hyperdense cyst <3cm",
+    "management": "Benign, no follow-up needed",
+    "malignancy_risk": "0%",
+    "modality": "CT"
+  },
+  {
+    "name": "Bosniak",
+    "full_name": "Bosniak Renal Cyst Classification",
+    "category": "IIF",
+    "category_name": "Minimally Complex - Follow-up",
+    "description": "More septa, minimal thickening, hyperdense >3cm",
+    "management": "Follow-up imaging recommended",
+    "malignancy_risk": "5-10%",
+    "modality": "CT"
+  },
+  {
+    "name": "Bosniak",
+    "full_name": "Bosniak Renal Cyst Classification",
+    "category": "III",
+    "category_name": "Indeterminate",
+    "description": "Thickened irregular septa, measurable enhancement",
+    "management": "Surgical excision or active surveillance",
+    "malignancy_risk": "40-60%",
+    "modality": "CT"
+  },
+  {
+    "name": "Bosniak",
+    "full_name": "Bosniak Renal Cyst Classification",
+    "category": "IV",
+    "category_name": "Clearly Malignant",
+    "description": "Enhancing soft tissue component",
+    "management": "Surgical excision",
+    "malignancy_risk": ">90%",
+    "modality": "CT"
+  },
+  {
+    "name": "Fleischner",
+    "full_name": "Fleischner Society Pulmonary Nodule Guidelines",
+    "category": "Ground Glass <6mm",
+    "category_name": "No routine follow-up",
+    "description": "Pure ground glass nodule <6mm",
+    "management": "No routine follow-up",
+    "malignancy_risk": "<1%",
+    "modality": "CT"
+  },
+  {
+    "name": "Fleischner",
+    "full_name": "Fleischner Society Pulmonary Nodule Guidelines",
+    "category": "Ground Glass >=6mm",
+    "category_name": "CT at 6-12 months",
+    "description": "Pure ground glass nodule >=6mm",
+    "management": "CT at 6-12 months to confirm persistence, then CT every 2 years until 5 years",
+    "malignancy_risk": "Variable",
+    "modality": "CT"
+  },
+  {
+    "name": "Fleischner",
+    "full_name": "Fleischner Society Pulmonary Nodule Guidelines",
+    "category": "Solid <6mm Low Risk",
+    "category_name": "No routine follow-up",
+    "description": "Solid nodule <6mm in low-risk patient",
+    "management": "No routine follow-up",
+    "malignancy_risk": "<1%",
+    "modality": "CT"
+  },
+  {
+    "name": "Fleischner",
+    "full_name": "Fleischner Society Pulmonary Nodule Guidelines",
+    "category": "Solid >8mm",
+    "category_name": "CT at 3 months, PET/CT, or biopsy",
+    "description": "Solid nodule >8mm",
+    "management": "CT at 3 months, PET/CT, or tissue sampling",
+    "malignancy_risk": ">3%",
+    "modality": "CT"
+  },
+  {
+    "name": "Fleischner",
+    "full_name": "Fleischner Society Pulmonary Nodule Guidelines",
+    "category": "Solid 6-8mm Low Risk",
+    "category_name": "CT at 6-12 months",
+    "description": "Solid nodule 6-8mm in low-risk patient",
+    "management": "CT at 6-12 months, then consider CT at 18-24 months",
+    "malignancy_risk": "0.5-2%",
+    "modality": "CT"
+  },
+  {
+    "name": "LI-RADS",
+    "full_name": "Liver Imaging Reporting and Data System",
+    "category": "LR-1",
+    "category_name": "Definitely Benign",
+    "description": "Definitely benign observation",
+    "management": "Continue routine surveillance",
+    "malignancy_risk": "0%",
+    "modality": "CT/MRI"
+  },
+  {
+    "name": "LI-RADS",
+    "full_name": "Liver Imaging Reporting and Data System",
+    "category": "LR-2",
+    "category_name": "Probably Benign",
+    "description": "Probably benign observation",
+    "management": "Continue routine surveillance",
+    "malignancy_risk": "<5%",
+    "modality": "CT/MRI"
+  },
+  {
+    "name": "LI-RADS",
+    "full_name": "Liver Imaging Reporting and Data System",
+    "category": "LR-3",
+    "category_name": "Intermediate Probability",
+    "description": "Intermediate probability of HCC",
+    "management": "Variable, depends on observation size",
+    "malignancy_risk": "30-40%",
+    "modality": "CT/MRI"
+  },
+  {
+    "name": "LI-RADS",
+    "full_name": "Liver Imaging Reporting and Data System",
+    "category": "LR-4",
+    "category_name": "Probably HCC",
+    "description": "Probably hepatocellular carcinoma",
+    "management": "Close follow-up or multidisciplinary discussion",
+    "malignancy_risk": "70-80%",
+    "modality": "CT/MRI"
+  },
+  {
+    "name": "LI-RADS",
+    "full_name": "Liver Imaging Reporting and Data System",
+    "category": "LR-5",
+    "category_name": "Definitely HCC",
+    "description": "Definitely hepatocellular carcinoma",
+    "management": "Treat as HCC without biopsy",
+    "malignancy_risk": ">95%",
+    "modality": "CT/MRI"
+  },
+  {
+    "name": "LI-RADS",
+    "full_name": "Liver Imaging Reporting and Data System",
+    "category": "LR-M",
+    "category_name": "Probably or Definitely Malignant, Not HCC Specific",
+    "description": "Malignant but not HCC-specific features",
+    "management": "Multidisciplinary discussion, consider biopsy",
+    "malignancy_risk": ">95%",
+    "modality": "CT/MRI"
+  },
+  {
+    "name": "LI-RADS",
+    "full_name": "Liver Imaging Reporting and Data System",
+    "category": "LR-TIV",
+    "category_name": "Tumor in Vein",
+    "description": "Tumor in vein (definite tumor thrombus)",
+    "management": "Treat as HCC with vascular invasion",
+    "malignancy_risk": "100%",
+    "modality": "CT/MRI"
+  },
+  {
+    "name": "O-RADS",
+    "full_name": "Ovarian-Adnexal Reporting and Data System",
+    "category": "1",
+    "category_name": "Normal",
+    "description": "Normal ovary, physiologic finding",
+    "management": "Routine follow-up",
+    "malignancy_risk": "0%",
+    "modality": "US"
+  },
+  {
+    "name": "O-RADS",
+    "full_name": "Ovarian-Adnexal Reporting and Data System",
+    "category": "2",
+    "category_name": "Almost Certainly Benign",
+    "description": "Almost certainly benign lesion",
+    "management": "Follow-up as clinically indicated",
+    "malignancy_risk": "<1%",
+    "modality": "US"
+  },
+  {
+    "name": "O-RADS",
+    "full_name": "Ovarian-Adnexal Reporting and Data System",
+    "category": "3",
+    "category_name": "Low Risk",
+    "description": "Low risk of malignancy",
+    "management": "Follow-up or MRI",
+    "malignancy_risk": "1-10%",
+    "modality": "US"
+  },
+  {
+    "name": "O-RADS",
+    "full_name": "Ovarian-Adnexal Reporting and Data System",
+    "category": "4",
+    "category_name": "Intermediate Risk",
+    "description": "Intermediate risk of malignancy",
+    "management": "Surgical consultation",
+    "malignancy_risk": "10-50%",
+    "modality": "US"
+  },
+  {
+    "name": "O-RADS",
+    "full_name": "Ovarian-Adnexal Reporting and Data System",
+    "category": "5",
+    "category_name": "High Risk",
+    "description": "High risk of malignancy",
+    "management": "Surgical consultation, likely gynecologic oncologist",
+    "malignancy_risk": ">50%",
+    "modality": "US"
+  },
+  {
+    "name": "PI-RADS",
+    "full_name": "Prostate Imaging Reporting and Data System",
+    "category": "1",
+    "category_name": "Very Low",
+    "description": "Very low probability of clinically significant cancer",
+    "management": "Routine follow-up",
+    "malignancy_risk": "<5%",
+    "modality": "MRI"
+  },
+  {
+    "name": "PI-RADS",
+    "full_name": "Prostate Imaging Reporting and Data System",
+    "category": "2",
+    "category_name": "Low",
+    "description": "Low probability of clinically significant cancer",
+    "management": "Routine follow-up",
+    "malignancy_risk": "5-10%",
+    "modality": "MRI"
+  },
+  {
+    "name": "PI-RADS",
+    "full_name": "Prostate Imaging Reporting and Data System",
+    "category": "3",
+    "category_name": "Intermediate",
+    "description": "Intermediate probability - equivocal",
+    "management": "Individualized based on clinical factors",
+    "malignancy_risk": "15-30%",
+    "modality": "MRI"
+  },
+  {
+    "name": "PI-RADS",
+    "full_name": "Prostate Imaging Reporting and Data System",
+    "category": "4",
+    "category_name": "High",
+    "description": "High probability of clinically significant cancer",
+    "management": "Biopsy recommended",
+    "malignancy_risk": "50-70%",
+    "modality": "MRI"
+  },
+  {
+    "name": "PI-RADS",
+    "full_name": "Prostate Imaging Reporting and Data System",
+    "category": "5",
+    "category_name": "Very High",
+    "description": "Very high probability of clinically significant cancer",
+    "management": "Biopsy strongly recommended",
+    "malignancy_risk": ">85%",
+    "modality": "MRI"
+  },
+  {
+    "name": "TI-RADS",
+    "full_name": "Thyroid Imaging Reporting and Data System",
+    "category": "TR1",
+    "category_name": "Benign",
+    "description": "Benign appearance",
+    "management": "No FNA needed",
+    "malignancy_risk": "<2%",
+    "modality": "US"
+  },
+  {
+    "name": "TI-RADS",
+    "full_name": "Thyroid Imaging Reporting and Data System",
+    "category": "TR2",
+    "category_name": "Not Suspicious",
+    "description": "Not suspicious",
+    "management": "No FNA needed",
+    "malignancy_risk": "<2%",
+    "modality": "US"
+  },
+  {
+    "name": "TI-RADS",
+    "full_name": "Thyroid Imaging Reporting and Data System",
+    "category": "TR3",
+    "category_name": "Mildly Suspicious",
+    "description": "Mildly suspicious",
+    "management": "FNA if >=2.5cm, follow if >=1.5cm",
+    "malignancy_risk": "5%",
+    "modality": "US"
+  },
+  {
+    "name": "TI-RADS",
+    "full_name": "Thyroid Imaging Reporting and Data System",
+    "category": "TR4",
+    "category_name": "Moderately Suspicious",
+    "description": "Moderately suspicious",
+    "management": "FNA if >=1.5cm, follow if >=1cm",
+    "malignancy_risk": "5-20%",
+    "modality": "US"
+  },
+  {
+    "name": "TI-RADS",
+    "full_name": "Thyroid Imaging Reporting and Data System",
+    "category": "TR5",
+    "category_name": "Highly Suspicious",
+    "description": "Highly suspicious",
+    "management": "FNA if >=1cm, follow if >=0.5cm",
+    "malignancy_risk": ">20%",
+    "modality": "US"
+  }
+]

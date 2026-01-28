@@ -1,0 +1,1049 @@
+{
+  "air_bronchogram": {
+    "name": "Air Bronchogram",
+    "description": "Air-filled bronchi visible against opacified lung parenchyma",
+    "modality": [
+      "Radiography",
+      "CT"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Airspace consolidation (pneumonia, edema, hemorrhage, tumor)",
+    "key_feature": "Branching lucent structures within consolidation",
+    "differential": [
+      "Pneumonia",
+      "Pulmonary edema",
+      "ARDS",
+      "Bronchoalveolar carcinoma"
+    ],
+    "board_relevance": "HIGH - Classic sign of airspace disease"
+  },
+  "silhouette_sign": {
+    "name": "Silhouette Sign",
+    "description": "Loss of normal interface between two structures of different densities when intervening air is replaced by fluid/soft tissue",
+    "modality": [
+      "Radiography"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Localizes pathology to specific lobes based on which border is obscured",
+    "key_feature": "Obscured cardiac/diaphragm border",
+    "examples": {
+      "Right heart border obscured": "Right middle lobe",
+      "Left heart border obscured": "Lingula",
+      "Right hemidiaphragm obscured": "Right lower lobe",
+      "Left hemidiaphragm obscured": "Left lower lobe"
+    },
+    "board_relevance": "HIGH - Frequently tested localization sign"
+  },
+  "golden_s_sign": {
+    "name": "Golden S Sign (Reverse S of Golden)",
+    "description": "Reverse S-shaped configuration of right upper lobe collapse when mass obstructs bronchus",
+    "modality": [
+      "Radiography"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Right upper lobe collapse with central mass (often lung cancer)",
+    "key_feature": "Concave upper margin (minor fissure), convex lower margin (mass)",
+    "differential": [
+      "Central lung cancer",
+      "Bronchogenic carcinoma"
+    ],
+    "board_relevance": "MEDIUM - Classic sign of hilar mass with collapse"
+  },
+  "halo_sign": {
+    "name": "Halo Sign",
+    "description": "Nodule or mass surrounded by ground-glass attenuation",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Hemorrhage around nodule (invasive aspergillosis) or lepidic growth (adenocarcinoma)",
+    "key_feature": "Central solid nodule with surrounding ground-glass halo",
+    "differential": [
+      "Invasive aspergillosis (immunocompromised)",
+      "Adenocarcinoma",
+      "Hemorrhagic metastases",
+      "Granulomatosis with polyangiitis"
+    ],
+    "board_relevance": "HIGH - Important differential based on patient population"
+  },
+  "air_crescent_sign": {
+    "name": "Air Crescent Sign",
+    "description": "Crescent of air separating fungus ball from cavity wall",
+    "modality": [
+      "Radiography",
+      "CT"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Aspergilloma (mycetoma) or healing invasive aspergillosis",
+    "key_feature": "Crescent-shaped lucency superior to mass within cavity",
+    "differential": [
+      "Aspergilloma",
+      "Resolving invasive aspergillosis"
+    ],
+    "board_relevance": "MEDIUM - Classic sign of mycetoma"
+  },
+  "monod_sign": {
+    "name": "Monod Sign",
+    "description": "Fungus ball changing position within cavity on different projections or with patient positioning",
+    "modality": [
+      "Radiography",
+      "CT"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Mobile aspergilloma",
+    "key_feature": "Mass moves to dependent portion of cavity",
+    "board_relevance": "LOW - Less commonly tested than air crescent"
+  },
+  "whirlpool_sign": {
+    "name": "Whirlpool Sign",
+    "description": "Twisted appearance of mesentery and vessels",
+    "modality": [
+      "CT",
+      "Ultrasound"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Volvulus (sigmoid, cecal) or midgut malrotation",
+    "key_feature": "Swirled or spiral pattern of mesenteric vessels",
+    "differential": [
+      "Sigmoid volvulus",
+      "Cecal volvulus",
+      "Midgut volvulus",
+      "Internal hernia"
+    ],
+    "board_relevance": "HIGH - Emergency finding requiring surgical intervention"
+  },
+  "double_duct_sign": {
+    "name": "Double Duct Sign",
+    "description": "Simultaneous dilation of common bile duct and pancreatic duct",
+    "modality": [
+      "CT",
+      "MRCP",
+      "ERCP"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Pancreatic head mass or ampullary obstruction",
+    "key_feature": "Both CBD >6mm and pancreatic duct >3mm",
+    "differential": [
+      "Pancreatic adenocarcinoma",
+      "Ampullary carcinoma",
+      "Chronic pancreatitis"
+    ],
+    "board_relevance": "HIGH - Classic sign of pancreatic head cancer"
+  },
+  "ct_halo_sign": {
+    "name": "CT Halo Sign (Abdominal)",
+    "description": "Hypoattenuating ring around gallbladder wall",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Gangrenous cholecystitis with mural necrosis and hemorrhage",
+    "key_feature": "Low-attenuation ring in gallbladder wall",
+    "differential": [
+      "Gangrenous cholecystitis",
+      "Gallbladder perforation"
+    ],
+    "board_relevance": "MEDIUM - Indicates need for urgent cholecystectomy"
+  },
+  "target_sign": {
+    "name": "Target Sign (Bowel Wall Thickening)",
+    "description": "Concentric rings of alternating attenuation in bowel wall",
+    "modality": [
+      "CT",
+      "Ultrasound"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Bowel wall edema from various causes",
+    "key_feature": "Inner enhancing mucosa, middle hypoattenuating edema, outer enhancing serosa",
+    "differential": [
+      "Crohn disease",
+      "Ischemic colitis",
+      "Infectious colitis",
+      "Intussusception"
+    ],
+    "board_relevance": "MEDIUM - Nonspecific but indicates bowel pathology"
+  },
+  "small_bowel_feces_sign": {
+    "name": "Small Bowel Feces Sign",
+    "description": "Particulate fecal material in dilated small bowel",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Small bowel obstruction with chronicity allowing bacterial overgrowth",
+    "key_feature": "Particulate material resembling colonic feces in small bowel",
+    "differential": [
+      "Chronic/partial small bowel obstruction"
+    ],
+    "board_relevance": "MEDIUM - Suggests chronicity of obstruction"
+  },
+  "ct_angiogram_sign": {
+    "name": "CT Angiogram Sign",
+    "description": "Hyperenhancing vessels within low-attenuation liver lesion",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Hepatic hemangioma (pathognomonic)",
+    "key_feature": "Enhancing vessels within lesion on arterial phase",
+    "differential": [
+      "Hemangioma (essentially diagnostic)"
+    ],
+    "board_relevance": "MEDIUM - Specific sign for hemangioma"
+  },
+  "dense_mca_sign": {
+    "name": "Dense MCA Sign (Hyperdense MCA Sign)",
+    "description": "Hyperdense middle cerebral artery on unenhanced CT",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Brain",
+    "indicates": "Acute thrombus in MCA (acute ischemic stroke)",
+    "key_feature": "Increased attenuation of M1 segment compared to contralateral side",
+    "differential": [
+      "Acute MCA thrombus",
+      "High hematocrit"
+    ],
+    "board_relevance": "HIGH - Early sign of acute stroke, may be candidate for thrombectomy"
+  },
+  "dot_sign": {
+    "name": "Dot Sign (Spot Sign)",
+    "description": "Focus of contrast extravasation within hematoma",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Brain",
+    "indicates": "Active bleeding predicting hematoma expansion",
+    "key_feature": "Small focus of enhancement within intracerebral hemorrhage on CTA",
+    "differential": [
+      "Active hemorrhage"
+    ],
+    "board_relevance": "HIGH - Predicts hematoma expansion and poor prognosis"
+  },
+  "swirl_sign": {
+    "name": "Swirl Sign",
+    "description": "Heterogeneous appearance with swirled pattern in acute hematoma",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Brain",
+    "indicates": "Active bleeding or clot formation within hematoma",
+    "key_feature": "Mixed density swirled appearance",
+    "differential": [
+      "Acute hemorrhage with active bleeding",
+      "Coagulopathy"
+    ],
+    "board_relevance": "MEDIUM - Suggests ongoing hemorrhage"
+  },
+  "black_pleura_sign": {
+    "name": "Black Pleura Sign",
+    "description": "Hypointense pleural line on T2-weighted MRI in rounded atelectasis",
+    "modality": [
+      "MRI"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Fibrous pleural thickening in rounded atelectasis",
+    "key_feature": "Markedly hypointense pleural line on T2",
+    "differential": [
+      "Rounded atelectasis (asbestos exposure)"
+    ],
+    "board_relevance": "LOW - Specific but uncommon"
+  },
+  "dural_tail_sign": {
+    "name": "Dural Tail Sign",
+    "description": "Linear dural enhancement extending from dural-based mass",
+    "modality": [
+      "MRI"
+    ],
+    "anatomy": "Brain",
+    "indicates": "Meningioma (not specific but characteristic)",
+    "key_feature": "Enhancing dural thickening tapering away from mass",
+    "differential": [
+      "Meningioma (most common)",
+      "Dural metastasis",
+      "Lymphoma"
+    ],
+    "board_relevance": "HIGH - Highly suggestive of meningioma"
+  },
+  "sunburst_periosteal_reaction": {
+    "name": "Sunburst Periosteal Reaction",
+    "description": "Radiating spicules of periosteal new bone perpendicular to cortex",
+    "modality": [
+      "Radiography",
+      "CT"
+    ],
+    "anatomy": "Musculoskeletal",
+    "indicates": "Aggressive bone lesion (osteosarcoma most common)",
+    "key_feature": "Radiating spiculated pattern like sun rays",
+    "differential": [
+      "Osteosarcoma",
+      "Ewing sarcoma",
+      "Osteomyelitis"
+    ],
+    "board_relevance": "HIGH - Classic aggressive periosteal reaction"
+  },
+  "codman_triangle": {
+    "name": "Codman Triangle",
+    "description": "Triangular elevated periosteum at edge of lesion",
+    "modality": [
+      "Radiography",
+      "CT"
+    ],
+    "anatomy": "Musculoskeletal",
+    "indicates": "Aggressive bone lesion breaking through periosteum",
+    "key_feature": "Triangular periosteal elevation at tumor margin",
+    "differential": [
+      "Osteosarcoma",
+      "Ewing sarcoma",
+      "Osteomyelitis",
+      "Subperiosteal hemorrhage"
+    ],
+    "board_relevance": "HIGH - Nonspecific but indicates aggressive process"
+  },
+  "fallen_fragment_sign": {
+    "name": "Fallen Fragment Sign",
+    "description": "Fragment of bone or tissue lying dependently within fluid-filled cyst",
+    "modality": [
+      "Radiography",
+      "CT",
+      "MRI"
+    ],
+    "anatomy": "Musculoskeletal",
+    "indicates": "Simple bone cyst (pathognomonic after fracture)",
+    "key_feature": "Bone fragment in dependent portion of cystic lesion",
+    "differential": [
+      "Simple bone cyst"
+    ],
+    "board_relevance": "MEDIUM - Diagnostic of simple bone cyst"
+  },
+  "rim_sign": {
+    "name": "Rim Sign (MRI Hip)",
+    "description": "Hyperintense rim on T1 at femoral head-neck junction",
+    "modality": [
+      "MRI"
+    ],
+    "anatomy": "Musculoskeletal",
+    "indicates": "Femoral acetabular impingement (FAI)",
+    "key_feature": "T1 hyperintense paralabral cyst",
+    "differential": [
+      "CAM-type FAI"
+    ],
+    "board_relevance": "LOW - Specific for FAI"
+  },
+  "crescent_sign_aorta": {
+    "name": "Crescent Sign (Aortic)",
+    "description": "Crescent-shaped hyperattenuation in wall of aortic aneurysm",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Vascular",
+    "indicates": "Impending rupture of abdominal aortic aneurysm (acute intramural hematoma)",
+    "key_feature": "High-attenuation crescent in aneurysm wall",
+    "differential": [
+      "Acute intramural hematoma of AAA - impending rupture"
+    ],
+    "board_relevance": "HIGH - Emergency requiring urgent repair"
+  },
+  "yin_yang_sign": {
+    "name": "Yin Yang Sign",
+    "description": "Bidirectional flow within pseudoaneurysm creating swirling pattern",
+    "modality": [
+      "Ultrasound Doppler"
+    ],
+    "anatomy": "Vascular",
+    "indicates": "Pseudoaneurysm",
+    "key_feature": "Alternating red and blue flow on color Doppler",
+    "differential": [
+      "Pseudoaneurysm"
+    ],
+    "board_relevance": "MEDIUM - Diagnostic of pseudoaneurysm"
+  },
+  "moguls_sign": {
+    "name": "Mogul Sign",
+    "description": "Convex bulge along left heart border",
+    "modality": [
+      "Radiography"
+    ],
+    "anatomy": "Cardiac",
+    "indicates": "Left atrial enlargement",
+    "key_feature": "Straightening or convexity of left heart border below aortic knob",
+    "differential": [
+      "Mitral valve disease",
+      "Left atrial enlargement"
+    ],
+    "board_relevance": "LOW - Classic but less commonly tested"
+  },
+  "decidual_cast_sign": {
+    "name": "Decidual Cast",
+    "description": "Thick echogenic endometrium with central fluid in ectopic pregnancy",
+    "modality": [
+      "Ultrasound"
+    ],
+    "anatomy": "Pelvis",
+    "indicates": "Ectopic pregnancy (seen in 10-20% of ectopic pregnancies)",
+    "key_feature": "Thick decidualized endometrium without gestational sac",
+    "differential": [
+      "Ectopic pregnancy"
+    ],
+    "board_relevance": "MEDIUM - Supportive finding in ectopic pregnancy"
+  },
+  "whirlpool_sign_ovary": {
+    "name": "Whirlpool Sign (Ovarian)",
+    "description": "Twisted vascular pedicle in ovarian torsion",
+    "modality": [
+      "Ultrasound",
+      "CT",
+      "MRI"
+    ],
+    "anatomy": "Pelvis",
+    "indicates": "Ovarian torsion",
+    "key_feature": "Spiral configuration of ovarian vessels and ligaments",
+    "differential": [
+      "Ovarian torsion"
+    ],
+    "board_relevance": "HIGH - Specific sign of torsion requiring urgent surgery"
+  },
+  "eye_of_the_tiger_sign": {
+    "name": "Eye of the Tiger Sign",
+    "description": "Central T2 hyperintensity within bilateral hypointense globi pallidi",
+    "modality": [
+      "MRI"
+    ],
+    "anatomy": "Brain",
+    "indicates": "Pantothenate kinase-associated neurodegeneration (PKAN)",
+    "key_feature": "Resembles tiger eyes on axial T2",
+    "differential": [
+      "PKAN",
+      "Neurodegeneration with brain iron accumulation"
+    ],
+    "board_relevance": "HIGH - Pathognomonic"
+  },
+  "hot_cross_bun_sign": {
+    "name": "Hot Cross Bun Sign",
+    "description": "Cruciform T2 hyperintensity in pons",
+    "modality": [
+      "MRI"
+    ],
+    "anatomy": "Brain",
+    "indicates": "Multiple system atrophy (MSA)",
+    "key_feature": "Cross-shaped hyperintensity from selective neuronal loss",
+    "differential": [
+      "MSA-C",
+      "Spinocerebellar ataxia"
+    ],
+    "board_relevance": "HIGH - Classic for MSA"
+  },
+  "swallow_tail_sign": {
+    "name": "Swallow Tail Sign (Absent)",
+    "description": "Loss of normal dorsolateral nigral hyperintensity on SWI",
+    "modality": [
+      "MRI"
+    ],
+    "anatomy": "Brain",
+    "indicates": "Parkinson disease",
+    "key_feature": "Absent nigrosome-1 hyperintensity",
+    "differential": [
+      "Parkinson disease",
+      "Parkinsonism"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "ivy_sign": {
+    "name": "Ivy Sign",
+    "description": "Leptomeningeal enhancement resembling ivy",
+    "modality": [
+      "MRI"
+    ],
+    "anatomy": "Brain",
+    "indicates": "Moyamoya disease",
+    "key_feature": "Pial collaterals causing surface enhancement",
+    "differential": [
+      "Moyamoya disease",
+      "Moyamoya syndrome"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "face_of_giant_panda_sign": {
+    "name": "Face of the Giant Panda Sign",
+    "description": "Midbrain tegmentum appearance on T2",
+    "modality": [
+      "MRI"
+    ],
+    "anatomy": "Brain",
+    "indicates": "Wilson disease",
+    "key_feature": "Copper deposition pattern in midbrain",
+    "differential": [
+      "Wilson disease"
+    ],
+    "board_relevance": "HIGH - Pathognomonic"
+  },
+  "salt_and_pepper_skull": {
+    "name": "Salt and Pepper Skull",
+    "description": "Diffuse granular osteopenia of calvarium",
+    "modality": [
+      "XR",
+      "CT"
+    ],
+    "anatomy": "Head",
+    "indicates": "Hyperparathyroidism",
+    "key_feature": "Subperiosteal resorption causing mottled appearance",
+    "differential": [
+      "Primary hyperparathyroidism",
+      "Secondary hyperparathyroidism"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "crazy_paving_pattern": {
+    "name": "Crazy Paving Pattern",
+    "description": "Ground glass with superimposed septal thickening",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Pulmonary alveolar proteinosis (classic)",
+    "key_feature": "Resembles irregular paving stones",
+    "differential": [
+      "Alveolar proteinosis",
+      "PCP",
+      "ARDS",
+      "Hemorrhage"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "hampton_hump": {
+    "name": "Hampton Hump",
+    "description": "Pleural-based wedge-shaped opacity",
+    "modality": [
+      "XR",
+      "CT"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Pulmonary infarction from PE",
+    "key_feature": "Peripheral wedge with apex toward hilum",
+    "differential": [
+      "Pulmonary embolism with infarction"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "westermark_sign": {
+    "name": "Westermark Sign",
+    "description": "Regional oligemia distal to PE",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Pulmonary embolism",
+    "key_feature": "Focal hyperlucency",
+    "differential": [
+      "Pulmonary embolism"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "fleischner_sign": {
+    "name": "Fleischner Sign",
+    "description": "Enlarged central pulmonary artery",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Pulmonary embolism",
+    "key_feature": "Prominent hilar vessels",
+    "differential": [
+      "PE",
+      "Pulmonary hypertension"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "continuous_diaphragm_sign": {
+    "name": "Continuous Diaphragm Sign",
+    "description": "Visualization of entire diaphragm centrally",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Pneumomediastinum",
+    "key_feature": "Mediastinal air outlines central diaphragm",
+    "differential": [
+      "Pneumomediastinum"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "fallen_lung_sign": {
+    "name": "Fallen Lung Sign",
+    "description": "Collapsed lung falling to dependent position",
+    "modality": [
+      "XR",
+      "CT"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Complete bronchial transection",
+    "key_feature": "Lung falls away from hilum",
+    "differential": [
+      "Bronchial rupture"
+    ],
+    "board_relevance": "HIGH - Emergency"
+  },
+  "reversed_halo_sign": {
+    "name": "Reversed Halo Sign (Atoll Sign)",
+    "description": "Central ground glass with consolidation ring",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Organizing pneumonia",
+    "key_feature": "Opposite of halo sign",
+    "differential": [
+      "Organizing pneumonia",
+      "Fungal infection"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "galaxy_sign": {
+    "name": "Galaxy Sign",
+    "description": "Central nodule with satellite nodules",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Sarcoidosis",
+    "key_feature": "Nodular clustering",
+    "differential": [
+      "Sarcoidosis"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "tree_in_bud": {
+    "name": "Tree-in-Bud Pattern",
+    "description": "Centrilobular nodules with branching",
+    "modality": [
+      "CT"
+    ],
+    "anatomy": "Chest",
+    "indicates": "Endobronchial spread of infection",
+    "key_feature": "Resembles budding tree branches",
+    "differential": [
+      "TB",
+      "MAC",
+      "Aspiration",
+      "CF"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "coffee_bean_sign": {
+    "name": "Coffee Bean Sign",
+    "description": "Distended sigmoid resembling coffee bean",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Sigmoid volvulus",
+    "key_feature": "Inverted U-shaped loop with central cleft",
+    "differential": [
+      "Sigmoid volvulus"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "birds_beak_sign": {
+    "name": "Birds Beak Sign",
+    "description": "Tapered narrowing at obstruction",
+    "modality": [
+      "Fluoroscopy",
+      "CT"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Volvulus or achalasia",
+    "key_feature": "Smooth tapering to obstruction",
+    "differential": [
+      "Sigmoid volvulus",
+      "Gastric volvulus",
+      "Achalasia"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "soap_bubble_sign": {
+    "name": "Soap Bubble Appearance",
+    "description": "Mixed air-meconium pattern",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Meconium ileus",
+    "key_feature": "Bubbly appearance in RLQ",
+    "differential": [
+      "Meconium ileus",
+      "Cystic fibrosis"
+    ],
+    "board_relevance": "HIGH - Pediatric"
+  },
+  "spoke_wheel_pattern": {
+    "name": "Spoke Wheel Pattern",
+    "description": "Central scar with radiating septa",
+    "modality": [
+      "CT",
+      "MRI"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Focal nodular hyperplasia",
+    "key_feature": "Arterial enhancing with central scar",
+    "differential": [
+      "FNH"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "target_sign_intussusception": {
+    "name": "Target Sign (Intussusception)",
+    "description": "Concentric rings on cross-section",
+    "modality": [
+      "US",
+      "CT"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Intussusception",
+    "key_feature": "Bowel-within-bowel appearance",
+    "differential": [
+      "Intussusception"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "keyboard_sign": {
+    "name": "Keyboard Sign",
+    "description": "Multiple parallel dilated small bowel loops",
+    "modality": [
+      "XR",
+      "CT"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Small bowel obstruction",
+    "key_feature": "Step-ladder appearance",
+    "differential": [
+      "SBO",
+      "Ileus"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "cobra_head_sign": {
+    "name": "Cobra Head Sign",
+    "description": "Dilated intravesical ureter",
+    "modality": [
+      "Fluoroscopy",
+      "CT"
+    ],
+    "anatomy": "Genitourinary",
+    "indicates": "Ureterocele",
+    "key_feature": "Resembles cobra head at UVJ",
+    "differential": [
+      "Simple ureterocele",
+      "Ectopic ureterocele"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "drooping_lily_sign": {
+    "name": "Drooping Lily Sign",
+    "description": "Inferiorly displaced lower pole",
+    "modality": [
+      "IVP",
+      "CT"
+    ],
+    "anatomy": "Genitourinary",
+    "indicates": "Duplex kidney with upper pole obstruction",
+    "key_feature": "Lower pole displaced by obstructed upper",
+    "differential": [
+      "Duplex kidney with ectopic ureterocele"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "staghorn_calculus": {
+    "name": "Staghorn Calculus",
+    "description": "Stone filling collecting system",
+    "modality": [
+      "CT",
+      "XR"
+    ],
+    "anatomy": "Genitourinary",
+    "indicates": "Struvite stone",
+    "key_feature": "Branching stone",
+    "differential": [
+      "Struvite stone"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "keyhole_sign": {
+    "name": "Keyhole Sign",
+    "description": "Dilated bladder and posterior urethra",
+    "modality": [
+      "US"
+    ],
+    "anatomy": "Genitourinary",
+    "indicates": "Posterior urethral valves",
+    "key_feature": "Keyhole shape",
+    "differential": [
+      "Posterior urethral valves"
+    ],
+    "board_relevance": "HIGH - Prenatal"
+  },
+  "blade_of_grass_sign": {
+    "name": "Blade of Grass Sign",
+    "description": "V-shaped lytic front in bone",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Musculoskeletal",
+    "indicates": "Paget disease (lytic phase)",
+    "key_feature": "Sharp advancing lytic edge",
+    "differential": [
+      "Paget disease"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "picture_frame_vertebra": {
+    "name": "Picture Frame Vertebra",
+    "description": "Cortical thickening of vertebral margins",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Musculoskeletal",
+    "indicates": "Paget disease",
+    "key_feature": "Thickened cortex with central lucency",
+    "differential": [
+      "Paget disease"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "ivory_vertebra": {
+    "name": "Ivory Vertebra",
+    "description": "Uniformly sclerotic vertebra",
+    "modality": [
+      "XR",
+      "CT"
+    ],
+    "anatomy": "Musculoskeletal",
+    "indicates": "Metastatic disease or Paget",
+    "key_feature": "Dense white vertebra",
+    "differential": [
+      "Prostate mets",
+      "Breast mets",
+      "Lymphoma",
+      "Paget"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "rugger_jersey_spine": {
+    "name": "Rugger Jersey Spine",
+    "description": "Alternating sclerotic and lucent bands",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Musculoskeletal",
+    "indicates": "Renal osteodystrophy",
+    "key_feature": "Horizontal stripes",
+    "differential": [
+      "Renal osteodystrophy"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "scottie_dog_sign": {
+    "name": "Scottie Dog Sign",
+    "description": "Oblique view of lumbar spine",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Musculoskeletal",
+    "indicates": "Spondylolysis (when collar broken)",
+    "key_feature": "Dog silhouette with collar = pars defect",
+    "differential": [
+      "Spondylolysis"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "dagger_sign": {
+    "name": "Dagger Sign",
+    "description": "Central radiodense line on spine",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Musculoskeletal",
+    "indicates": "Ankylosing spondylitis",
+    "key_feature": "Ossified supraspinous ligament",
+    "differential": [
+      "Ankylosing spondylitis"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "trolley_track_sign": {
+    "name": "Trolley Track Sign",
+    "description": "Three vertical radiodense lines",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Musculoskeletal",
+    "indicates": "Ankylosing spondylitis",
+    "key_feature": "Ossified spinal ligaments",
+    "differential": [
+      "Ankylosing spondylitis"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "egg_on_a_string_sign": {
+    "name": "Egg on a String Sign",
+    "description": "Narrow mediastinum with enlarged heart",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Cardiac",
+    "indicates": "D-transposition of great arteries",
+    "key_feature": "Narrow pedicle (string) with cardiomegaly (egg)",
+    "differential": [
+      "D-TGA"
+    ],
+    "board_relevance": "HIGH - Pediatric"
+  },
+  "snowman_sign": {
+    "name": "Snowman Sign (Figure 8)",
+    "description": "Figure-8 cardiac silhouette",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Cardiac",
+    "indicates": "TAPVR (supracardiac)",
+    "key_feature": "Dilated vertical vein above heart",
+    "differential": [
+      "TAPVR supracardiac"
+    ],
+    "board_relevance": "HIGH - Pediatric"
+  },
+  "figure_3_sign": {
+    "name": "Figure 3 Sign",
+    "description": "Aortic contour forming 3 shape",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Cardiac",
+    "indicates": "Coarctation of aorta",
+    "key_feature": "Indentation at coarctation",
+    "differential": [
+      "Aortic coarctation"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "scimitar_sign": {
+    "name": "Scimitar Sign",
+    "description": "Curved vascular shadow like Turkish sword",
+    "modality": [
+      "XR",
+      "CT"
+    ],
+    "anatomy": "Cardiac",
+    "indicates": "Scimitar syndrome (PAPVR)",
+    "key_feature": "Anomalous pulmonary vein to IVC",
+    "differential": [
+      "Scimitar syndrome"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "boot_shaped_heart": {
+    "name": "Boot-Shaped Heart (Coeur en Sabot)",
+    "description": "Upturned cardiac apex",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Cardiac",
+    "indicates": "Tetralogy of Fallot",
+    "key_feature": "RV hypertrophy lifting apex",
+    "differential": [
+      "TOF",
+      "Severe pulmonary stenosis"
+    ],
+    "board_relevance": "HIGH - Pediatric"
+  },
+  "string_of_beads_sign": {
+    "name": "String of Beads Sign",
+    "description": "Alternating stenoses and dilations",
+    "modality": [
+      "Angiography",
+      "CTA",
+      "MRA"
+    ],
+    "anatomy": "Vascular",
+    "indicates": "Fibromuscular dysplasia",
+    "key_feature": "Beaded artery appearance",
+    "differential": [
+      "FMD medial fibroplasia"
+    ],
+    "board_relevance": "HIGH"
+  },
+  "rat_tail_sign": {
+    "name": "Rat Tail Sign",
+    "description": "Gradual tapering to occlusion",
+    "modality": [
+      "Angiography",
+      "ERCP"
+    ],
+    "anatomy": "Vascular",
+    "indicates": "Arterial occlusion or biliary stricture",
+    "key_feature": "Smooth tapering",
+    "differential": [
+      "Arterial occlusion",
+      "Pancreatic cancer"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "tram_track_sign": {
+    "name": "Tram Track Sign",
+    "description": "Parallel linear calcifications",
+    "modality": [
+      "XR",
+      "CT"
+    ],
+    "anatomy": "Vascular",
+    "indicates": "Atherosclerosis or bronchiectasis",
+    "key_feature": "Parallel lines",
+    "differential": [
+      "Atherosclerosis",
+      "Bronchiectasis"
+    ],
+    "board_relevance": "MEDIUM"
+  },
+  "double_bubble_sign": {
+    "name": "Double Bubble Sign",
+    "description": "Two gas-filled structures only",
+    "modality": [
+      "XR"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Duodenal atresia",
+    "key_feature": "Stomach and proximal duodenum",
+    "differential": [
+      "Duodenal atresia",
+      "Annular pancreas"
+    ],
+    "board_relevance": "HIGH - Pediatric"
+  },
+  "coiled_spring_sign": {
+    "name": "Coiled Spring Sign",
+    "description": "Contrast between bowel layers",
+    "modality": [
+      "Fluoroscopy"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Intussusception",
+    "key_feature": "Coiled appearance on enema",
+    "differential": [
+      "Intussusception"
+    ],
+    "board_relevance": "HIGH - Pediatric"
+  },
+  "corkscrew_duodenum": {
+    "name": "Corkscrew Duodenum",
+    "description": "Abnormal spiral duodenal course",
+    "modality": [
+      "Fluoroscopy"
+    ],
+    "anatomy": "Abdomen",
+    "indicates": "Midgut malrotation",
+    "key_feature": "Duodenum courses rightward",
+    "differential": [
+      "Midgut malrotation"
+    ],
+    "board_relevance": "HIGH - Pediatric"
+  }
+}
