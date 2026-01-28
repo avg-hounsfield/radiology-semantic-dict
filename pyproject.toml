@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "radiology-semantic-dict"
-version = "1.1.2"
+version = "1.2.0"
 description = "Semantic dictionary for mapping radiology findings to diagnoses"
 readme = "README.md"
 license = {text = "MIT"}

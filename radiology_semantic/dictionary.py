@@ -1308,3 +1308,169 @@ class SemanticRadDict:
             'mnemonics': len(self._mnemonics),
             'syndrome_associations': len(self._syndrome_associations),
         }
+
+    # =========================================================================
+    # REAL-WORLD NLP-INTEGRATED INTERPRETATION
+    # =========================================================================
+
+    def interpret_finding(
+        self,
+        text: str,
+        modality: Optional[str] = None,
+    ) -> Dict:
+        """
+        Interpret a raw finding from a radiology report with NLP preprocessing.
+
+        This is the main entry point for real-world report interpretation.
+        It handles negation, uncertainty, measurements, and temporal context
+        before performing diagnosis mapping.
+
+        Args:
+            text: Raw finding text from a report (e.g., "No evidence of PE")
+            modality: Optional imaging modality (CT, MRI, etc.)
+
+        Returns:
+            Dict with structured interpretation including:
+            - text: Original input
+            - negated: Whether the finding is negated
+            - certainty: Certainty level (definite/probable/possible/unlikely/negated)
+            - temporality: Temporal status (new/stable/worsened/etc.)
+            - measurements: Extracted measurements with units
+            - laterality: Left/right/bilateral
+            - diagnoses: List of potential diagnoses (empty if negated)
+            - recommendations: Measurement-based recommendations if applicable
+
+        Example:
+            >>> srd = SemanticRadDict()
+            >>> result = srd.interpret_finding("New 6mm right lower lobe nodule")
+            >>> result['negated']
+            False
+            >>> result['temporality']
+            'new'
+            >>> result['measurements']
+            [{'value': 6.0, 'unit': 'mm'}]
+        """
+        # Import NLP here to avoid circular imports
+        from .nlp import RadiologyNLP, Certainty
+
+        nlp = RadiologyNLP()
+        extracted = nlp.process(text)
+
+        result = {
+            'text': text,
+            'normalized': extracted.normalized,
+            'negated': extracted.negated,
+            'certainty': extracted.certainty.value,
+            'temporality': extracted.temporality.value,
+            'laterality': extracted.laterality,
+            'measurements': [
+                {'value': m.value, 'unit': m.unit, 'dimension': m.dimension}
+                for m in extracted.measurements
+            ],
+            'diagnoses': [],
+            'recommendations': [],
+        }
+
+        # If negated, don't suggest diagnoses
+        if extracted.negated:
+            result['diagnoses'] = []
+            return result
+
+        # Extract key terms for diagnosis lookup
+        # Remove negation/uncertainty words to get the core finding
+        core_terms = self._extract_core_terms(extracted.normalized)
+
+        if core_terms:
+            diagnosis_result = self.findings_to_diagnosis(
+                core_terms,
+                modality=modality,
+            )
+
+            if diagnosis_result.primary_diagnosis:
+                # Adjust confidence based on certainty
+                certainty_multiplier = {
+                    'definite': 1.0,
+                    'probable': 0.8,
+                    'possible': 0.5,
+                    'unlikely': 0.2,
+                }.get(extracted.certainty.value, 1.0)
+
+                result['diagnoses'] = [
+                    {
+                        'name': name,
+                        'confidence': round(score * certainty_multiplier, 2),
+                        'certainty_adjusted': True if certainty_multiplier < 1.0 else False
+                    }
+                    for name, score in diagnosis_result.differentials
+                ]
+
+        # Check for measurement-based recommendations
+        for m in extracted.measurements:
+            # Try to find relevant thresholds
+            # Look for anatomy keywords in the text
+            for keyword in ['nodule', 'spleen', 'aorta', 'adrenal', 'thyroid', 'liver', 'kidney']:
+                if keyword in extracted.normalized:
+                    thresholds = self.get_measurement_threshold(keyword)
+                    for threshold in thresholds:
+                        result['recommendations'].append({
+                            'type': 'measurement_threshold',
+                            'name': threshold.name,
+                            'threshold': f"{threshold.threshold_operator} {threshold.threshold_value} {threshold.unit}",
+                            'significance': threshold.clinical_significance,
+                            'action': threshold.action_if_met or '',
+                        })
+                    break
+
+        return result
+
+    def _extract_core_terms(self, normalized_text: str) -> List[str]:
+        """
+        Extract core finding terms, removing negation/uncertainty words.
+        """
+        # Words to remove (negation, uncertainty, articles, etc.)
+        stop_words = {
+            'no', 'not', 'without', 'absence', 'absent', 'negative', 'denies',
+            'possible', 'possibly', 'probable', 'probably', 'likely', 'unlikely',
+            'may', 'might', 'could', 'cannot', 'exclude', 'rule', 'out',
+            'evidence', 'findings', 'suggestive', 'suspicious', 'concerning',
+            'the', 'a', 'an', 'of', 'for', 'with', 'is', 'are', 'was', 'were',
+            'to', 'be', 'been', 'being', 'have', 'has', 'had', 'do', 'does',
+            'new', 'old', 'chronic', 'acute', 'stable', 'unchanged', 'interval',
+        }
+
+        words = normalized_text.split()
+        core_words = [w for w in words if w.lower() not in stop_words and len(w) > 2]
+
+        # Return as list of multi-word terms for better matching
+        if len(core_words) >= 2:
+            return [' '.join(core_words)]
+        return core_words
+
+    def interpret_report(
+        self,
+        report_text: str,
+        modality: Optional[str] = None,
+    ) -> List[Dict]:
+        """
+        Interpret an entire radiology report.
+
+        Splits the report into sentences and interprets each finding.
+
+        Args:
+            report_text: Full report text (Findings or Impression section)
+            modality: Optional imaging modality
+
+        Returns:
+            List of interpretation dicts, one per sentence/finding
+        """
+        from .nlp import RadiologyNLP
+
+        nlp = RadiologyNLP()
+        findings = nlp.process_report(report_text)
+
+        results = []
+        for finding in findings:
+            interpretation = self.interpret_finding(finding.text, modality=modality)
+            results.append(interpretation)
+
+        return results

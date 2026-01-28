@@ -1,9 +1,16 @@
 """
 Radiology Semantic Dictionary
 =============================
-A lightweight Python package for mapping radiology findings to diagnoses.
+A Python package for interpreting radiology report findings.
 
-Features:
+v1.2.0 adds NLP preprocessing for real-world report interpretation:
+- Negation detection ("no pneumothorax" -> negated=True)
+- Uncertainty quantification ("possible", "cannot exclude" -> certainty levels)
+- Temporal context ("new", "stable", "worsening" -> temporality)
+- Measurement extraction ("6mm nodule" -> value=6, unit=mm)
+- Laterality detection (left/right/bilateral)
+
+Core Features:
 - 8,300+ imaging findings with pathology mappings
 - 2,900+ medical concepts with synonyms
 - 360+ differential diagnosis groups
@@ -11,17 +18,22 @@ Features:
 - 69 named imaging signs with differentials
 - 7 ACR classification systems (BI-RADS, LI-RADS, etc.)
 - 25 radiologic measurement thresholds (Fleischner, TI-RADS, organ sizes)
-- 36 board-tested mnemonics (VITAMIN D, CHICAGO, FLAMES, etc.)
-- 59 syndrome-imaging associations with screening recommendations
+- 36 board-tested mnemonics
+- 59 syndrome-imaging associations
 
-Example:
+Example (new interpret_finding API):
     >>> from radiology_semantic import SemanticRadDict
     >>> srd = SemanticRadDict()
+    >>> result = srd.interpret_finding("No evidence of pulmonary embolism")
+    >>> print(result['negated'], result['certainty'])
+    True negated
+
+Example (classic findings_to_diagnosis API):
     >>> result = srd.findings_to_diagnosis(["fat stranding", "RLQ"], modality="CT")
     >>> print(result.primary_diagnosis)
     'Appendicitis'
 
-No API calls, no LLM required - pure dictionary lookups.
+No API calls, no LLM required - pure regex-based NLP and dictionary lookups.
 """
 
 from .dictionary import (
@@ -34,14 +46,37 @@ from .dictionary import (
     SyndromeAssociation
 )
 
-__version__ = "1.1.2"
+from .nlp import (
+    RadiologyNLP,
+    ExtractedFinding,
+    ExtractedMeasurement,
+    Certainty,
+    Temporality,
+    is_negated,
+    get_certainty,
+    get_temporality,
+    extract_measurements,
+)
+
+__version__ = "1.2.0"
 __author__ = "Radiology AI Assistant Team"
 __all__ = [
+    # Core dictionary
     "SemanticRadDict",
     "DiagnosisResult",
     "Finding",
     "DifferentialGroup",
     "MeasurementThreshold",
     "Mnemonic",
-    "SyndromeAssociation"
+    "SyndromeAssociation",
+    # NLP preprocessing
+    "RadiologyNLP",
+    "ExtractedFinding",
+    "ExtractedMeasurement",
+    "Certainty",
+    "Temporality",
+    "is_negated",
+    "get_certainty",
+    "get_temporality",
+    "extract_measurements",
 ]
