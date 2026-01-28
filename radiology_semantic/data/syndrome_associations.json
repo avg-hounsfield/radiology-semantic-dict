@@ -1,0 +1,549 @@
+[
+  {
+    "syndrome_name": "Sturge-Weber Syndrome",
+    "associated_finding": "Leptomeningeal angiomatosis (pial angioma)",
+    "finding_type": "vascular",
+    "body_region": "Neuro",
+    "frequency": "100%",
+    "clinical_notes": "Ipsilateral to port-wine stain",
+    "screening_recommendation": "MRI with contrast at diagnosis",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Sturge-Weber Syndrome",
+    "associated_finding": "Cortical calcifications (tram-track)",
+    "finding_type": "calcification",
+    "body_region": "Neuro",
+    "frequency": "90%",
+    "clinical_notes": "Develops over time, best seen on CT",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Sturge-Weber Syndrome",
+    "associated_finding": "Choroid plexus enlargement (ipsilateral)",
+    "finding_type": "vascular",
+    "body_region": "Neuro",
+    "frequency": "70%",
+    "clinical_notes": "Compensatory venous drainage",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Sturge-Weber Syndrome",
+    "associated_finding": "Cerebral hemiatrophy",
+    "finding_type": "atrophy",
+    "body_region": "Neuro",
+    "frequency": "80%",
+    "clinical_notes": "Progressive, ipsilateral to angioma",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Hereditary Hemorrhagic Telangiectasia (HHT)",
+    "associated_finding": "Pulmonary AVM",
+    "finding_type": "vascular",
+    "body_region": "Thoracic",
+    "frequency": "50%",
+    "clinical_notes": "Can cause paradoxical emboli, stroke",
+    "screening_recommendation": "CT chest with contrast at diagnosis",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Hereditary Hemorrhagic Telangiectasia (HHT)",
+    "associated_finding": "Hepatic AVMs",
+    "finding_type": "vascular",
+    "body_region": "GI",
+    "frequency": "70%",
+    "clinical_notes": "Can cause high-output heart failure",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Hereditary Hemorrhagic Telangiectasia (HHT)",
+    "associated_finding": "Cerebral AVM",
+    "finding_type": "vascular",
+    "body_region": "Neuro",
+    "frequency": "10-20%",
+    "clinical_notes": "Risk of hemorrhage",
+    "screening_recommendation": "MRI brain at diagnosis",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Marfan Syndrome",
+    "associated_finding": "Aortic root dilation/aneurysm",
+    "finding_type": "vascular",
+    "body_region": "Cardiac",
+    "frequency": "80%",
+    "clinical_notes": "Risk of dissection, measure at sinuses",
+    "screening_recommendation": "Echo annually, CT if >4.5cm",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Marfan Syndrome",
+    "associated_finding": "Aortic dissection",
+    "finding_type": "vascular",
+    "body_region": "Cardiac",
+    "frequency": "Increased risk",
+    "clinical_notes": "Type A most common",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Marfan Syndrome",
+    "associated_finding": "Dural ectasia",
+    "finding_type": "structural",
+    "body_region": "MSK",
+    "frequency": "65-90%",
+    "clinical_notes": "Lumbosacral, scalloping of vertebral bodies",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Marfan Syndrome",
+    "associated_finding": "Lens dislocation (ectopia lentis)",
+    "finding_type": "structural",
+    "body_region": "Head/Neck",
+    "frequency": "60%",
+    "clinical_notes": "Superior-temporal direction",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Ehlers-Danlos Syndrome (Vascular)",
+    "associated_finding": "Arterial dissection/rupture",
+    "finding_type": "vascular",
+    "body_region": "Vascular",
+    "frequency": "High",
+    "clinical_notes": "Medium-sized arteries, avoid catheter angiography",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Ehlers-Danlos Syndrome (Vascular)",
+    "associated_finding": "Carotid-cavernous fistula",
+    "finding_type": "vascular",
+    "body_region": "Neuro",
+    "frequency": "Increased",
+    "clinical_notes": "Spontaneous CCF",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Ehlers-Danlos Syndrome (Vascular)",
+    "associated_finding": "Bowel perforation",
+    "finding_type": "complication",
+    "body_region": "GI",
+    "frequency": "Increased",
+    "clinical_notes": "Spontaneous, sigmoid most common",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Beckwith-Wiedemann Syndrome",
+    "associated_finding": "Wilms tumor",
+    "finding_type": "tumor",
+    "body_region": "GU",
+    "frequency": "5-10%",
+    "clinical_notes": "Screen with US every 3 months until age 8",
+    "screening_recommendation": "Renal US every 3 months",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Beckwith-Wiedemann Syndrome",
+    "associated_finding": "Hepatoblastoma",
+    "finding_type": "tumor",
+    "body_region": "GI",
+    "frequency": "2-3%",
+    "clinical_notes": "Also screen AFP levels",
+    "screening_recommendation": "AFP every 3 months, consider liver US",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Beckwith-Wiedemann Syndrome",
+    "associated_finding": "Hemihypertrophy",
+    "finding_type": "structural",
+    "body_region": "MSK",
+    "frequency": "25%",
+    "clinical_notes": "Can occur without other features",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Beckwith-Wiedemann Syndrome",
+    "associated_finding": "Nephromegaly",
+    "finding_type": "structural",
+    "body_region": "GU",
+    "frequency": "Common",
+    "clinical_notes": "Bilateral kidney enlargement",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Gardner Syndrome (FAP variant)",
+    "associated_finding": "Colonic polyposis (>100 polyps)",
+    "finding_type": "tumor",
+    "body_region": "GI",
+    "frequency": "100%",
+    "clinical_notes": "100% CRC risk without colectomy",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Gardner Syndrome (FAP variant)",
+    "associated_finding": "Desmoid tumors",
+    "finding_type": "tumor",
+    "body_region": "GI",
+    "frequency": "10-20%",
+    "clinical_notes": "Mesenteric, abdominal wall",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Gardner Syndrome (FAP variant)",
+    "associated_finding": "Osteomas (skull, mandible)",
+    "finding_type": "tumor",
+    "body_region": "MSK",
+    "frequency": "80%",
+    "clinical_notes": "Multiple, may precede GI manifestations",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Gardner Syndrome (FAP variant)",
+    "associated_finding": "Dental abnormalities (supernumerary teeth)",
+    "finding_type": "structural",
+    "body_region": "Head/Neck",
+    "frequency": "30-75%",
+    "clinical_notes": "Odontomas, impacted teeth",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Peutz-Jeghers Syndrome",
+    "associated_finding": "Hamartomatous GI polyps",
+    "finding_type": "tumor",
+    "body_region": "GI",
+    "frequency": "95%",
+    "clinical_notes": "Small bowel most common, can intussuscept",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Peutz-Jeghers Syndrome",
+    "associated_finding": "Breast cancer",
+    "finding_type": "tumor",
+    "body_region": "Breast",
+    "frequency": "45-50% lifetime",
+    "clinical_notes": "Start mammogram at 25",
+    "screening_recommendation": "Annual mammogram starting at 25",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Peutz-Jeghers Syndrome",
+    "associated_finding": "Pancreatic cancer",
+    "finding_type": "tumor",
+    "body_region": "GI",
+    "frequency": "10-35% lifetime",
+    "clinical_notes": "Start screening at 30-35",
+    "screening_recommendation": "MRI/EUS pancreas starting at 30-35",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Lynch Syndrome (HNPCC)",
+    "associated_finding": "Colorectal cancer",
+    "finding_type": "tumor",
+    "body_region": "GI",
+    "frequency": "50-80% lifetime",
+    "clinical_notes": "Right-sided predominant, younger age",
+    "screening_recommendation": "Colonoscopy every 1-2 years starting at 20-25",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Lynch Syndrome (HNPCC)",
+    "associated_finding": "Endometrial cancer",
+    "finding_type": "tumor",
+    "body_region": "GU",
+    "frequency": "25-60% lifetime",
+    "clinical_notes": "Second most common Lynch cancer",
+    "screening_recommendation": "Annual pelvic exam, consider endometrial biopsy",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Lynch Syndrome (HNPCC)",
+    "associated_finding": "Ovarian cancer",
+    "finding_type": "tumor",
+    "body_region": "GU",
+    "frequency": "10-15% lifetime",
+    "clinical_notes": "Consider risk-reducing surgery",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Gorlin Syndrome (Basal Cell Nevus)",
+    "associated_finding": "Multiple basal cell carcinomas",
+    "finding_type": "tumor",
+    "body_region": "Dermatology",
+    "frequency": "90%",
+    "clinical_notes": "Begin in childhood/adolescence",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Gorlin Syndrome (Basal Cell Nevus)",
+    "associated_finding": "Odontogenic keratocysts (jaw)",
+    "finding_type": "tumor",
+    "body_region": "Head/Neck",
+    "frequency": "75%",
+    "clinical_notes": "Multiple, recurrent",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Gorlin Syndrome (Basal Cell Nevus)",
+    "associated_finding": "Medulloblastoma",
+    "finding_type": "tumor",
+    "body_region": "Neuro",
+    "frequency": "5%",
+    "clinical_notes": "Desmoplastic variant, younger age",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Gorlin Syndrome (Basal Cell Nevus)",
+    "associated_finding": "Falx calcification",
+    "finding_type": "calcification",
+    "body_region": "Neuro",
+    "frequency": "65%",
+    "clinical_notes": "Often before age 20, lamellar",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Gorlin Syndrome (Basal Cell Nevus)",
+    "associated_finding": "Bifid ribs",
+    "finding_type": "structural",
+    "body_region": "MSK",
+    "frequency": "40%",
+    "clinical_notes": "Splayed anterior ribs",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Klippel-Trenaunay Syndrome",
+    "associated_finding": "Capillary malformation (port-wine stain)",
+    "finding_type": "vascular",
+    "body_region": "Vascular",
+    "frequency": "100%",
+    "clinical_notes": "Usually on affected limb",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Klippel-Trenaunay Syndrome",
+    "associated_finding": "Venous malformations",
+    "finding_type": "vascular",
+    "body_region": "Vascular",
+    "frequency": "100%",
+    "clinical_notes": "Lateral embryonic vein persistence",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Klippel-Trenaunay Syndrome",
+    "associated_finding": "Limb hypertrophy",
+    "finding_type": "structural",
+    "body_region": "MSK",
+    "frequency": "100%",
+    "clinical_notes": "Soft tissue and/or bone",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Carney Complex",
+    "associated_finding": "Cardiac myxoma",
+    "finding_type": "tumor",
+    "body_region": "Cardiac",
+    "frequency": "50%",
+    "clinical_notes": "Multiple, any chamber",
+    "screening_recommendation": "Echo annually",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Carney Complex",
+    "associated_finding": "Primary pigmented nodular adrenocortical disease (PPNAD)",
+    "finding_type": "tumor",
+    "body_region": "GU",
+    "frequency": "25%",
+    "clinical_notes": "Causes Cushing syndrome",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Carney Complex",
+    "associated_finding": "Pituitary adenoma (GH-secreting)",
+    "finding_type": "tumor",
+    "body_region": "Neuro",
+    "frequency": "10%",
+    "clinical_notes": "Can cause acromegaly",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "McCune-Albright Syndrome",
+    "associated_finding": "Polyostotic fibrous dysplasia",
+    "finding_type": "structural",
+    "body_region": "MSK",
+    "frequency": "100%",
+    "clinical_notes": "Usually unilateral, ground-glass on CT",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "McCune-Albright Syndrome",
+    "associated_finding": "Cafe-au-lait spots (coast of Maine)",
+    "finding_type": "dermatology",
+    "body_region": "Dermatology",
+    "frequency": "100%",
+    "clinical_notes": "Irregular borders (vs smooth in NF1)",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "McCune-Albright Syndrome",
+    "associated_finding": "Precocious puberty",
+    "finding_type": "endocrine",
+    "body_region": "GU",
+    "frequency": "50-80%",
+    "clinical_notes": "GnRH-independent",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Neurofibromatosis Type 1 (NF1)",
+    "associated_finding": "Sphenoid wing dysplasia",
+    "finding_type": "structural",
+    "body_region": "Head/Neck",
+    "frequency": "5-10%",
+    "clinical_notes": "Can cause pulsatile proptosis",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Neurofibromatosis Type 1 (NF1)",
+    "associated_finding": "Lateral thoracic meningocele",
+    "finding_type": "structural",
+    "body_region": "Thoracic",
+    "frequency": "5%",
+    "clinical_notes": "Dural ectasia",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Neurofibromatosis Type 1 (NF1)",
+    "associated_finding": "MPNST (malignant peripheral nerve sheath tumor)",
+    "finding_type": "tumor",
+    "body_region": "MSK",
+    "frequency": "8-13% lifetime",
+    "clinical_notes": "Rapid growth, FDG avid",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Tuberous Sclerosis Complex (TSC)",
+    "associated_finding": "Cortical tubers",
+    "finding_type": "structural",
+    "body_region": "Neuro",
+    "frequency": "90%",
+    "clinical_notes": "Cause seizures, T2/FLAIR bright",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Tuberous Sclerosis Complex (TSC)",
+    "associated_finding": "Subependymal nodules (SEN)",
+    "finding_type": "tumor",
+    "body_region": "Neuro",
+    "frequency": "95%",
+    "clinical_notes": "Calcified nodules along ventricles",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Tuberous Sclerosis Complex (TSC)",
+    "associated_finding": "SEGA (subependymal giant cell astrocytoma)",
+    "finding_type": "tumor",
+    "body_region": "Neuro",
+    "frequency": "10-15%",
+    "clinical_notes": "At foramen of Monro, enhances",
+    "screening_recommendation": "MRI every 1-3 years until age 25",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Von Hippel-Lindau (VHL)",
+    "associated_finding": "Pancreatic cysts",
+    "finding_type": "cyst",
+    "body_region": "GI",
+    "frequency": "35-70%",
+    "clinical_notes": "Usually simple cysts, can be numerous",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Von Hippel-Lindau (VHL)",
+    "associated_finding": "Pancreatic neuroendocrine tumor",
+    "finding_type": "tumor",
+    "body_region": "GI",
+    "frequency": "15%",
+    "clinical_notes": "Non-functional, can be multiple",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Von Hippel-Lindau (VHL)",
+    "associated_finding": "Endolymphatic sac tumor",
+    "finding_type": "tumor",
+    "body_region": "Head/Neck",
+    "frequency": "10%",
+    "clinical_notes": "Causes hearing loss",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Von Hippel-Lindau (VHL)",
+    "associated_finding": "Renal cell carcinoma (clear cell)",
+    "finding_type": "tumor",
+    "body_region": "GU",
+    "frequency": "25-45%",
+    "clinical_notes": "Multiple, bilateral; screen with MRI/US annually",
+    "screening_recommendation": "Annual abdominal imaging from age 16",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Von Hippel-Lindau (VHL)",
+    "associated_finding": "Hemangioblastoma (CNS)",
+    "finding_type": "tumor",
+    "body_region": "Neuro",
+    "frequency": "60-80%",
+    "clinical_notes": "Cerebellum, spinal cord, brainstem; enhancing nodule with cyst",
+    "screening_recommendation": "MRI brain/spine every 2 years",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Von Hippel-Lindau (VHL)",
+    "associated_finding": "Pheochromocytoma",
+    "finding_type": "tumor",
+    "body_region": "GU",
+    "frequency": "10-20%",
+    "clinical_notes": "May be bilateral; screen plasma metanephrines",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Tuberous Sclerosis Complex (TSC)",
+    "associated_finding": "Renal angiomyolipoma",
+    "finding_type": "tumor",
+    "body_region": "GU",
+    "frequency": "80%",
+    "clinical_notes": "Multiple, bilateral; fat-containing; risk of hemorrhage if >4cm",
+    "screening_recommendation": "MRI abdomen every 1-3 years",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Tuberous Sclerosis Complex (TSC)",
+    "associated_finding": "Cardiac rhabdomyoma",
+    "finding_type": "tumor",
+    "body_region": "Cardiac",
+    "frequency": "50-65%",
+    "clinical_notes": "Multiple; regress spontaneously; may cause arrhythmia",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Tuberous Sclerosis Complex (TSC)",
+    "associated_finding": "Pulmonary LAM (lymphangioleiomyomatosis)",
+    "finding_type": "structural",
+    "body_region": "Thoracic",
+    "frequency": "30-40% in adult women",
+    "clinical_notes": "Thin-walled cysts; pneumothorax risk",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Neurofibromatosis Type 1 (NF1)",
+    "associated_finding": "Optic pathway glioma",
+    "finding_type": "tumor",
+    "body_region": "Neuro",
+    "frequency": "15%",
+    "clinical_notes": "Screen until age 7; may involve chiasm",
+    "screening_recommendation": "Annual ophthalmologic exam until age 8",
+    "high_yield": true
+  },
+  {
+    "syndrome_name": "Neurofibromatosis Type 1 (NF1)",
+    "associated_finding": "Plexiform neurofibroma",
+    "finding_type": "tumor",
+    "body_region": "MSK",
+    "frequency": "30-50%",
+    "clinical_notes": "Target sign on MRI; risk of malignant transformation",
+    "high_yield": true
+  }
+]

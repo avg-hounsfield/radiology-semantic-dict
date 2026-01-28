@@ -8,8 +8,11 @@ A lightweight Python package for mapping radiology imaging findings to diagnoses
 - **2,900+ medical concepts** with synonyms and definitions
 - **360+ differential diagnosis groups** by finding pattern
 - **340+ radiology synonym mappings** (CT -> computed tomography, etc.)
-- **50+ named imaging signs** with differentials (whirlpool sign, halo sign, etc.)
+- **69 named imaging signs** with differentials (whirlpool sign, halo sign, etc.)
 - **7 ACR classification systems** (BI-RADS, LI-RADS, Lung-RADS, PI-RADS, TI-RADS, O-RADS, CAD-RADS)
+- **25 measurement thresholds** (Fleischner criteria, TI-RADS FNA, organ sizes)
+- **36 board-tested mnemonics** (VITAMIN D, CHICAGO, FLAMES, CRASH, etc.)
+- **59 syndrome associations** with screening recommendations (VHL, TSC, NF1, etc.)
 
 ## Installation
 
@@ -121,6 +124,85 @@ print(birads_4[0]['malignancy_risk'])  # "2-95%"
 print(birads_4[0]['management'])       # "Tissue diagnosis recommended"
 ```
 
+#### `get_measurement_threshold(query, modality=None, body_region=None)`
+
+Look up radiologic measurement thresholds.
+
+```python
+thresholds = srd.get_measurement_threshold("spleen")
+for t in thresholds:
+    print(f"{t.name}: {t.threshold_operator}{t.threshold_value}{t.unit}")
+# Spleen length (splenomegaly threshold): >12cm
+# Spleen length (massive splenomegaly): >20cm
+
+# Filter by modality
+thyroid = srd.get_measurement_threshold("thyroid", modality="US")
+for t in thyroid:
+    print(f"{t.name}: {t.clinical_significance}")
+```
+
+#### `get_mnemonic(mnemonic_name)`
+
+Look up a specific mnemonic.
+
+```python
+m = srd.get_mnemonic("CHICAGO")
+print(m.expansion)
+# 'Crohn, Hernia, Intussusception, Cancer, Adhesions, Gallstone ileus, Obturation'
+print(m.topic)
+# 'Small bowel obstruction causes'
+```
+
+#### `search_mnemonics(query, category=None, body_region=None)`
+
+Search mnemonics by topic or keyword.
+
+```python
+# Find all neuro mnemonics
+neuro = srd.search_mnemonics("", body_region="Neuro")
+for m in neuro:
+    print(f"{m.mnemonic}: {m.topic}")
+
+# Find mnemonics about T1 signal
+t1_mnemonics = srd.search_mnemonics("T1")
+```
+
+#### `get_syndrome_associations(syndrome)`
+
+Get imaging findings associated with a syndrome.
+
+```python
+vhl = srd.get_syndrome_associations("VHL")
+for a in vhl:
+    print(f"{a.associated_finding}: {a.frequency}")
+# Hemangioblastoma (CNS): 60-80%
+# Renal cell carcinoma (clear cell): 25-45%
+# Pheochromocytoma: 10-20%
+```
+
+#### `search_syndromes_by_finding(finding)`
+
+Find syndromes associated with a specific imaging finding.
+
+```python
+syndromes = srd.search_syndromes_by_finding("cardiac myxoma")
+for s in syndromes:
+    print(f"Consider: {s.syndrome_name}")
+# Consider: Carney Complex
+```
+
+#### `get_screening_recommendations(syndrome)`
+
+Get screening recommendations for a genetic syndrome.
+
+```python
+recs = srd.get_screening_recommendations("TSC")
+for r in recs:
+    print(f"{r['finding']}: {r['recommendation']}")
+# SEGA: MRI every 1-3 years until age 25
+# Renal angiomyolipoma: MRI abdomen every 1-3 years
+```
+
 #### `stats()`
 
 Get statistics about loaded data.
@@ -133,7 +215,10 @@ print(srd.stats())
 #     'differential_groups': 361,
 #     'classification_systems': 41,
 #     'synonym_mappings': 342,
-#     'imaging_signs': 26
+#     'imaging_signs': 69,
+#     'measurement_thresholds': 25,
+#     'mnemonics': 36,
+#     'syndrome_associations': 59
 # }
 ```
 
@@ -180,6 +265,44 @@ for term in terms:
 findings = extract_findings_from_report(report_text)  # Your NLP
 ddx = srd.findings_to_diagnosis(findings, modality="CT")
 print(f"Consider: {', '.join([d[0] for d in ddx.differentials[:3]])}")
+```
+
+### Measurement Decision Support
+
+```python
+# Check if a measurement triggers action
+spleen_length = 14.5  # cm
+thresholds = srd.get_measurement_threshold("spleen")
+for t in thresholds:
+    if t.threshold_operator == ">" and spleen_length > t.threshold_value:
+        print(f"ALERT: {t.clinical_significance}")
+        print(f"Action: {t.action_if_met}")
+```
+
+### Syndrome Workup Assistant
+
+```python
+# Patient has a hemangioblastoma - check for syndromes
+finding = "hemangioblastoma"
+syndromes = srd.search_syndromes_by_finding(finding)
+for s in syndromes:
+    print(f"Consider {s.syndrome_name}")
+    recs = srd.get_screening_recommendations(s.syndrome_name.split()[0])
+    for r in recs:
+        print(f"  - Screen for: {r['finding']}")
+```
+
+### Board Exam Study Tool
+
+```python
+# Quiz yourself on mnemonics
+import random
+all_mnemonics = srd.search_mnemonics("")
+m = random.choice(all_mnemonics)
+print(f"What does {m.mnemonic} stand for?")
+# User answers...
+print(f"Answer: {m.expansion}")
+print(f"Topic: {m.topic}")
 ```
 
 ## Data Sources

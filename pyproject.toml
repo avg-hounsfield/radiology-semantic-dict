@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "radiology-semantic-dict"
-version = "1.0.0"
+version = "1.1.0"
 description = "Semantic dictionary for mapping radiology findings to diagnoses"
 readme = "README.md"
 license = {text = "MIT"}
@@ -41,9 +41,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/radiology-ai/radiology-semantic-dict"
-Documentation = "https://github.com/radiology-ai/radiology-semantic-dict#readme"
-Repository = "https://github.com/radiology-ai/radiology-semantic-dict"
+Homepage = "https://github.com/avg-hounsfield/radiology-semantic-dict"
+Documentation = "https://github.com/avg-hounsfield/radiology-semantic-dict#readme"
+Repository = "https://github.com/avg-hounsfield/radiology-semantic-dict"
 
 [tool.setuptools]
 packages = ["radiology_semantic"]

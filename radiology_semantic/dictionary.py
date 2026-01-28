@@ -154,6 +154,48 @@ class Finding:
 
 
 @dataclass
+class MeasurementThreshold:
+    """Represents a radiologic measurement threshold."""
+    name: str
+    threshold_value: float
+    threshold_operator: str
+    unit: str
+    clinical_significance: str
+    finding_type: Optional[str] = None
+    measurement_type: Optional[str] = None
+    action_if_met: Optional[str] = None
+    action_if_not_met: Optional[str] = None
+    modality: Optional[str] = None
+    body_region: Optional[str] = None
+    high_yield: bool = False
+
+
+@dataclass
+class Mnemonic:
+    """Represents a radiology mnemonic."""
+    mnemonic: str
+    expansion: str
+    topic: str
+    category: Optional[str] = None
+    body_region: Optional[str] = None
+    high_yield: bool = False
+    explanation: Optional[str] = None
+
+
+@dataclass
+class SyndromeAssociation:
+    """Represents a syndrome-imaging association."""
+    syndrome_name: str
+    associated_finding: str
+    finding_type: Optional[str] = None
+    body_region: Optional[str] = None
+    frequency: Optional[str] = None
+    clinical_notes: Optional[str] = None
+    screening_recommendation: Optional[str] = None
+    high_yield: bool = False
+
+
+@dataclass
 class DifferentialGroup:
     """Represents a differential diagnosis group for a finding pattern."""
     presentation: str
@@ -202,6 +244,9 @@ class SemanticRadDict:
         self._classification_systems: List[Dict] = []
         self._synonyms: Dict[str, List[str]] = {}
         self._imaging_signs: Dict[str, Dict] = {}
+        self._measurement_thresholds: List[Dict] = []
+        self._mnemonics: List[Dict] = []
+        self._syndrome_associations: List[Dict] = []
 
         self._load_data()
         self._build_indices()
@@ -228,6 +273,11 @@ class SemanticRadDict:
             self._imaging_signs = signs_data
         elif isinstance(signs_data, list):
             self._imaging_signs = {s.get('key', s.get('name', '')): s for s in signs_data}
+
+        # Load expanded data (Phase 1 & 2)
+        self._measurement_thresholds = self._load_json("measurement_thresholds.json")
+        self._mnemonics = self._load_json("mnemonics.json")
+        self._syndrome_associations = self._load_json("syndrome_associations.json")
 
     def _build_indices(self):
         """Build lookup indices for fast querying."""
@@ -693,6 +743,355 @@ class SemanticRadDict:
 
         return sorted(results, key=lambda x: str(x.get('category', '')))
 
+    # =========================================================================
+    # MEASUREMENT THRESHOLDS (Phase 1)
+    # =========================================================================
+
+    def get_measurement_threshold(
+        self,
+        query: str,
+        modality: Optional[str] = None,
+        body_region: Optional[str] = None
+    ) -> List[MeasurementThreshold]:
+        """
+        Look up radiologic measurement thresholds.
+
+        Args:
+            query: Search term (e.g., "spleen", "thyroid nodule", "AAA")
+            modality: Optional modality filter (CT, US, MRI)
+            body_region: Optional body region filter
+
+        Returns:
+            List of matching MeasurementThreshold objects
+
+        Example:
+            >>> thresholds = srd.get_measurement_threshold("spleen")
+            >>> for t in thresholds:
+            ...     print(f"{t.name}: {t.threshold_operator}{t.threshold_value}{t.unit}")
+            Spleen length (splenomegaly threshold): >12cm
+        """
+        query_lower = query.lower()
+        results = []
+
+        for m in self._measurement_thresholds:
+            score = 0
+            name = m.get('name', '').lower()
+            significance = m.get('clinical_significance', '').lower()
+            finding_type = m.get('finding_type', '').lower()
+
+            # Name matching
+            if query_lower in name:
+                score += 3
+            for word in query_lower.split():
+                if word in name:
+                    score += 1
+                if word in significance:
+                    score += 0.5
+
+            # Modality filter
+            if modality:
+                m_modality = m.get('modality', '')
+                if m_modality and modality.upper() not in m_modality.upper():
+                    continue
+
+            # Body region filter
+            if body_region:
+                m_region = m.get('body_region', '')
+                if m_region and body_region.lower() not in m_region.lower():
+                    continue
+
+            if score > 0:
+                results.append((score, m))
+
+        # Sort by score descending
+        results.sort(key=lambda x: x[0], reverse=True)
+
+        return [
+            MeasurementThreshold(
+                name=m.get('name', ''),
+                threshold_value=m.get('threshold_value', 0),
+                threshold_operator=m.get('threshold_operator', ''),
+                unit=m.get('unit', ''),
+                clinical_significance=m.get('clinical_significance', ''),
+                finding_type=m.get('finding_type'),
+                measurement_type=m.get('measurement_type'),
+                action_if_met=m.get('action_if_met'),
+                action_if_not_met=m.get('action_if_not_met'),
+                modality=m.get('modality'),
+                body_region=m.get('body_region'),
+                high_yield=m.get('high_yield', False)
+            )
+            for _, m in results
+        ]
+
+    def list_measurement_categories(self) -> Dict[str, List[str]]:
+        """
+        List all measurement categories with their thresholds.
+
+        Returns:
+            Dict mapping body_region to list of measurement names
+        """
+        categories: Dict[str, List[str]] = defaultdict(list)
+        for m in self._measurement_thresholds:
+            region = m.get('body_region', 'other')
+            categories[region].append(m.get('name', ''))
+        return dict(categories)
+
+    # =========================================================================
+    # MNEMONICS DATABASE (Phase 2)
+    # =========================================================================
+
+    def get_mnemonic(self, mnemonic: str) -> Optional[Mnemonic]:
+        """
+        Look up a specific mnemonic by name.
+
+        Args:
+            mnemonic: The mnemonic abbreviation (e.g., "VITAMIN D", "CHICAGO")
+
+        Returns:
+            Mnemonic object if found, None otherwise
+
+        Example:
+            >>> m = srd.get_mnemonic("CHICAGO")
+            >>> print(m.expansion)
+            'Crohn, Hernia, Intussusception, Cancer, Adhesions, Gallstone ileus, Obturation'
+        """
+        mnemonic_upper = mnemonic.upper()
+
+        for m in self._mnemonics:
+            if m.get('mnemonic', '').upper() == mnemonic_upper:
+                return Mnemonic(
+                    mnemonic=m.get('mnemonic', ''),
+                    expansion=m.get('expansion', ''),
+                    topic=m.get('topic', ''),
+                    category=m.get('category'),
+                    body_region=m.get('body_region'),
+                    high_yield=m.get('high_yield', False),
+                    explanation=m.get('explanation')
+                )
+        return None
+
+    def search_mnemonics(
+        self,
+        query: str,
+        category: Optional[str] = None,
+        body_region: Optional[str] = None
+    ) -> List[Mnemonic]:
+        """
+        Search mnemonics by topic, expansion, or body region.
+
+        Args:
+            query: Search term
+            category: Filter by category (differential, syndrome, physics, etc.)
+            body_region: Filter by body region (Neuro, GI, Thoracic, etc.)
+
+        Returns:
+            List of matching Mnemonic objects
+
+        Example:
+            >>> mnemonics = srd.search_mnemonics("small bowel")
+            >>> for m in mnemonics:
+            ...     print(f"{m.mnemonic}: {m.topic}")
+        """
+        query_lower = query.lower()
+        results = []
+
+        for m in self._mnemonics:
+            score = 0
+            mnemonic_name = m.get('mnemonic', '').lower()
+            topic = m.get('topic', '').lower()
+            expansion = m.get('expansion', '').lower()
+            explanation = m.get('explanation', '').lower()
+
+            # Direct mnemonic match (highest)
+            if query_lower in mnemonic_name or mnemonic_name in query_lower:
+                score += 4
+
+            # Topic match
+            if query_lower in topic:
+                score += 3
+            for word in query_lower.split():
+                if len(word) > 2 and word in topic:
+                    score += 1
+
+            # Expansion match
+            if query_lower in expansion:
+                score += 2
+
+            # Explanation match
+            if query_lower in explanation:
+                score += 1
+
+            # Category filter
+            if category:
+                if category.lower() != m.get('category', '').lower():
+                    continue
+
+            # Body region filter
+            if body_region:
+                m_region = m.get('body_region', '').lower()
+                if body_region.lower() not in m_region:
+                    continue
+
+            if score > 0:
+                results.append((score, m))
+
+        results.sort(key=lambda x: x[0], reverse=True)
+
+        return [
+            Mnemonic(
+                mnemonic=m.get('mnemonic', ''),
+                expansion=m.get('expansion', ''),
+                topic=m.get('topic', ''),
+                category=m.get('category'),
+                body_region=m.get('body_region'),
+                high_yield=m.get('high_yield', False),
+                explanation=m.get('explanation')
+            )
+            for _, m in results
+        ]
+
+    def list_mnemonics_by_category(self) -> Dict[str, List[str]]:
+        """
+        List all mnemonics organized by category.
+
+        Returns:
+            Dict mapping category to list of mnemonic names
+        """
+        categories: Dict[str, List[str]] = defaultdict(list)
+        for m in self._mnemonics:
+            cat = m.get('category', 'other')
+            categories[cat].append(m.get('mnemonic', ''))
+        return dict(categories)
+
+    def list_mnemonics_by_region(self) -> Dict[str, List[str]]:
+        """
+        List all mnemonics organized by body region.
+
+        Returns:
+            Dict mapping body_region to list of mnemonic names
+        """
+        regions: Dict[str, List[str]] = defaultdict(list)
+        for m in self._mnemonics:
+            region = m.get('body_region', 'General')
+            regions[region].append(m.get('mnemonic', ''))
+        return dict(regions)
+
+    # =========================================================================
+    # SYNDROME ASSOCIATIONS (Phase 2)
+    # =========================================================================
+
+    def get_syndrome_associations(self, syndrome: str) -> List[SyndromeAssociation]:
+        """
+        Get all imaging findings associated with a syndrome.
+
+        Args:
+            syndrome: Syndrome name (e.g., "VHL", "Tuberous Sclerosis", "NF1")
+
+        Returns:
+            List of SyndromeAssociation objects
+
+        Example:
+            >>> assocs = srd.get_syndrome_associations("VHL")
+            >>> for a in assocs:
+            ...     print(f"{a.associated_finding} ({a.frequency})")
+        """
+        syndrome_lower = syndrome.lower()
+        results = []
+
+        for s in self._syndrome_associations:
+            syn_name = s.get('syndrome_name', '').lower()
+
+            # Match by full name or abbreviation in parentheses
+            if syndrome_lower in syn_name:
+                results.append(SyndromeAssociation(
+                    syndrome_name=s.get('syndrome_name', ''),
+                    associated_finding=s.get('associated_finding', ''),
+                    finding_type=s.get('finding_type'),
+                    body_region=s.get('body_region'),
+                    frequency=s.get('frequency'),
+                    clinical_notes=s.get('clinical_notes'),
+                    screening_recommendation=s.get('screening_recommendation'),
+                    high_yield=s.get('high_yield', False)
+                ))
+
+        return results
+
+    def search_syndromes_by_finding(self, finding: str) -> List[SyndromeAssociation]:
+        """
+        Find syndromes that are associated with a specific imaging finding.
+
+        Args:
+            finding: Imaging finding (e.g., "hemangioblastoma", "cardiac myxoma")
+
+        Returns:
+            List of SyndromeAssociation objects
+
+        Example:
+            >>> assocs = srd.search_syndromes_by_finding("cardiac myxoma")
+            >>> for a in assocs:
+            ...     print(f"Consider {a.syndrome_name}")
+        """
+        finding_lower = finding.lower()
+        results = []
+
+        for s in self._syndrome_associations:
+            assoc_finding = s.get('associated_finding', '').lower()
+
+            if finding_lower in assoc_finding:
+                results.append(SyndromeAssociation(
+                    syndrome_name=s.get('syndrome_name', ''),
+                    associated_finding=s.get('associated_finding', ''),
+                    finding_type=s.get('finding_type'),
+                    body_region=s.get('body_region'),
+                    frequency=s.get('frequency'),
+                    clinical_notes=s.get('clinical_notes'),
+                    screening_recommendation=s.get('screening_recommendation'),
+                    high_yield=s.get('high_yield', False)
+                ))
+
+        return results
+
+    def get_screening_recommendations(self, syndrome: str) -> List[Dict]:
+        """
+        Get screening recommendations for a syndrome.
+
+        Args:
+            syndrome: Syndrome name
+
+        Returns:
+            List of dicts with finding and recommendation
+
+        Example:
+            >>> recs = srd.get_screening_recommendations("TSC")
+            >>> for r in recs:
+            ...     print(f"{r['finding']}: {r['recommendation']}")
+        """
+        associations = self.get_syndrome_associations(syndrome)
+        recommendations = []
+
+        for a in associations:
+            if a.screening_recommendation:
+                recommendations.append({
+                    'finding': a.associated_finding,
+                    'recommendation': a.screening_recommendation,
+                    'frequency': a.frequency
+                })
+
+        return recommendations
+
+    def list_syndromes(self) -> List[str]:
+        """
+        List all syndromes in the database.
+
+        Returns:
+            List of unique syndrome names
+        """
+        syndromes = set()
+        for s in self._syndrome_associations:
+            syndromes.add(s.get('syndrome_name', ''))
+        return sorted(list(syndromes))
+
     def stats(self) -> Dict[str, int]:
         """Get statistics about loaded data."""
         return {
@@ -702,4 +1101,7 @@ class SemanticRadDict:
             'classification_systems': len(self._classification_systems),
             'synonym_mappings': len(self._synonyms),
             'imaging_signs': len(self._imaging_signs),
+            'measurement_thresholds': len(self._measurement_thresholds),
+            'mnemonics': len(self._mnemonics),
+            'syndrome_associations': len(self._syndrome_associations),
         }

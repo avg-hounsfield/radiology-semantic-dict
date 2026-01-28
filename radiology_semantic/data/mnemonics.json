@@ -1,0 +1,326 @@
+[
+  {
+    "mnemonic": "VITAMIN D",
+    "expansion": "Vascular, Infectious/Inflammatory, Trauma, Autoimmune, Metabolic, Idiopathic, Neoplastic, Degenerative",
+    "topic": "General differential diagnosis categories",
+    "category": "differential",
+    "body_region": "General",
+    "high_yield": true,
+    "explanation": "Universal approach to any imaging finding"
+  },
+  {
+    "mnemonic": "DEMENTIA",
+    "expansion": "Degenerative (Alzheimer), Endocrine (thyroid), Metabolic, Environmental (toxins), Nutritional (B12), Trauma, Infection, Atherosclerosis",
+    "topic": "Causes of dementia",
+    "category": "differential",
+    "body_region": "Neuro",
+    "high_yield": true,
+    "explanation": "Reversible causes should be excluded"
+  },
+  {
+    "mnemonic": "ADEM",
+    "expansion": "Acute Disseminated Encephalomyelitis - post-infectious demyelination",
+    "topic": "Pediatric white matter disease",
+    "category": "diagnosis",
+    "body_region": "Neuro",
+    "high_yield": true,
+    "explanation": "Monophasic, follows viral illness, involves gray-white junction"
+  },
+  {
+    "mnemonic": "HOT DATING",
+    "expansion": "Hemorrhage, Oxygen (deoxy-Hb), Turbulent flow, Diamagnetic, Air, Tissue (calcification), Iron, Necrosis, Gadolinium",
+    "topic": "Causes of T2 hypointensity",
+    "category": "physics",
+    "body_region": "Neuro",
+    "high_yield": true,
+    "explanation": "Dark on T2-weighted MRI"
+  },
+  {
+    "mnemonic": "FLAMES",
+    "expansion": "Fat, Lipid (melanin, methemoglobin), Air, Mucus/protein, Enhancement (slow flow), Subacute blood",
+    "topic": "Causes of T1 hyperintensity",
+    "category": "physics",
+    "body_region": "Neuro",
+    "high_yield": true,
+    "explanation": "Bright on T1-weighted MRI"
+  },
+  {
+    "mnemonic": "CRASH",
+    "expansion": "Creutzfeldt-Jakob, Radiation, Anoxia, Status epilepticus, Hypoglycemia",
+    "topic": "Causes of restricted diffusion (non-stroke)",
+    "category": "differential",
+    "body_region": "Neuro",
+    "high_yield": true,
+    "explanation": "DWI bright lesions that are NOT infarcts"
+  },
+  {
+    "mnemonic": "CHICAGO",
+    "expansion": "Crohn, Hernia, Intussusception, Cancer, Adhesions, Gallstone ileus, Obturation",
+    "topic": "Small bowel obstruction causes",
+    "category": "differential",
+    "body_region": "GI",
+    "high_yield": true,
+    "explanation": "Common causes of SBO"
+  },
+  {
+    "mnemonic": "SLUDGE",
+    "expansion": "Stones, Low albumin, Underlying illness, Drugs (TPN, ceftriaxone), Gallbladder stasis, Estrogen",
+    "topic": "Causes of biliary sludge",
+    "category": "differential",
+    "body_region": "GI",
+    "high_yield": true,
+    "explanation": "Echogenic layering in gallbladder"
+  },
+  {
+    "mnemonic": "MR HELP",
+    "expansion": "Metastases, Regenerative nodule, Hemangioma, Extramedullary hematopoiesis, Lipoma, Peliosis",
+    "topic": "T2 bright liver lesions",
+    "category": "differential",
+    "body_region": "GI",
+    "high_yield": true,
+    "explanation": "Hyperintense liver lesions on T2W MRI"
+  },
+  {
+    "mnemonic": "LASSO",
+    "expansion": "LI-RADS Ancillary features: Subthreshold growth, Soft tissue in vein, Otherwise unusual",
+    "topic": "LI-RADS ancillary features favoring HCC",
+    "category": "classification",
+    "body_region": "GI",
+    "high_yield": true,
+    "explanation": "Features that upgrade LI-RADS category"
+  },
+  {
+    "mnemonic": "SHAMPOO",
+    "expansion": "Serous cystadenoma, IPMN (side-branch), MCN, Pseudocyst, Simple cyst, Other (lymphoepithelial)",
+    "topic": "Pancreatic cystic lesions",
+    "category": "differential",
+    "body_region": "GI",
+    "high_yield": true,
+    "explanation": "Approach to pancreatic cysts"
+  },
+  {
+    "mnemonic": "CHAMPS",
+    "expansion": "Clear cell RCC (most common), Hereditary syndromes, Acquired cystic disease, Medullary carcinoma, Papillary RCC, Spindle cell",
+    "topic": "Renal cell carcinoma subtypes",
+    "category": "differential",
+    "body_region": "GU",
+    "high_yield": true,
+    "explanation": "RCC histologic subtypes"
+  },
+  {
+    "mnemonic": "WAGR",
+    "expansion": "Wilms tumor, Aniridia, GU anomalies, mental Retardation",
+    "topic": "WAGR syndrome components",
+    "category": "syndrome",
+    "body_region": "GU",
+    "high_yield": true,
+    "explanation": "11p13 deletion, high Wilms risk"
+  },
+  {
+    "mnemonic": "DRASH",
+    "expansion": "Denys-Drash: Diffuse mesangial sclerosis, Renal failure, Ambiguous genitalia, Streak gonads, High Wilms risk",
+    "topic": "Denys-Drash syndrome",
+    "category": "syndrome",
+    "body_region": "GU",
+    "high_yield": true,
+    "explanation": "WT1 mutation, very high Wilms risk"
+  },
+  {
+    "mnemonic": "BATTLE",
+    "expansion": "Bronchiectasis, Airways disease, Tree-in-bud, Thickened walls, LAM, Emphysema",
+    "topic": "Airways-predominant lung disease",
+    "category": "differential",
+    "body_region": "Thoracic",
+    "high_yield": true,
+    "explanation": "HRCT patterns of airway disease"
+  },
+  {
+    "mnemonic": "ABCDEF",
+    "expansion": "Aspergilloma, Bronchogenic carcinoma, Cavitary mets, Developmental, Emboli (septic), Fungal/TB",
+    "topic": "Causes of lung cavitation",
+    "category": "differential",
+    "body_region": "Thoracic",
+    "high_yield": true,
+    "explanation": "Cavitary lung lesions differential"
+  },
+  {
+    "mnemonic": "CHIPS",
+    "expansion": "Carcinoma, Hamartoma, Infection (granuloma), PART (Pulmonary AVM, Round pneumonia/atelectasis, TB)",
+    "topic": "Solitary pulmonary nodule differential",
+    "category": "differential",
+    "body_region": "Thoracic",
+    "high_yield": true,
+    "explanation": "SPN evaluation"
+  },
+  {
+    "mnemonic": "BADASS",
+    "expansion": "Bronchiolitis obliterans, Asthma, Diffuse panbronchiolitis, Alpha-1 antitrypsin, Small airways disease, Sarcoid",
+    "topic": "Mosaic attenuation causes",
+    "category": "differential",
+    "body_region": "Thoracic",
+    "high_yield": true,
+    "explanation": "Air trapping on expiratory CT"
+  },
+  {
+    "mnemonic": "CPPD",
+    "expansion": "Chondrocalcinosis, Positive birefringence, Pyrophosphate deposition, Disease (pseudogout)",
+    "topic": "CPPD arthropathy features",
+    "category": "diagnosis",
+    "body_region": "MSK",
+    "high_yield": true,
+    "explanation": "Triangular fibrocartilage and hyaline cartilage calcification"
+  },
+  {
+    "mnemonic": "TAILS",
+    "expansion": "Tumor (GCT), Aneurysmal bone cyst, Infection, Langerhan cell histiocytosis, Solitary bone cyst",
+    "topic": "Epiphyseal lesions in children",
+    "category": "differential",
+    "body_region": "MSK",
+    "high_yield": true,
+    "explanation": "Epiphyseal bone lesions"
+  },
+  {
+    "mnemonic": "MEDIC",
+    "expansion": "Metastases, Eosinophilic granuloma, Discitis/osteomyelitis, Infection, Chordoma",
+    "topic": "Vertebral body destruction",
+    "category": "differential",
+    "body_region": "MSK",
+    "high_yield": true,
+    "explanation": "Aggressive vertebral lesions"
+  },
+  {
+    "mnemonic": "SOFTER",
+    "expansion": "Symmetry, Osteopenia, Fuzzy margins, Tuft resorption, Erosions, Resorption (subperiosteal)",
+    "topic": "Hyperparathyroidism radiographic findings",
+    "category": "diagnosis",
+    "body_region": "MSK",
+    "high_yield": true,
+    "explanation": "Bone changes in HPT"
+  },
+  {
+    "mnemonic": "ABCDE",
+    "expansion": "Asymmetry, Breast density, Calcifications, Distortion, Exam comparison",
+    "topic": "Mammography interpretation checklist",
+    "category": "technique",
+    "body_region": "Breast",
+    "high_yield": true,
+    "explanation": "Systematic mammography review"
+  },
+  {
+    "mnemonic": "TLICS",
+    "expansion": "Type (mass/calc/distortion), Location, Internal features, Calcification type, Size",
+    "topic": "BI-RADS lesion description",
+    "category": "classification",
+    "body_region": "Breast",
+    "high_yield": true,
+    "explanation": "Structured breast lesion reporting"
+  },
+  {
+    "mnemonic": "TORCH",
+    "expansion": "Toxoplasmosis, Other (syphilis, VZV), Rubella, CMV, Herpes",
+    "topic": "Congenital infections",
+    "category": "differential",
+    "body_region": "Pediatric",
+    "high_yield": true,
+    "explanation": "Causes of congenital brain calcifications"
+  },
+  {
+    "mnemonic": "VACTERL",
+    "expansion": "Vertebral, Anal atresia, Cardiac, TE fistula, Esophageal atresia, Renal, Limb",
+    "topic": "VACTERL association components",
+    "category": "syndrome",
+    "body_region": "Pediatric",
+    "high_yield": true,
+    "explanation": "Non-random association of anomalies"
+  },
+  {
+    "mnemonic": "CHARGE",
+    "expansion": "Coloboma, Heart defects, Atresia (choanal), Retarded growth, Genital hypoplasia, Ear anomalies",
+    "topic": "CHARGE syndrome",
+    "category": "syndrome",
+    "body_region": "Pediatric",
+    "high_yield": true,
+    "explanation": "CHD7 gene mutation"
+  },
+  {
+    "mnemonic": "PHACES",
+    "expansion": "Posterior fossa anomalies, Hemangioma, Arterial anomalies, Cardiac, Eye, Sternal/supraumbilical",
+    "topic": "PHACES syndrome",
+    "category": "syndrome",
+    "body_region": "Pediatric",
+    "high_yield": true,
+    "explanation": "Large facial hemangioma associations"
+  },
+  {
+    "mnemonic": "TIPSS",
+    "expansion": "Transjugular Intrahepatic Portosystemic Shunt - indications: variceal bleed, ascites, Budd-Chiari",
+    "topic": "TIPS procedure indications",
+    "category": "intervention",
+    "body_region": "Vascular",
+    "high_yield": true,
+    "explanation": "Creates portosystemic shunt for portal HTN"
+  },
+  {
+    "mnemonic": "LEADS",
+    "expansion": "Leriche syndrome, External iliac, Aortoiliac, Distal aorta, Superficial femoral",
+    "topic": "Peripheral arterial disease locations",
+    "category": "diagnosis",
+    "body_region": "Vascular",
+    "high_yield": true,
+    "explanation": "Common PAD locations"
+  },
+  {
+    "mnemonic": "ALARA",
+    "expansion": "As Low As Reasonably Achievable",
+    "topic": "Radiation protection principle",
+    "category": "physics",
+    "body_region": "Physics",
+    "high_yield": true,
+    "explanation": "Fundamental radiation safety concept"
+  },
+  {
+    "mnemonic": "BERT",
+    "expansion": "Background Equivalent Radiation Time - how long natural background gives same dose",
+    "topic": "Radiation dose communication",
+    "category": "physics",
+    "body_region": "Physics",
+    "high_yield": true,
+    "explanation": "Patient dose communication tool"
+  },
+  {
+    "mnemonic": "MAGIC DR",
+    "expansion": "Metastases, Aneurysmal bone cyst, Giant cell tumor, Infection, Chondroblastoma, Degenerative (geode), Round cell tumors",
+    "topic": "Epiphyseal lesions",
+    "category": "differential",
+    "body_region": "MSK",
+    "high_yield": true,
+    "explanation": "Lesions that cross the physis into epiphysis"
+  },
+  {
+    "mnemonic": "FEGNOMASHIC",
+    "expansion": "Fibrous dysplasia, Eosinophilic granuloma, Giant cell tumor, NOF, Osteoblastoma, Metastasis, Aneurysmal bone cyst, Simple bone cyst, Hyperparathyroidism (brown tumor), Infection, Chondromyxoid fibroma",
+    "topic": "Bone lesions appearing lucent",
+    "category": "differential",
+    "body_region": "MSK",
+    "high_yield": true,
+    "explanation": "Lytic bone lesion differential"
+  },
+  {
+    "mnemonic": "VINDICATE",
+    "expansion": "Vascular, Infectious, Neoplastic, Degenerative/Drugs, Inflammatory/Iatrogenic, Congenital, Autoimmune, Traumatic, Endocrine/Metabolic",
+    "topic": "General differential diagnosis approach",
+    "category": "differential",
+    "body_region": "General",
+    "high_yield": true,
+    "explanation": "Expanded differential approach"
+  },
+  {
+    "mnemonic": "CATBITES",
+    "expansion": "Collagen vascular disease, Alveolar proteinosis, Tumor (BAC/lymphoma), Blood (hemorrhage), Infection, Trauma, Eosinophilic pneumonia, Silicosis",
+    "topic": "Chronic airspace disease",
+    "category": "differential",
+    "body_region": "Thoracic",
+    "high_yield": true,
+    "explanation": "Air-space opacities that do not resolve"
+  }
+]
