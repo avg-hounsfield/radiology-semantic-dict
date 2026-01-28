@@ -18,3 +18,6 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Benchmark outputs (internal testing only)
+benchmark_results.json
