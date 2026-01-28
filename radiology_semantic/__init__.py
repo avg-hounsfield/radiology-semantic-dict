@@ -59,7 +59,7 @@ from .nlp import (
 )
 
 __version__ = "1.2.1"
-__author__ = "Radiology AI Assistant Team"
+__author__ = "Low Lux Labs Inc."
 __all__ = [
     # Core dictionary
     "SemanticRadDict",

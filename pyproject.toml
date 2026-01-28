@@ -10,7 +10,7 @@ readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.8"
 authors = [
-    {name = "Radiology AI Assistant Team"}
+    {name = "Low Lux Labs Inc."}
 ]
 keywords = [
     "radiology",
