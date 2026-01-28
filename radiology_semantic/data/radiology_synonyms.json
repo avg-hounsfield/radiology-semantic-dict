@@ -152,7 +152,8 @@
   ],
   "kidney": [
     "renal",
-    "nephric"
+    "nephric",
+    "nephro"
   ],
   "heart": [
     "cardiac",
@@ -545,7 +546,9 @@
   "dwi": [
     "diffusion weighted",
     "diffusion-weighted imaging",
-    "diffusion imaging"
+    "diffusion imaging",
+    "diffusion weighted imaging",
+    "diffusion"
   ],
   "adc": [
     "apparent diffusion coefficient",
@@ -1152,20 +1155,24 @@
   ],
   "pe": [
     "pulmonary embolism",
-    "pulmonary embolus"
+    "pulmonary embolus",
+    "lung clot"
   ],
   "dvt": [
     "deep vein thrombosis",
-    "deep venous thrombosis"
+    "deep venous thrombosis",
+    "leg clot"
   ],
   "aaa": [
     "abdominal aortic aneurysm"
   ],
   "sbo": [
-    "small bowel obstruction"
+    "small bowel obstruction",
+    "small bowel ileus"
   ],
   "lbo": [
-    "large bowel obstruction"
+    "large bowel obstruction",
+    "colonic obstruction"
   ],
   "appy": [
     "appendicitis",
@@ -1197,11 +1204,14 @@
   ],
   "hcc": [
     "hepatocellular carcinoma",
-    "liver cancer"
+    "liver cancer",
+    "hepatoma"
   ],
   "rcc": [
     "renal cell carcinoma",
-    "kidney cancer"
+    "kidney cancer",
+    "renal carcinoma",
+    "hypernephroma"
   ],
   "nsclc": [
     "non-small cell lung cancer"
@@ -1222,7 +1232,9 @@
   ],
   "ich": [
     "intracerebral hemorrhage",
-    "intraparenchymal hemorrhage"
+    "intraparenchymal hemorrhage",
+    "brain bleed",
+    "intracranial hemorrhage"
   ],
   "ivh": [
     "intraventricular hemorrhage"
@@ -1550,5 +1562,174 @@
     "allergic reaction",
     "anaphylaxis",
     "contrast allergy"
+  ],
+  "ggo": [
+    "ground glass opacity",
+    "ground glass",
+    "ground-glass opacity",
+    "ground-glass"
+  ],
+  "ground glass opacity": [
+    "ggo",
+    "ground glass",
+    "ground-glass opacity",
+    "ggo pattern"
+  ],
+  "pulmonary embolism": [
+    "pe",
+    "pulmonary embolus",
+    "lung embolism"
+  ],
+  "renal cell carcinoma": [
+    "rcc",
+    "kidney cancer",
+    "renal carcinoma",
+    "clear cell carcinoma"
+  ],
+  "renal": [
+    "kidney",
+    "nephro"
+  ],
+  "hepatocellular carcinoma": [
+    "hcc",
+    "liver cancer",
+    "hepatoma"
+  ],
+  "hepatic": [
+    "liver"
+  ],
+  "multiple sclerosis": [
+    "ms",
+    "demyelinating disease",
+    "demyelination"
+  ],
+  "cva": [
+    "stroke",
+    "cerebrovascular accident",
+    "infarct",
+    "brain attack"
+  ],
+  "tia": [
+    "transient ischemic attack",
+    "mini stroke"
+  ],
+  "restricted diffusion": [
+    "dwi bright",
+    "dwi hyperintense",
+    "diffusion restriction",
+    "bright on dwi"
+  ],
+  "bilateral": [
+    "both",
+    "both sides",
+    "bibasilar",
+    "both lungs"
+  ],
+  "both": [
+    "bilateral",
+    "both sides"
+  ],
+  "both lungs": [
+    "bilateral",
+    "bilateral lungs",
+    "both sides"
+  ],
+  "appendiceal": [
+    "appendix",
+    "appendicitis",
+    "periappendiceal"
+  ],
+  "appendix": [
+    "appendiceal",
+    "vermiform appendix"
+  ],
+  "periappendiceal": [
+    "appendiceal",
+    "around appendix",
+    "peri-appendiceal"
+  ],
+  "enhancing": [
+    "enhancement",
+    "enhances",
+    "contrast enhancing",
+    "contrast enhancement"
+  ],
+  "enhancement": [
+    "enhancing",
+    "enhances",
+    "contrast enhancement"
+  ],
+  "thickening": [
+    "thickened",
+    "thick",
+    "wall thickening"
+  ],
+  "thickened": [
+    "thickening",
+    "thick"
+  ],
+  "dilated": [
+    "dilation",
+    "distended",
+    "distension",
+    "enlarged"
+  ],
+  "enlarged": [
+    "enlargement",
+    "dilated",
+    "increased size"
+  ],
+  "laceration": [
+    "tear",
+    "injury",
+    "rupture",
+    "disruption"
+  ],
+  "hemoperitoneum": [
+    "free fluid",
+    "blood in abdomen",
+    "intraperitoneal hemorrhage",
+    "abdominal hemorrhage"
+  ],
+  "splenic": [
+    "spleen"
+  ],
+  "lesion": [
+    "mass",
+    "abnormality",
+    "finding",
+    "tumor"
+  ],
+  "mass": [
+    "lesion",
+    "tumor",
+    "nodule",
+    "growth"
+  ],
+  "nodule": [
+    "nodular",
+    "node",
+    "small mass"
+  ],
+  "solid": [
+    "solid mass",
+    "enhancing",
+    "non-cystic"
+  ],
+  "cystic": [
+    "cyst",
+    "cyst-like",
+    "fluid-filled"
+  ],
+  "covid": [
+    "covid-19",
+    "sars-cov-2",
+    "coronavirus"
+  ],
+  "covid-19": [
+    "covid",
+    "sars-cov-2",
+    "coronavirus",
+    "corona"
   ]
 }

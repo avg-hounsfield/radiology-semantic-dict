@@ -129,12 +129,38 @@ FINDING_COOCCURRENCE = {
     ('wall thickening', 'gallbladder'): {'cholecystitis': 4.0},
     ('pericholecystic fluid',): {'cholecystitis': 5.0},
     ('murphy sign',): {'cholecystitis': 4.0},
+    ('rim sign', 'gallbladder'): {'gangrenous cholecystitis': 6.0, 'emphysematous cholecystitis': 5.0},
+    ('rim sign',): {'gangrenous cholecystitis': 4.0},
+    ('gallbladder', 'gangrene'): {'gangrenous cholecystitis': 6.0},
+    ('gallbladder', 'necrosis'): {'gangrenous cholecystitis': 5.0},
     ('double duct sign',): {'pancreatic adenocarcinoma': 5.0, 'ampullary carcinoma': 3.0},
+    ('dilated bile duct', 'dilated pancreatic duct'): {'pancreatic adenocarcinoma': 6.0, 'pancreatic cancer': 6.0, 'ampullary carcinoma': 4.0},
+    ('pancreatic', 'mass', 'bile duct'): {'pancreatic adenocarcinoma': 5.0, 'pancreatic cancer': 5.0},
+    ('pancreatic head', 'mass'): {'pancreatic adenocarcinoma': 5.0, 'pancreatic cancer': 5.0},
+    ('pancreatic head', 'bile duct'): {'pancreatic adenocarcinoma': 5.0, 'pancreatic cancer': 5.0},
     ('arterial enhancement', 'washout'): {'hepatocellular carcinoma': 5.0},
     ('arterial enhancement', 'washout', 'capsule'): {'hepatocellular carcinoma': 6.0},
+    ('arterial phase', 'washout'): {'hepatocellular carcinoma': 5.0, 'hcc': 5.0},
+    ('arterial phase', 'portal venous'): {'hepatocellular carcinoma': 4.0, 'hcc': 4.0},
+    ('arterial phase enhancement', 'washout'): {'hepatocellular carcinoma': 6.0, 'hcc': 6.0},
+    ('liver mass', 'arterial'): {'hepatocellular carcinoma': 4.0, 'hcc': 4.0, 'fnh': 3.0},
+    ('liver mass', 'washout'): {'hepatocellular carcinoma': 5.0, 'hcc': 5.0},
+    ('liver mass', 'arterial', 'washout'): {'hepatocellular carcinoma': 7.0, 'hcc': 7.0},
     ('whirlpool sign',): {'volvulus': 5.0, 'sigmoid volvulus': 4.0, 'ovarian torsion': 4.0},
     ('coffee bean sign',): {'sigmoid volvulus': 5.0},
     ('birds beak',): {'sigmoid volvulus': 4.0, 'achalasia': 4.0},
+    # SBO patterns
+    ('small bowel', 'dilation'): {'small bowel obstruction': 6.0, 'sbo': 6.0, 'ileus': 3.0},
+    ('small bowel', 'dilated'): {'small bowel obstruction': 6.0, 'sbo': 6.0, 'ileus': 3.0},
+    ('small bowel', 'obstruction'): {'small bowel obstruction': 6.0, 'sbo': 6.0},
+    ('sbo',): {'small bowel obstruction': 5.0},
+    ('decompressed colon',): {'small bowel obstruction': 4.0, 'sbo': 4.0},
+    ('decompressed', 'colon'): {'small bowel obstruction': 4.0, 'sbo': 4.0},
+    ('transition point',): {'small bowel obstruction': 5.0, 'sbo': 5.0, 'large bowel obstruction': 3.0},
+    ('air fluid levels', 'small bowel'): {'small bowel obstruction': 5.0, 'sbo': 5.0, 'ileus': 3.0},
+    ('dilated loops',): {'small bowel obstruction': 4.0, 'ileus': 3.0},
+    ('dilated loops', 'small bowel'): {'small bowel obstruction': 6.0, 'sbo': 6.0},
+    ('string of beads',): {'small bowel obstruction': 5.0, 'sbo': 5.0},
 
     # =========================================================================
     # THORACIC - Need improvement (MRR 0.569 -> target 0.8)
@@ -161,6 +187,13 @@ FINDING_COOCCURRENCE = {
     ('honeycomb', 'basal'): {'usual interstitial pneumonia': 6.0, 'ipf': 6.0},
     ('honeycombing', 'basal'): {'usual interstitial pneumonia': 6.0, 'ipf': 6.0},
     ('traction bronchiectasis',): {'usual interstitial pneumonia': 4.0, 'ipf': 4.0, 'fibrosis': 3.0},
+    # PE patterns
+    ('pe',): {'pulmonary embolism': 5.0},
+    ('pe', 'dvt'): {'pulmonary embolism': 6.0},
+    ('dvt', 'pe'): {'pulmonary embolism': 6.0, 'deep vein thrombosis': 5.0},
+    ('filling defect', 'pulmonary'): {'pulmonary embolism': 6.0, 'pe': 6.0},
+    ('pulmonary artery', 'thrombus'): {'pulmonary embolism': 6.0, 'pe': 6.0},
+    ('saddle embolus',): {'pulmonary embolism': 6.0, 'pe': 6.0},
 
     # =========================================================================
     # NEURO - Need improvement (MRR 0.600 -> target 0.8)
@@ -182,6 +215,9 @@ FINDING_COOCCURRENCE = {
     ('ovoid', 'white matter'): {'multiple sclerosis': 5.0, 'ms': 5.0},
     ('callosal', 'lesion'): {'multiple sclerosis': 5.0, 'ms': 5.0},
     ('corpus callosum', 'lesion'): {'multiple sclerosis': 5.0, 'ms': 5.0},
+    ('corpus callosum', 'splenium'): {'multiple sclerosis': 5.0, 'ms': 5.0, 'lymphoma': 3.0},
+    ('splenium', 'lesion'): {'multiple sclerosis': 4.0, 'ms': 4.0, 'lymphoma': 3.0},
+    ('callosal lesion',): {'multiple sclerosis': 5.0, 'ms': 5.0},
     ('demyelinating',): {'multiple sclerosis': 5.0, 'ms': 5.0, 'adem': 3.0},
     ('demyelination',): {'multiple sclerosis': 5.0, 'ms': 5.0, 'adem': 3.0},
     # Ring enhancing - context matters
@@ -220,6 +256,13 @@ FINDING_COOCCURRENCE = {
     ('renal', 'enhancement'): {'renal cell carcinoma': 4.0, 'rcc': 4.0},
     ('kidney', 'mass'): {'renal cell carcinoma': 5.0, 'rcc': 5.0},
     ('kidney', 'tumor'): {'renal cell carcinoma': 5.0, 'rcc': 5.0},
+    ('kidney mass',): {'renal cell carcinoma': 5.0, 'rcc': 5.0, 'oncocytoma': 2.0},
+    ('kidney mass', 'enhancing'): {'renal cell carcinoma': 7.0, 'rcc': 7.0},
+    ('kidney mass', 'heterogeneous'): {'renal cell carcinoma': 6.0, 'rcc': 6.0},
+    ('kidney', 'enhancing'): {'renal cell carcinoma': 5.0, 'rcc': 5.0},
+    ('kidney', 'heterogeneous'): {'renal cell carcinoma': 4.0, 'rcc': 4.0},
+    ('kidney', 'mass', 'enhancing'): {'renal cell carcinoma': 8.0, 'rcc': 8.0},
+    ('kidney', 'mass', 'heterogeneous'): {'renal cell carcinoma': 7.0, 'rcc': 7.0},
     ('enhancing renal mass',): {'renal cell carcinoma': 6.0, 'rcc': 6.0},
     # RCC - combine multiple findings (high boost)
     ('renal', 'mass', 'enhancement'): {'renal cell carcinoma': 8.0, 'rcc': 8.0},
@@ -244,6 +287,60 @@ FINDING_COOCCURRENCE = {
     ('codman triangle',): {'osteosarcoma': 5.0, 'ewing sarcoma': 3.0},
     ('onion skin',): {'ewing sarcoma': 5.0},
     ('permeative',): {'ewing sarcoma': 4.0, 'osteomyelitis': 3.0, 'lymphoma': 3.0},
+
+    # =========================================================================
+    # TRAUMA - New patterns for generalization
+    # =========================================================================
+    ('laceration',): {'injury': 4.0, 'trauma': 4.0},
+    ('splenic laceration',): {'splenic injury': 6.0, 'splenic trauma': 6.0, 'spleen injury': 6.0},
+    ('splenic', 'laceration'): {'splenic injury': 6.0, 'splenic trauma': 6.0},
+    ('spleen', 'laceration'): {'splenic injury': 6.0, 'splenic trauma': 6.0},
+    ('spleen', 'injury'): {'splenic injury': 6.0, 'splenic trauma': 6.0},
+    ('hemoperitoneum',): {'splenic injury': 4.0, 'liver laceration': 4.0, 'trauma': 5.0, 'bowel injury': 3.0},
+    ('splenic', 'hemoperitoneum'): {'splenic injury': 7.0, 'splenic trauma': 7.0},
+    ('liver laceration',): {'liver injury': 6.0, 'hepatic laceration': 6.0, 'hepatic injury': 6.0},
+    ('liver', 'laceration'): {'liver injury': 6.0, 'hepatic injury': 6.0},
+    ('hepatic laceration',): {'liver injury': 6.0, 'hepatic injury': 6.0},
+    ('renal laceration',): {'renal injury': 6.0, 'kidney injury': 6.0},
+    ('kidney', 'laceration'): {'renal injury': 6.0, 'kidney injury': 6.0},
+    ('free fluid', 'trauma'): {'hemoperitoneum': 5.0, 'solid organ injury': 4.0},
+    ('sentinel clot',): {'active bleeding': 5.0, 'injury': 4.0},
+
+    # =========================================================================
+    # APPENDICITIS - Variations for generalization
+    # =========================================================================
+    ('appendiceal', 'thickening'): {'appendicitis': 5.0},
+    ('appendiceal', 'inflammation'): {'appendicitis': 5.0},
+    ('appendix', 'thickening'): {'appendicitis': 5.0},
+    ('appendix', 'inflammation'): {'appendicitis': 5.0},
+    ('appendix', 'enlarged'): {'appendicitis': 5.0},
+    ('mesenteric', 'fat stranding'): {'appendicitis': 3.0, 'diverticulitis': 3.0, 'crohn disease': 3.0},
+    ('periappendiceal', 'inflammation'): {'appendicitis': 6.0},
+
+    # =========================================================================
+    # GGO / COVID - Variations for generalization
+    # =========================================================================
+    ('ggo',): {'covid-19': 4.0, 'viral pneumonia': 3.0, 'pneumocystis': 3.0},
+    ('ggo', 'bilateral'): {'covid-19': 5.0, 'viral pneumonia': 4.0},
+    ('ggo', 'peripheral'): {'covid-19': 5.0, 'organizing pneumonia': 4.0},
+    ('diffuse', 'ground glass'): {'covid-19': 5.0, 'pulmonary edema': 3.0, 'ards': 3.0},
+    ('ground glass', 'both lungs'): {'covid-19': 5.0, 'viral pneumonia': 4.0},
+    ('ground glass', 'both'): {'covid-19': 5.0, 'viral pneumonia': 4.0},
+    ('diffuse', 'ground glass', 'lungs'): {'covid-19': 6.0, 'viral pneumonia': 4.0},
+    ('diffuse', 'ground glass', 'both'): {'covid-19': 6.0, 'viral pneumonia': 4.0},
+    ('both lungs',): {'bilateral': 2.0},  # Maps to bilateral patterns
+    ('bilateral lungs',): {'bilateral': 2.0},
+
+    # =========================================================================
+    # KIDNEY/RENAL - Synonym bridging
+    # =========================================================================
+    ('kidney', 'lesion'): {'renal cell carcinoma': 4.0, 'rcc': 4.0, 'renal cyst': 3.0},
+    ('kidney', 'lesion', 'enhancing'): {'renal cell carcinoma': 6.0, 'rcc': 6.0},
+    ('kidney', 'lesion', 'solid'): {'renal cell carcinoma': 5.0, 'rcc': 5.0},
+    ('kidney', 'tumor', 'enhancing'): {'renal cell carcinoma': 6.0, 'rcc': 6.0},
+    ('renal', 'lesion'): {'renal cell carcinoma': 4.0, 'rcc': 4.0, 'renal cyst': 3.0},
+    ('renal', 'lesion', 'enhancing'): {'renal cell carcinoma': 6.0, 'rcc': 6.0},
+    ('renal', 'tumor'): {'renal cell carcinoma': 5.0, 'rcc': 5.0},
 }
 
 

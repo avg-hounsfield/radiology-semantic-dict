@@ -34,7 +34,7 @@ from .dictionary import (
     SyndromeAssociation
 )
 
-__version__ = "1.1.1"
+__version__ = "1.1.2"
 __author__ = "Radiology AI Assistant Team"
 __all__ = [
     "SemanticRadDict",

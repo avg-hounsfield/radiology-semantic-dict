@@ -26,12 +26,6 @@
       }
     },
     "by_category": {
-      "Thoracic": {
-        "n": 5,
-        "accuracy@1": 1.0,
-        "accuracy@3": 1.0,
-        "mrr": 1.0
-      },
       "Neuro": {
         "n": 5,
         "accuracy@1": 1.0,
@@ -44,7 +38,7 @@
         "accuracy@3": 1.0,
         "mrr": 1.0
       },
-      "MSK": {
+      "GU": {
         "n": 3,
         "accuracy@1": 1.0,
         "accuracy@3": 1.0,
@@ -56,8 +50,14 @@
         "accuracy@3": 0.2,
         "mrr": 0.23333333333333334
       },
-      "GU": {
+      "MSK": {
         "n": 3,
+        "accuracy@1": 1.0,
+        "accuracy@3": 1.0,
+        "mrr": 1.0
+      },
+      "Thoracic": {
+        "n": 5,
         "accuracy@1": 1.0,
         "accuracy@3": 1.0,
         "mrr": 1.0
@@ -90,11 +90,11 @@
           0.29411764705882354
         ],
         [
-          "cecal volvulus",
-          0.17647058823529413
+          "pulmonary embolism",
+          0.29411764705882354
         ],
         [
-          "ovarian torsion",
+          "cecal volvulus",
           0.17647058823529413
         ]
       ]
@@ -154,16 +154,16 @@
           0.21568627450980393
         ],
         [
-          "Diverticulitis",
-          0.0784313725490196
+          "pulmonary embolism",
+          0.09803921568627451
         ],
         [
           "Gallstones",
           0.0784313725490196
         ],
         [
-          "Kidney stones",
-          0.06666666666666667
+          "Diverticulitis",
+          0.0784313725490196
         ]
       ]
     },
@@ -175,29 +175,29 @@
       "in_top_1": true,
       "in_top_3": true,
       "in_top_5": true,
-      "confidence": 0.9166666666666666,
+      "confidence": 0.9333333333333333,
       "difficulty": "easy",
       "category": "GI",
       "predictions": [
         [
           "Diverticulitis",
-          0.9166666666666666
+          0.9333333333333333
         ],
         [
           "Bladder Cancer",
-          0.2777777777777778
+          0.4444444444444444
         ],
         [
-          "diverticulitis",
-          0.2222222222222222
+          "Appendicitis",
+          0.3111111111111111
         ],
         [
-          "Crohn disease",
-          0.1111111111111111
+          "Chronic Cholecystitis",
+          0.29111111111111104
         ],
         [
-          "Ischemic colitis",
-          0.09722222222222222
+          "Urethral Stricture",
+          0.26666666666666666
         ]
       ]
     },
@@ -252,6 +252,10 @@
           0.8
         ],
         [
+          "pulmonary embolism",
+          0.3333333333333333
+        ],
+        [
           "cholelithiasis",
           0.2
         ],
@@ -261,10 +265,6 @@
         ],
         [
           "liver abscess",
-          0.2
-        ],
-        [
-          "hepatocellular carcinoma",
           0.2
         ]
       ]
@@ -350,20 +350,20 @@
           0.9032258064516129
         ],
         [
+          "hepatocellular carcinoma",
+          0.8709677419354839
+        ],
+        [
           "Adrenal Adenoma",
           0.7096774193548387
         ],
         [
-          "Adrenal Cortical Carcinoma (ACC)",
+          "hcc",
           0.5161290322580645
         ],
         [
-          "hepatocellular carcinoma",
-          0.3548387096774194
-        ],
-        [
-          "adrenal adenoma",
-          0.3225806451612903
+          "Adrenal Cortical Carcinoma (ACC)",
+          0.5161290322580645
         ]
       ]
     },
@@ -444,11 +444,11 @@
           0.42105263157894735
         ],
         [
-          "Crohn disease",
+          "Chronic/partial small bowel obstruction",
           0.42105263157894735
         ],
         [
-          "Chronic/partial small bowel obstruction",
+          "Crohn disease",
           0.42105263157894735
         ],
         [
@@ -486,7 +486,7 @@
           0.2
         ],
         [
-          "Abscess (General)",
+          "pulmonary embolism",
           0.16666666666666666
         ]
       ]
@@ -580,16 +580,16 @@
           0.8421052631578947
         ],
         [
-          "mucormycosis",
-          0.3684210526315789
+          "Cholangiocarcinoma",
+          0.7894736842105263
         ],
         [
-          "Pulmonary Nodule",
-          0.21052631578947367
+          "Pheochromocytoma",
+          0.7842105263157894
         ],
         [
-          "Invasive aspergillosis (immunocompromised)",
-          0.21052631578947367
+          "Metastasis",
+          0.6526315789473685
         ]
       ]
     },
@@ -839,29 +839,29 @@
       "in_top_1": true,
       "in_top_3": true,
       "in_top_5": true,
-      "confidence": 0.9464285714285714,
+      "confidence": 0.9482758620689655,
       "difficulty": "medium",
       "category": "GU",
       "predictions": [
         [
           "renal cell carcinoma",
-          0.9464285714285714
+          0.9482758620689655
         ],
         [
           "rcc",
-          0.9464285714285714
+          0.9137931034482759
         ],
         [
           "Acute Cholecystitis",
-          0.375
+          0.3620689655172414
         ],
         [
           "Adrenal Adenoma",
-          0.33571428571428574
+          0.3241379310344828
         ],
         [
           "Pheochromocytoma",
-          0.31071428571428567
+          0.3172413793103448
         ]
       ]
     },
@@ -920,16 +920,16 @@
           0.5294117647058824
         ],
         [
+          "pulmonary embolism",
+          0.29411764705882354
+        ],
+        [
           "Giant Cell Tumor (GCT)",
           0.29411764705882354
         ],
         [
           "Non-Ossifying Fibroma (NOF)",
           0.29411764705882354
-        ],
-        [
-          "Cystic fibrosis",
-          0.20588235294117646
         ]
       ]
     },
@@ -962,7 +962,7 @@
           0.3333333333333333
         ],
         [
-          "Ewing Sarcoma",
+          "pulmonary embolism",
           0.2777777777777778
         ]
       ]
@@ -988,16 +988,16 @@
           0.75
         ],
         [
+          "pulmonary embolism",
+          0.4166666666666667
+        ],
+        [
           "osteomyelitis",
           0.25
         ],
         [
           "lymphoma",
           0.25
-        ],
-        [
-          "Lymphoma",
-          0.14166666666666666
         ]
       ]
     },
@@ -1009,29 +1009,29 @@
       "in_top_1": true,
       "in_top_3": true,
       "in_top_5": true,
-      "confidence": 0.5,
+      "confidence": 0.7272727272727273,
       "difficulty": "hard",
       "category": "Fuzzy",
       "predictions": [
         [
           "appendicitis",
-          0.5
+          0.7272727272727273
+        ],
+        [
+          "pulmonary embolism",
+          0.45454545454545453
         ],
         [
           "cecal volvulus",
-          0.5
+          0.2727272727272727
         ],
         [
           "crohn disease",
-          0.5
+          0.2727272727272727
         ],
         [
           "ovarian torsion",
-          0.5
-        ],
-        [
-          "ureteral stone",
-          0.5
+          0.2727272727272727
         ]
       ]
     },
@@ -1141,11 +1141,11 @@
           0.42857142857142855
         ],
         [
-          "Astrocytoma",
+          "Muscle Strain",
           0.2857142857142857
         ],
         [
-          "Hepatoblastoma",
+          "Astrocytoma",
           0.2857142857142857
         ]
       ]
