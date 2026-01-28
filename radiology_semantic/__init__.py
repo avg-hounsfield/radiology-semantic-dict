@@ -58,7 +58,16 @@ from .nlp import (
     extract_measurements,
 )
 
-__version__ = "1.2.1"
+from .reasoning import (
+    ClinicalReasoner,
+    CombinedDiagnosis,
+    MeasurementEvaluation,
+    combine_findings,
+    evaluate_measurement,
+    MULTI_FINDING_PATTERNS,
+)
+
+__version__ = "1.3.0"
 __author__ = "Low Lux Labs Inc."
 __all__ = [
     # Core dictionary
@@ -79,4 +88,11 @@ __all__ = [
     "get_certainty",
     "get_temporality",
     "extract_measurements",
+    # Clinical reasoning
+    "ClinicalReasoner",
+    "CombinedDiagnosis",
+    "MeasurementEvaluation",
+    "combine_findings",
+    "evaluate_measurement",
+    "MULTI_FINDING_PATTERNS",
 ]

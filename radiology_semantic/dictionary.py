@@ -1680,3 +1680,176 @@ class SemanticRadDict:
             results.append(interpretation)
 
         return results
+
+    # =========================================================================
+    # CLINICAL REASONING - Multi-Finding and Measurement Evaluation
+    # =========================================================================
+
+    def analyze_findings(
+        self,
+        findings: List[str],
+        modality: Optional[str] = None,
+    ) -> Dict:
+        """
+        Comprehensive analysis combining multiple findings with clinical reasoning.
+
+        This is the most sophisticated interpretation method, combining:
+        - NLP preprocessing for each finding
+        - Multi-finding pattern matching for higher-confidence diagnoses
+        - Measurement extraction and threshold evaluation
+        - Urgency determination
+
+        Args:
+            findings: List of finding strings from a report
+            modality: Optional imaging modality
+
+        Returns:
+            Dict with:
+            - individual_findings: List of interpreted findings
+            - combined_diagnoses: Multi-finding pattern matches
+            - measurement_evaluations: Threshold comparisons
+            - urgency: Overall urgency level
+            - top_diagnosis: Highest confidence diagnosis
+            - reasoning: Explanation of the analysis
+
+        Example:
+            >>> srd = SemanticRadDict()
+            >>> result = srd.analyze_findings([
+            ...     "Fat stranding in the RLQ",
+            ...     "7mm appendicolith",
+            ...     "Periappendiceal fluid"
+            ... ])
+            >>> result['top_diagnosis']
+            {'name': 'Appendicitis', 'confidence': 0.90}
+        """
+        from .nlp import RadiologyNLP
+        from .reasoning import ClinicalReasoner
+
+        nlp = RadiologyNLP()
+        reasoner = ClinicalReasoner(self._measurement_thresholds)
+
+        # Process individual findings
+        individual_findings = []
+        all_measurements = []
+        all_body_regions = set()
+        core_terms = []
+
+        for finding_text in findings:
+            extracted = nlp.process(finding_text)
+            interpretation = self.interpret_finding(finding_text, modality=modality)
+
+            individual_findings.append(interpretation)
+            all_measurements.extend(extracted.measurements)
+            all_body_regions.update(extracted.body_regions)
+
+            # Collect core terms for pattern matching
+            if not extracted.negated:
+                core_terms.append(extracted.normalized)
+
+        # Multi-finding pattern matching
+        combined_diagnoses = reasoner.combine_findings(core_terms + findings)
+
+        # Evaluate measurements
+        measurement_evaluations = []
+        for m in all_measurements:
+            context = ' '.join(findings)
+            evals = reasoner.evaluate_measurement(
+                m.value, m.unit, context,
+                body_region=list(all_body_regions)[0] if all_body_regions else ""
+            )
+            measurement_evaluations.extend([
+                {
+                    'value': e.measurement_value,
+                    'unit': e.measurement_unit,
+                    'threshold': f"{e.threshold_operator} {e.threshold_value}",
+                    'met': e.threshold_met,
+                    'significance': e.clinical_significance,
+                    'action': e.recommended_action,
+                    'urgency': e.urgency,
+                }
+                for e in evals
+            ])
+
+        # Determine urgency
+        urgency = reasoner.get_urgency(findings)
+
+        # Determine top diagnosis
+        top_diagnosis = None
+        reasoning_parts = []
+
+        if combined_diagnoses:
+            top = combined_diagnoses[0]
+            top_diagnosis = {
+                'name': top.diagnosis,
+                'confidence': round(top.confidence, 2),
+                'pattern': top.pattern_name,
+            }
+            reasoning_parts.append(f"Pattern match: {top.reasoning}")
+
+        # Fall back to individual finding diagnoses if no pattern match
+        if not top_diagnosis:
+            for finding in individual_findings:
+                if finding.get('diagnoses'):
+                    dx = finding['diagnoses'][0]
+                    top_diagnosis = {
+                        'name': dx['name'],
+                        'confidence': dx['confidence'],
+                        'pattern': None,
+                    }
+                    reasoning_parts.append(f"Single finding: {dx['name']}")
+                    break
+
+        return {
+            'individual_findings': individual_findings,
+            'combined_diagnoses': [
+                {
+                    'name': d.diagnosis,
+                    'confidence': round(d.confidence, 2),
+                    'supporting_findings': d.supporting_findings,
+                    'reasoning': d.reasoning,
+                }
+                for d in combined_diagnoses
+            ],
+            'measurement_evaluations': measurement_evaluations,
+            'urgency': urgency,
+            'top_diagnosis': top_diagnosis,
+            'body_regions': list(all_body_regions),
+            'reasoning': ' | '.join(reasoning_parts) if reasoning_parts else 'No pattern match',
+        }
+
+    def get_clinical_recommendation(
+        self,
+        value: float,
+        unit: str,
+        finding_type: str,
+        body_region: str = "",
+    ) -> List[Dict]:
+        """
+        Get clinical recommendations based on a measurement.
+
+        Args:
+            value: Measurement value
+            unit: Unit of measurement
+            finding_type: What was measured (e.g., "nodule", "aorta", "spleen")
+            body_region: Body region if known
+
+        Returns:
+            List of recommendations with thresholds and actions
+        """
+        from .reasoning import ClinicalReasoner
+
+        reasoner = ClinicalReasoner(self._measurement_thresholds)
+        evaluations = reasoner.evaluate_measurement(value, unit, finding_type, body_region)
+
+        return [
+            {
+                'threshold_name': e.threshold_name,
+                'your_value': f"{e.measurement_value} {e.measurement_unit}",
+                'threshold': f"{e.threshold_operator} {e.threshold_value}",
+                'met': e.threshold_met,
+                'significance': e.clinical_significance,
+                'action': e.recommended_action,
+                'urgency': e.urgency,
+            }
+            for e in evaluations
+        ]
