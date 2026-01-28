@@ -305,16 +305,6 @@ print(f"Answer: {m.expansion}")
 print(f"Topic: {m.topic}")
 ```
 
-## Data Sources
-
-This dictionary was curated from:
-- RadLex (NIH Radiology Lexicon) - 12,000+ terms
-- ACR Appropriateness Criteria
-- Standard radiology textbooks and references
-- Board examination resources
-
-All data has been sanitized to remove citations, page numbers, and source artifacts.
-
 ## Performance
 
 - **Initialization:** ~100ms (one-time load)
